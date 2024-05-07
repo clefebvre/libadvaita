@@ -1,0 +1,856 @@
+# Spanish translation for libhandy.
+# Copyright (C) 2020 libhandy's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libhandy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FULL NAME <EMAIL@ADDRESS>, 2020.
+# Miguel Ángel Nieto <correo@miguelangelnieto.net>, 2021.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2023-2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libhandy master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"POT-Creation-Date: 2024-02-26 19:00+0000\n"
+"PO-Revision-Date: 2024-02-28 12:00+0100\n"
+"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
+"Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Gtranslator 45.3\n"
+
+#: src/adw-about-dialog.c:207 src/adw-about-window.c:206
+msgid "GNU General Public License, version 2 or later"
+msgstr "Licencia Pública General GNU, versión 2 o posterior"
+
+#: src/adw-about-dialog.c:208 src/adw-about-window.c:207
+msgid "GNU General Public License, version 3 or later"
+msgstr "Licencia Pública General de GNU, versión 3 o posterior"
+
+#: src/adw-about-dialog.c:209 src/adw-about-window.c:208
+msgid "GNU Lesser General Public License, version 2.1 or later"
+msgstr "Licencia Pública General Reducida de GNU, versión 2.1 o posterior"
+
+#: src/adw-about-dialog.c:210 src/adw-about-window.c:209
+msgid "GNU Lesser General Public License, version 3 or later"
+msgstr "Licencia Pública General Reducida de GNU, versión 3 o posterior"
+
+#: src/adw-about-dialog.c:211 src/adw-about-window.c:210
+msgid "BSD 2-Clause License"
+msgstr "Licencia BSD modificada (de 2 cláusulas)"
+
+#: src/adw-about-dialog.c:212 src/adw-about-window.c:211
+msgid "The MIT License (MIT)"
+msgstr "La licencia MIT (MIT)"
+
+#: src/adw-about-dialog.c:213 src/adw-about-window.c:212
+msgid "Artistic License 2.0"
+msgstr "Licencia artística 2.0"
+
+#: src/adw-about-dialog.c:214 src/adw-about-window.c:213
+msgid "GNU General Public License, version 2 only"
+msgstr "Licencia Pública General de GNU, sólo versión 2"
+
+#: src/adw-about-dialog.c:215 src/adw-about-window.c:214
+msgid "GNU General Public License, version 3 only"
+msgstr "Licencia Pública General de GNU, sólo versión 3"
+
+#: src/adw-about-dialog.c:216 src/adw-about-window.c:215
+msgid "GNU Lesser General Public License, version 2.1 only"
+msgstr "Licencia Pública General Reducida de GNU, sólo versión 2.1"
+
+#: src/adw-about-dialog.c:217 src/adw-about-window.c:216
+msgid "GNU Lesser General Public License, version 3 only"
+msgstr "Licencia Pública General Reducida de GNU, sólo versión 3"
+
+#: src/adw-about-dialog.c:218 src/adw-about-window.c:217
+msgid "GNU Affero General Public License, version 3 or later"
+msgstr "Licencia Pública General Affero de GNU, versión 3 o posterior"
+
+#: src/adw-about-dialog.c:219 src/adw-about-window.c:218
+msgid "GNU Affero General Public License, version 3 only"
+msgstr "Licencia Pública General Affero de GNU, sólo versión 3"
+
+#: src/adw-about-dialog.c:220 src/adw-about-window.c:219
+msgid "BSD 3-Clause License"
+msgstr "Licencia BSD modificada (de 3 cláusulas)"
+
+#: src/adw-about-dialog.c:221 src/adw-about-window.c:220
+msgid "Apache License, Version 2.0"
+msgstr "Licencia Apache, versión 2.0"
+
+#: src/adw-about-dialog.c:222 src/adw-about-window.c:221
+msgid "Mozilla Public License 2.0"
+msgstr "Licencia pública de Mozilla 2.0"
+
+#: src/adw-about-dialog.c:223 src/adw-about-window.c:222
+msgid "BSD Zero-Clause License"
+msgstr "Licencia BSD Zero-Clause"
+
+#: src/adw-about-dialog.c:560 src/adw-about-window.c:558
+msgid "Code by"
+msgstr "Código fuente por"
+
+#: src/adw-about-dialog.c:561 src/adw-about-window.c:559
+msgid "Design by"
+msgstr "Diseño por"
+
+#: src/adw-about-dialog.c:562 src/adw-about-window.c:560
+msgid "Artwork by"
+msgstr "Arte por"
+
+#: src/adw-about-dialog.c:563 src/adw-about-window.c:561
+msgid "Documentation by"
+msgstr "Documentación por"
+
+#: src/adw-about-dialog.c:564 src/adw-about-window.c:562
+msgid "Translated by"
+msgstr "Traducido por"
+
+#. Translators: this is the license preamble; the string at the end
+#. * contains the name of the license as link text.
+#.
+#: src/adw-about-dialog.c:593 src/adw-about-window.c:591
+#, c-format
+msgid ""
+"This application comes with absolutely no warranty. See the <a "
+"href=\"%s\">%s</a> for details."
+msgstr ""
+"Este programa viene SIN NINGUNA GARANTÍA. Consulte la <a href=\"%s\">%s</a> "
+"para obtener más detalles."
+
+#: src/adw-about-dialog.c:671 src/adw-about-window.c:669
+msgid "This Application"
+msgstr "Esta aplicación"
+
+#: src/adw-about-dialog.c:973 src/adw-about-window.c:971
+#, c-format
+msgid "Version %s"
+msgstr "Versión %s"
+
+#: src/adw-about-dialog.c:999 src/adw-about-window.c:997
+msgid "Unable to parse release notes:"
+msgstr "No se pueden analizar las notas de publicación:"
+
+#: src/adw-about-dialog.c:1005 src/adw-about-window.c:1003
+#, c-format
+msgid "Line: %d, character: %d"
+msgstr "Línea %d carácter: %d"
+
+#: src/adw-about-dialog.c:1291 src/adw-about-window.c:1289
+msgid "Copied to clipboard"
+msgstr "Copiado al portapapeles"
+
+#: src/adw-about-dialog.c:1318 src/adw-about-window.c:1317
+msgid "Unable to save debugging information"
+msgstr "No se puede guardar la información de depuración"
+
+#: src/adw-about-dialog.c:1323 src/adw-about-window.c:1322
+msgid "Close"
+msgstr "Cerrar"
+
+#: src/adw-about-dialog.c:1340 src/adw-about-window.c:1338
+msgid "Save debugging information"
+msgstr "Guardar información de depuración"
+
+#: src/adw-about-dialog.ui:5 src/adw-about-window.ui:5
+msgid "About"
+msgstr "Acerca de"
+
+#: src/adw-about-dialog.ui:89 src/adw-about-window.ui:92
+msgid "_What’s New"
+msgstr "_Novedades"
+
+#: src/adw-about-dialog.ui:105 src/adw-about-window.ui:108
+msgid "_Details"
+msgstr "_Detalles"
+
+#: src/adw-about-dialog.ui:121 src/adw-about-dialog.ui:341
+#: src/adw-about-window.ui:124 src/adw-about-window.ui:344
+msgid "_Website"
+msgstr "Página _Web"
+
+#: src/adw-about-dialog.ui:145 src/adw-about-window.ui:148
+msgid "_Support Questions"
+msgstr "Preguntas de _soporte"
+
+#: src/adw-about-dialog.ui:162 src/adw-about-window.ui:165
+msgid "_Report an Issue"
+msgstr "Infor_mar de un problema"
+
+#: src/adw-about-dialog.ui:178 src/adw-about-window.ui:181
+msgid "_Troubleshooting"
+msgstr "_Resolución de problemas"
+
+#: src/adw-about-dialog.ui:198 src/adw-about-window.ui:201
+msgid "_Credits"
+msgstr "_Créditos"
+
+#: src/adw-about-dialog.ui:214 src/adw-about-window.ui:217
+msgid "_Legal"
+msgstr "_Legal"
+
+#: src/adw-about-dialog.ui:230 src/adw-about-window.ui:233
+msgid "_Acknowledgements"
+msgstr "A_gradecimientos"
+
+#: src/adw-about-dialog.ui:260 src/adw-about-window.ui:263
+msgid "What’s New"
+msgstr "Novedades"
+
+#: src/adw-about-dialog.ui:303 src/adw-about-window.ui:306
+msgid "Details"
+msgstr "Detalles"
+
+#: src/adw-about-dialog.ui:369 src/adw-about-window.ui:372
+msgid "Troubleshooting"
+msgstr "Resolución de problemas"
+
+#: src/adw-about-dialog.ui:392 src/adw-about-window.ui:395
+msgid ""
+"To assist in troubleshooting, you can view your debugging information. "
+"Providing this information to the application developers can help diagnose "
+"any problems you encounter when you report an issue."
+msgstr ""
+"Para ayudar en la solución de problemas, puede ver su información de "
+"depuración. Proporcionar esta información a los desarrolladores de "
+"aplicaciones puede ayudar a diagnosticar cualquier problema que encuentre "
+"cuando informe de un problema."
+
+#: src/adw-about-dialog.ui:403 src/adw-about-window.ui:406
+msgid "_Debugging Information"
+msgstr "_Información de depuración"
+
+#: src/adw-about-dialog.ui:430 src/adw-about-window.ui:433
+msgid "Debugging Information"
+msgstr "Información de depuración"
+
+#: src/adw-about-dialog.ui:475 src/adw-about-window.ui:478
+msgid "_Copy Text"
+msgstr "_Copiar texto"
+
+#: src/adw-about-dialog.ui:483 src/adw-about-window.ui:486
+msgid "_Save As…"
+msgstr "Guardar _como…"
+
+#: src/adw-about-dialog.ui:496 src/adw-about-window.ui:499
+msgid "Credits"
+msgstr "Créditos"
+
+#: src/adw-about-dialog.ui:527 src/adw-about-window.ui:530
+msgid "Legal"
+msgstr "Legal"
+
+#: src/adw-about-dialog.ui:559 src/adw-about-window.ui:562
+msgid "Acknowledgements"
+msgstr "Agradecimientos"
+
+#: src/adw-back-button.c:347 src/adw-back-button.c:445
+#: src/adw-back-button.c:555
+msgid "Back"
+msgstr "Atrás"
+
+#. Translators: This is a placeholder text of the search entry from AdwComboRow. It should be phrased as a verb.
+#: src/adw-combo-row.ui:50 src/adw-preferences-dialog.ui:85
+#: src/adw-preferences-window.ui:96
+msgid "Search"
+msgstr "Buscar"
+
+#: src/adw-entry-row.ui:97
+msgid "Apply"
+msgstr "Aplicar"
+
+#: src/adw-inspector-page.c:75
+msgid "No Preference"
+msgstr "Sin preferencia"
+
+#: src/adw-inspector-page.c:77
+msgid "Prefer Dark"
+msgstr "Oscuro preferido"
+
+#: src/adw-inspector-page.c:79
+msgid "Prefer Light"
+msgstr "Claro preferido"
+
+#. Translators: The name of the library, not the stylesheet
+#: src/adw-inspector-page.c:97
+msgid "Adwaita"
+msgstr "Adwaita"
+
+#: src/adw-inspector-page.ui:10
+msgid "System Appearance"
+msgstr "Apariencia del sistema"
+
+#: src/adw-inspector-page.ui:11
+msgid ""
+"Override settings for this application. They will be reset upon closing the "
+"inspector."
+msgstr ""
+"Anular las configuraciones para esta aplicación. Se reiniciarán al cerrar el "
+"inspector."
+
+#: src/adw-inspector-page.ui:14
+msgid "System Supports Color Schemes"
+msgstr "El sistema admite esquemas de color"
+
+#: src/adw-inspector-page.ui:20
+msgid "Preferred Color Scheme"
+msgstr "Esquema de color preferido"
+
+#: src/adw-inspector-page.ui:37
+msgid "High Contrast"
+msgstr "Alto contraste"
+
+#: src/adw-password-entry-row.c:70
+msgid "Hide Password"
+msgstr "Ocultar la contraseña"
+
+#: src/adw-password-entry-row.c:74
+msgid "Show Password"
+msgstr "Mostrar la contraseña"
+
+#: src/adw-password-entry-row.c:168
+msgid "Caps Lock is on"
+msgstr "Bloq Mayús está activada"
+
+#: src/adw-password-entry-row.c:176
+msgid "_Show Password"
+msgstr "_Mostrar la contraseña"
+
+#: src/adw-preferences-dialog.c:256 src/adw-preferences-window.c:259
+msgid "Untitled page"
+msgstr "Página sin título"
+
+#: src/adw-preferences-dialog.ui:5 src/adw-preferences-window.ui:8
+msgid "Preferences"
+msgstr "Preferencias"
+
+#: src/adw-preferences-dialog.ui:70 src/adw-preferences-window.ui:81
+msgid "Search preferences"
+msgstr "Buscar preferencias"
+
+#: src/adw-preferences-dialog.ui:152 src/adw-preferences-window.ui:163
+msgid "No Results Found"
+msgstr "No se han encontrado resultados"
+
+#: src/adw-preferences-dialog.ui:153 src/adw-preferences-window.ui:164
+#: src/adw-tab-overview.ui:111
+msgid "Try a different search."
+msgstr "Pruebe a hacer una búsqueda diferente."
+
+#: src/adw-split-button.c:519 src/adw-split-button.c:1033
+msgid "More Options"
+msgstr "Más opciones"
+
+#: src/adw-tab-button.ui:7
+msgid "View Open Tabs"
+msgstr "Ver pestañas abiertas"
+
+#. Translators: Tab overview title, %u is the number of open tabs
+#: src/adw-tab-overview.c:928
+#, c-format
+msgid "%u Tab"
+msgid_plural "%u Tabs"
+msgstr[0] "%u pestaña"
+msgstr[1] "%u pestañas"
+
+#: src/adw-tab-overview.ui:21
+msgid "Search Tabs"
+msgstr "Buscar pestañas"
+
+#: src/adw-tab-overview.ui:51
+msgid "Search tabs"
+msgstr "Buscar pestañas"
+
+#: src/adw-tab-overview.ui:97
+msgid "No Open Tabs"
+msgstr "No hay pestañas abiertas"
+
+#: src/adw-tab-overview.ui:110
+msgid "No Tabs Found"
+msgstr "No se han encontrado pestañas"
+
+#: src/adw-tab-overview.ui:131
+msgid "New _Tab"
+msgstr "Pestaña _nueva"
+
+#: src/adw-tab-thumbnail.ui:39 src/adw-tab.ui:95
+msgid "Close Tab"
+msgstr "Cerrar pestaña"
+
+#~ msgid "Search…"
+#~ msgstr "Buscar…"
+
+#~ msgid "Hide Text"
+#~ msgstr "Ocultar texto"
+
+#~ msgid "Show Text"
+#~ msgstr "Mostrar texto"
+
+#~ msgid "_Show Text"
+#~ msgstr "_Mostrar texto"
+
+#~ msgid "_Save"
+#~ msgstr "_Guardar"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Cancelar"
+
+#~ msgid "Insert placeholder to %s"
+#~ msgstr "Insertar marcador a %s"
+
+#~ msgid "Remove placeholder from %s"
+#~ msgstr "Quitar marcador de %s"
+
+#~ msgid "This property does not apply when a custom title is set"
+#~ msgstr ""
+#~ "Esta propiedad no se aplica cuando se ha establecido un título "
+#~ "personalizado"
+
+#~ msgid ""
+#~ "The decoration layout does not apply to header bars which do no show "
+#~ "window controls"
+#~ msgstr ""
+#~ "La capa de decoración no se aplica a las barras de cabecera que no "
+#~ "muestran controles"
+
+#~ msgid "This property only applies when the leaflet is folded"
+#~ msgstr "Esta propiedad sólo se aplica cuando el folleto está doblado"
+
+#~ msgid "Add group to %s"
+#~ msgstr "Añadir grupo a %s"
+
+#~ msgid "Add page to %s"
+#~ msgstr "Añadir página a %s"
+
+#~ msgid "Search bar is already full"
+#~ msgstr "La barra de búsqueda ya está llena"
+
+#~ msgid "Only objects of type %s can be added to objects of type %s."
+#~ msgstr "Sólo se pueden añadir objetos de tipo %s a objetos de tipo %s"
+
+#~ msgid "Icon name"
+#~ msgstr "Nombre del icono"
+
+#~ msgid "Activatable widget"
+#~ msgstr "Widget activable"
+
+#~ msgid "The widget to be activated when the row is activated"
+#~ msgstr "El widget que activar cuando se activa la fila"
+
+#~ msgid "Subtitle"
+#~ msgstr "Subtítulo"
+
+#~ msgid "Use underline"
+#~ msgstr "Usar subrayado"
+
+#~ msgid "Number of pages"
+#~ msgstr "Número de páginas"
+
+#~ msgid "Position"
+#~ msgstr "Posición"
+
+#~ msgid "Current scrolling position"
+#~ msgstr "Posición actual del desplazamiento"
+
+#~ msgid "Spacing"
+#~ msgstr "Espaciado"
+
+#~ msgid "Spacing between pages"
+#~ msgstr "Espacio entre páginas"
+
+#~ msgid "Reveal duration"
+#~ msgstr "Mostrar duración"
+
+#~ msgid "Page reveal duration"
+#~ msgstr "Tiempo que se muestra la página"
+
+#~ msgid "Interactive"
+#~ msgstr "Interactivo"
+
+#~ msgid "Whether the widget can be swiped"
+#~ msgstr "Indica si el widget se puede deslizar"
+
+#~ msgid "Animation duration"
+#~ msgstr "Duración de la animación"
+
+#~ msgid "Default animation duration"
+#~ msgstr "Duración predeterminada de la animación"
+
+#~ msgid "Allow mouse drag"
+#~ msgstr "Permitir arrastre con el ratón"
+
+#~ msgid "Whether to allow dragging with mouse pointer"
+#~ msgstr "Indica si se puede arrastrar con el puntero del ratón"
+
+#~ msgid "Carousel"
+#~ msgstr "Carrusel"
+
+#~ msgid "Maximum size"
+#~ msgstr "Tamaño máximo"
+
+#~ msgid "The maximum size allocated to the child"
+#~ msgstr "El tamaño máximo reservado para el hijo"
+
+#~ msgid "Selected index"
+#~ msgstr "Índice seleccionada"
+
+#~ msgid "The index of the selected item"
+#~ msgstr "El índice del elemento seleccionado"
+
+#~ msgid "Use subtitle"
+#~ msgstr "Usar subtítulo"
+
+#~ msgid "Set the current value as the subtitle"
+#~ msgstr "Establecer el valor actual como subtítulo"
+
+#~ msgid "Horizontally homogeneous"
+#~ msgstr "Homogéneo horizontalmente"
+
+#~ msgid "Horizontally homogeneous sizing"
+#~ msgstr "Tamaño horizontal homogéneo"
+
+#~ msgid "Vertically homogeneous"
+#~ msgstr "Homogéneo verticalmente"
+
+#~ msgid "Vertically homogeneous sizing"
+#~ msgstr "Tamaño vertical homogéneo"
+
+#~ msgid "Visible child"
+#~ msgstr "Hijo visible"
+
+#~ msgid "The widget currently visible"
+#~ msgstr "El widget actualmente visible"
+
+#~ msgid "Name of visible child"
+#~ msgstr "Nombre del hijo visible"
+
+#~ msgid "The name of the widget currently visible"
+#~ msgstr "El nombre del widget visible actualmente"
+
+#~ msgid "Transition type"
+#~ msgstr "Tipo de transición"
+
+#~ msgid "The type of animation used to transition between children"
+#~ msgstr "El tipo de animación usada para cambiar entre hijos"
+
+#~ msgid "Transition duration"
+#~ msgstr "Duración de la transición"
+
+#~ msgid "The transition animation duration, in milliseconds"
+#~ msgstr "La duración de la animación de transición, en milisegundos"
+
+#~ msgid "Transition running"
+#~ msgstr "Transición en ejecución"
+
+#~ msgid "Whether or not the transition is currently running"
+#~ msgstr "Indica si la transición está actualmente en ejecución o no"
+
+#~ msgid "Interpolate size"
+#~ msgstr "Interpolar tamaño"
+
+#~ msgid "Can swipe back"
+#~ msgstr "Puede deslizar hacia atrás"
+
+#~ msgid "Can swipe forward"
+#~ msgstr "Puede deslizar hacia adelante"
+
+#~ msgid "Name"
+#~ msgstr "Nombre"
+
+#~ msgid "The name of the child page"
+#~ msgstr "El nombre de la página hija"
+
+#~ msgid "The subtitle for this row"
+#~ msgstr "El subtítulo para esta fila"
+
+#~ msgid "Expanded"
+#~ msgstr "Expandido"
+
+#~ msgid "Whether the row is expanded"
+#~ msgstr "Indica si la fila está expandida"
+
+#~ msgid "Enable expansion"
+#~ msgstr "Activar expansión"
+
+#~ msgid "Whether the expansion is enabled"
+#~ msgstr "Indica si la expansión está activada"
+
+#~ msgid "Minimize"
+#~ msgstr "Minimizar"
+
+#~ msgid "Restore"
+#~ msgstr "Restaurar"
+
+#~ msgid "Maximize"
+#~ msgstr "Maximizar"
+
+#~ msgid "Pack type"
+#~ msgstr "Tipo de paquete"
+
+#~ msgid "The index of the child in the parent"
+#~ msgstr "El índice del hijo en el padre"
+
+#~ msgid "Title"
+#~ msgstr "Título"
+
+#~ msgid "The title to display"
+#~ msgstr "El título que mostrar"
+
+#~ msgid "The subtitle to display"
+#~ msgstr "El subtítulo que mostrar"
+
+#~ msgid "Custom Title"
+#~ msgstr "Título personalizado"
+
+#~ msgid "Custom title widget to display"
+#~ msgstr "Wigdet de título personalizado que mostrar"
+
+#~ msgid "The amount of space between children"
+#~ msgstr "La cantidad de espacio entre hijos"
+
+#~ msgid "Show decorations"
+#~ msgstr "Mostrar decoración"
+
+#~ msgid "Whether to show window decorations"
+#~ msgstr "Indica si se debe mostrar la decoración de la ventana"
+
+#~ msgid "Decoration Layout"
+#~ msgstr "Distribución de la decoración"
+
+#~ msgid "The layout for window decorations"
+#~ msgstr "La distribución de la decoración de la ventana"
+
+#~ msgid "Has Subtitle"
+#~ msgstr "Tiene subtítulo"
+
+#~ msgid "Whether to reserve space for a subtitle"
+#~ msgstr "Indica si se debe reservar espacio para un subtítulo"
+
+#~ msgid "Centering policy"
+#~ msgstr "Política de centrado"
+
+#~ msgid "The policy to horizontally align the center widget"
+#~ msgstr "La política para alinear horizontalmente el widget centrad"
+
+#~ msgid "The animation duration, in milliseconds"
+#~ msgstr "La duración de la animación en milisegundos"
+
+#~ msgid "Decorate all"
+#~ msgstr "Decorar todo"
+
+#~ msgid "Digit"
+#~ msgstr "Dígito"
+
+#~ msgid "Symbols"
+#~ msgstr "Símbolos"
+
+#~ msgid "Show symbols"
+#~ msgstr "Mostar símbolos"
+
+#~ msgid "Row spacing"
+#~ msgstr "Espaciado de filas"
+
+#~ msgid "The amount of space between two consecutive rows"
+#~ msgstr "La cantidad de espacio entre dos filas consecutivas"
+
+#~ msgid "Column spacing"
+#~ msgstr "Espaciado de columnas"
+
+#~ msgid "The amount of space between two consecutive columns"
+#~ msgstr "La cantidad de espacio entre dos columnas consecutivas"
+
+#~ msgid "Letters visible"
+#~ msgstr "Letras visibles"
+
+#~ msgid "Whether the letters below the digits should be visible"
+#~ msgstr "Indica si las letras de debajo de los números son visibles"
+
+#~ msgid "Symbols visible"
+#~ msgstr "Símbolos visibles"
+
+#~ msgid "Entry"
+#~ msgstr "Entrada"
+
+#~ msgid "End action"
+#~ msgstr "Acción de fin"
+
+#~ msgid "The end action widget"
+#~ msgstr "El widget de fin de acción"
+
+#~ msgid "Start action"
+#~ msgstr "Acción de inicio"
+
+#~ msgid "The start action widget"
+#~ msgstr "El widget de iniciar acción"
+
+#~ msgid "Folded"
+#~ msgstr "Doblado"
+
+#~ msgid "Box vertically homogeneous"
+#~ msgstr "Ca"
+
+#~ msgid "Mode transition duration"
+#~ msgstr "Duración del modo de transición"
+
+#~ msgid "Child transition duration"
+#~ msgstr "Duración de la transición hija"
+
+#~ msgid "Navigatable"
+#~ msgstr "Navegable"
+
+#~ msgid "Whether the child can be navigated to"
+#~ msgstr "Indica si se puede navegar al hijo"
+
+#~ msgid "Description"
+#~ msgstr "Descripción"
+
+#~ msgid "The title of the preference"
+#~ msgstr "El título de la preferencia"
+
+#~ msgid "Whether search is enabled"
+#~ msgstr "Indica si la búsqueda está activada"
+
+#~ msgid "Search Mode Enabled"
+#~ msgstr "Modo de búsqueda activado"
+
+#~ msgid "Show Close Button"
+#~ msgstr "Mostrar botón de cerrar"
+
+#~ msgid "Whether to show the close button in the toolbar"
+#~ msgstr ""
+#~ "Indica si se debe mostrar el botón de cerrar en la barra de herramientas"
+
+#~ msgid "Widget"
+#~ msgstr "Widget"
+
+#~ msgid "The widget the shadow will be drawn for"
+#~ msgstr "El widget para el que se dibujará la sombra"
+
+#~ msgid "Homogeneous"
+#~ msgstr "Homogéneo"
+
+#~ msgid "Homogeneous sizing"
+#~ msgstr "Tamaño homogéneo"
+
+#~ msgid "The type of animation used to transition"
+#~ msgstr "El tipo de animación usado para la transición"
+
+#~ msgid "X align"
+#~ msgstr "Alineación X"
+
+#~ msgid "The horizontal alignment, from 0 (start) to 1 (end)"
+#~ msgstr "La alineación horizontal, desde 0 (inicio) hasta 1 (fin)"
+
+#~ msgid "Y align"
+#~ msgstr "alineación Y"
+
+#~ msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+#~ msgstr "La alineación vertical, desde 0 (inicio) hasta 1 (fin)"
+
+#~ msgid "Enabled"
+#~ msgstr "Activado"
+
+#~ msgid "Orientation"
+#~ msgstr "Orientación"
+
+#~ msgid "Swipeable"
+#~ msgstr "Se puede deslizar"
+
+#~ msgid "Reversed"
+#~ msgstr "Inverso"
+
+#~ msgid "Selection mode"
+#~ msgstr "Modo de selección"
+
+#~ msgctxt "HdyValueObjectClass"
+#~ msgid "Value"
+#~ msgstr "Valor"
+
+#~ msgctxt "HdyValueObjectClass"
+#~ msgid "The contained value"
+#~ msgstr "El valor contenido"
+
+#~ msgid "Policy"
+#~ msgstr "Política"
+
+#~ msgid "The policy to determine the mode to use"
+#~ msgstr "La política para determinar el modo que usar"
+
+#~ msgid "Stack"
+#~ msgstr "Pila"
+
+#~ msgid "Reveal"
+#~ msgstr "Mostrar"
+
+#~ msgid "Icon Name"
+#~ msgstr "Nombre del icono"
+
+#~ msgid "Icon name for image"
+#~ msgstr "Nombre de icono para la imagen"
+
+#~ msgid "Icon Size"
+#~ msgstr "Tamaño del icono"
+
+#~ msgid "Symbolic size to use for named icon"
+#~ msgstr "Tamaño simbólico que usar para el icono con nombre"
+
+#~ msgid "Needs attention"
+#~ msgstr "Requiere atención"
+
+#~ msgid "Narrow ellipsize"
+#~ msgstr "Estrechar elipse"
+
+#~ msgid "Title visible"
+#~ msgstr "Título visible"
+
+#~ msgid "Whether the title label is visible"
+#~ msgstr "Indica si la etiqueta de título es visible"
+
+#~ msgid "Move"
+#~ msgstr "Mover"
+
+#~ msgid "Resize"
+#~ msgstr "Redimensionar"
+
+#~ msgid "Always on Top"
+#~ msgstr "Siempre_encima"
+
+#~ msgid "Indicator style"
+#~ msgstr "Indicador de estilo"
+
+#~ msgid "Page indicator style"
+#~ msgstr "Indicador de estilo de la página"
+
+#~ msgid "Indicator spacing"
+#~ msgstr "Indicador de espaciado"
+
+#~ msgid "Spacing between content and indicators"
+#~ msgstr "Espaciado entre contenido e indicadores"
+
+#~ msgid "Center content"
+#~ msgstr "Centrar contenido"
+
+#~ msgid "Whether to center pages to compensate for indicators"
+#~ msgstr ""
+#~ "Indica si se deben centrar las páginas para compensar los indicadores"
+
+#~ msgid "Maximum width"
+#~ msgstr "Anchura máxima"
+
+#~ msgid "The title for this row"
+#~ msgstr "El título para esta fila"
+
+#~ msgid "Focus"
+#~ msgstr "Foco"
+
+#~ msgid "The header bar that should have the focus"
+#~ msgstr "La barra de cabecera que debe tener el foco"
+
+#~ msgid "Only Digits"
+#~ msgstr "Sólo dígitos"
+
+#~ msgid "Entry widget"
+#~ msgstr "Widget de entrada"

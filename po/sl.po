@@ -1,0 +1,684 @@
+# Slovenian translation for libhandy.
+# Copyright (C) 2020 libhandy's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libhandy package.
+#
+# Matej Urbančič <mateju@src.gnome.org>, 2020–2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libhandy master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"POT-Creation-Date: 2024-03-04 19:31+0000\n"
+"PO-Revision-Date: 2024-03-04 22:48+0100\n"
+"Last-Translator: Matej Urbančič <mateju@src.gnome.org>\n"
+"Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
+"n%100==4 ? 3 : 0);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: src/adw-about-dialog.c:207 src/adw-about-window.c:206
+msgid "GNU General Public License, version 2 or later"
+msgstr "Splošno Javno dovoljenje GNU, različice 2 ali kasnejše"
+
+#: src/adw-about-dialog.c:208 src/adw-about-window.c:207
+msgid "GNU General Public License, version 3 or later"
+msgstr "Splošno Javno dovoljenje GNU, različice 3 ali kasnejše"
+
+#: src/adw-about-dialog.c:209 src/adw-about-window.c:208
+msgid "GNU Lesser General Public License, version 2.1 or later"
+msgstr "Manj Splošno Javno dovoljenje GNU, različice 2.1 ali kasnejše"
+
+#: src/adw-about-dialog.c:210 src/adw-about-window.c:209
+msgid "GNU Lesser General Public License, version 3 or later"
+msgstr "Manj Splošno Javno dovoljenje GNU, različice 3 ali kasnejše"
+
+#: src/adw-about-dialog.c:211 src/adw-about-window.c:210
+msgid "BSD 2-Clause License"
+msgstr "Dovoljenje BSD 2-Clause"
+
+#: src/adw-about-dialog.c:212 src/adw-about-window.c:211
+msgid "The MIT License (MIT)"
+msgstr "Dovoljenje MIT"
+
+#: src/adw-about-dialog.c:213 src/adw-about-window.c:212
+msgid "Artistic License 2.0"
+msgstr "Umetniško dovoljenje 2.0"
+
+#: src/adw-about-dialog.c:214 src/adw-about-window.c:213
+msgid "GNU General Public License, version 2 only"
+msgstr "Splošno Javno dovoljenje GNU, le različice 2"
+
+#: src/adw-about-dialog.c:215 src/adw-about-window.c:214
+msgid "GNU General Public License, version 3 only"
+msgstr "Splošno Javno dovoljenje GNU, le različice 3"
+
+#: src/adw-about-dialog.c:216 src/adw-about-window.c:215
+msgid "GNU Lesser General Public License, version 2.1 only"
+msgstr "Manj Splošno Javno dovoljenje GNU, le različice 2.1"
+
+#: src/adw-about-dialog.c:217 src/adw-about-window.c:216
+msgid "GNU Lesser General Public License, version 3 only"
+msgstr "Manj Splošno Javno dovoljenje GNU, le različice 3"
+
+#: src/adw-about-dialog.c:218 src/adw-about-window.c:217
+msgid "GNU Affero General Public License, version 3 or later"
+msgstr "Splošno javno dovoljenje Affero GNU, različice 3 ali kasnejše"
+
+#: src/adw-about-dialog.c:219 src/adw-about-window.c:218
+msgid "GNU Affero General Public License, version 3 only"
+msgstr "Splošno Javno dovoljenje GNU Affero, le različica 3"
+
+#: src/adw-about-dialog.c:220 src/adw-about-window.c:219
+msgid "BSD 3-Clause License"
+msgstr "Dovoljenje BSD 3-Clause"
+
+#: src/adw-about-dialog.c:221 src/adw-about-window.c:220
+msgid "Apache License, Version 2.0"
+msgstr "Dovoljenje Apache, različica 2.0"
+
+#: src/adw-about-dialog.c:222 src/adw-about-window.c:221
+msgid "Mozilla Public License 2.0"
+msgstr "Javno dovoljenje Mozilla 2.0"
+
+#: src/adw-about-dialog.c:223 src/adw-about-window.c:222
+msgid "BSD Zero-Clause License"
+msgstr "Dovoljenje BSD Zero-Clause"
+
+#: src/adw-about-dialog.c:560 src/adw-about-window.c:558
+msgid "Code by"
+msgstr "Programiranje:"
+
+#: src/adw-about-dialog.c:561 src/adw-about-window.c:559
+msgid "Design by"
+msgstr "Oblikovanje:"
+
+#: src/adw-about-dialog.c:562 src/adw-about-window.c:560
+msgid "Artwork by"
+msgstr "Grafična podoba:"
+
+#: src/adw-about-dialog.c:563 src/adw-about-window.c:561
+msgid "Documentation by"
+msgstr "Dokumentacija:"
+
+#: src/adw-about-dialog.c:564 src/adw-about-window.c:562
+msgid "Translated by"
+msgstr "Prevod:"
+
+#. Translators: this is the license preamble; the string at the end
+#. * contains the name of the license as link text.
+#.
+#: src/adw-about-dialog.c:593 src/adw-about-window.c:591
+#, c-format
+msgid ""
+"This application comes with absolutely no warranty. See the <a "
+"href=\"%s\">%s</a> for details."
+msgstr ""
+"Ta program je objavljen brez vsakršnega jamstva. Več podrobnosti je "
+"zapisanih v datoteki <a href=\"%s\">%s</a>"
+
+#: src/adw-about-dialog.c:671 src/adw-about-window.c:669
+msgid "This Application"
+msgstr "Program"
+
+#: src/adw-about-dialog.c:973 src/adw-about-window.c:971
+#, c-format
+msgid "Version %s"
+msgstr "Različica %s"
+
+#: src/adw-about-dialog.c:999 src/adw-about-window.c:997
+msgid "Unable to parse release notes:"
+msgstr "Ni mogoče razčleniti opomb k izdaji:"
+
+#: src/adw-about-dialog.c:1005 src/adw-about-window.c:1003
+#, c-format
+msgid "Line: %d, character: %d"
+msgstr "Vrstica: %d, znak: %d"
+
+#: src/adw-about-dialog.c:1291 src/adw-about-window.c:1289
+msgid "Copied to clipboard"
+msgstr "Kopirano v odložišče"
+
+#: src/adw-about-dialog.c:1318 src/adw-about-window.c:1317
+msgid "Unable to save debugging information"
+msgstr "Podrobnosti razhroščevanja ni mogoče shraniti."
+
+#: src/adw-about-dialog.c:1323 src/adw-about-window.c:1322
+msgid "Close"
+msgstr "Zapri"
+
+#: src/adw-about-dialog.c:1340 src/adw-about-window.c:1338
+msgid "Save debugging information"
+msgstr "Shrani podrobnosti razhroščevanja"
+
+#: src/adw-about-dialog.ui:5 src/adw-about-window.ui:5
+msgid "About"
+msgstr "O programu"
+
+#: src/adw-about-dialog.ui:89 src/adw-about-window.ui:92
+msgid "_What’s New"
+msgstr "_Kaj je novega"
+
+#: src/adw-about-dialog.ui:105 src/adw-about-window.ui:108
+msgid "_Details"
+msgstr "_Podrobnosti"
+
+#: src/adw-about-dialog.ui:121 src/adw-about-dialog.ui:341
+#: src/adw-about-window.ui:124 src/adw-about-window.ui:344
+msgid "_Website"
+msgstr "_Spletišče"
+
+#: src/adw-about-dialog.ui:145 src/adw-about-window.ui:148
+msgid "_Support Questions"
+msgstr "_Vprašanja podpore"
+
+#: src/adw-about-dialog.ui:162 src/adw-about-window.ui:165
+msgid "_Report an Issue"
+msgstr "_Pošlji poročilo o napaki"
+
+#: src/adw-about-dialog.ui:178 src/adw-about-window.ui:181
+msgid "_Troubleshooting"
+msgstr "_Odpravljanje težav"
+
+#: src/adw-about-dialog.ui:198 src/adw-about-window.ui:201
+msgid "_Credits"
+msgstr "_Zasluge"
+
+#: src/adw-about-dialog.ui:214 src/adw-about-window.ui:217
+msgid "_Legal"
+msgstr "_Pravna opomba"
+
+#: src/adw-about-dialog.ui:230 src/adw-about-window.ui:233
+msgid "_Acknowledgements"
+msgstr "_Priznanja vlog"
+
+#: src/adw-about-dialog.ui:260 src/adw-about-window.ui:263
+msgid "What’s New"
+msgstr "Kaj je novega"
+
+#: src/adw-about-dialog.ui:303 src/adw-about-window.ui:306
+msgid "Details"
+msgstr "Podrobnosti"
+
+#: src/adw-about-dialog.ui:369 src/adw-about-window.ui:372
+msgid "Troubleshooting"
+msgstr "Odpravljanje težav"
+
+#: src/adw-about-dialog.ui:392 src/adw-about-window.ui:395
+msgid ""
+"To assist in troubleshooting, you can view your debugging information. "
+"Providing this information to the application developers can help diagnose "
+"any problems you encounter when you report an issue."
+msgstr ""
+"Za pomoč pri odpravljanju težav si lahko ogledate podrobnosti "
+"razhroščevanja. Podatki so lahko v veliko pomoč razvijalcem programa pri "
+"ugotavljanju težav, na katere naletite."
+
+#: src/adw-about-dialog.ui:403 src/adw-about-window.ui:406
+msgid "_Debugging Information"
+msgstr "_Podrobnosti razhroščevanja"
+
+#: src/adw-about-dialog.ui:430 src/adw-about-window.ui:433
+msgid "Debugging Information"
+msgstr "Podrobnosti razhroščevanja"
+
+#: src/adw-about-dialog.ui:475 src/adw-about-window.ui:478
+msgid "_Copy Text"
+msgstr "_Kopiraj besedilo"
+
+#: src/adw-about-dialog.ui:483 src/adw-about-window.ui:486
+msgid "_Save As…"
+msgstr "_Shrani kot …"
+
+#: src/adw-about-dialog.ui:496 src/adw-about-window.ui:499
+msgid "Credits"
+msgstr "Zasluge"
+
+#: src/adw-about-dialog.ui:527 src/adw-about-window.ui:530
+msgid "Legal"
+msgstr "Pravna opomba"
+
+#: src/adw-about-dialog.ui:559 src/adw-about-window.ui:562
+msgid "Acknowledgements"
+msgstr "Priznanja vlog"
+
+#: src/adw-back-button.c:347 src/adw-back-button.c:445
+#: src/adw-back-button.c:555
+msgid "Back"
+msgstr "Nazaj"
+
+#. Translators: This is a placeholder text of the search entry from AdwComboRow. It should be phrased as a verb.
+#: src/adw-combo-row.ui:50 src/adw-preferences-dialog.ui:85
+#: src/adw-preferences-window.ui:96
+msgid "Search"
+msgstr "Poišči"
+
+#: src/adw-entry-row.ui:97
+msgid "Apply"
+msgstr "Uveljavi"
+
+#: src/adw-inspector-page.c:75
+msgid "No Preference"
+msgstr "Izbira ni navedena"
+
+#: src/adw-inspector-page.c:77
+msgid "Prefer Dark"
+msgstr "Prednostno uporabi temno"
+
+#: src/adw-inspector-page.c:79
+msgid "Prefer Light"
+msgstr "Prednostno uporabi svetlo"
+
+#. Translators: The name of the library, not the stylesheet
+#: src/adw-inspector-page.c:97
+msgid "Adwaita"
+msgstr "Adwaita"
+
+#: src/adw-inspector-page.ui:10
+msgid "System Appearance"
+msgstr "Videz sistema"
+
+#: src/adw-inspector-page.ui:11
+msgid ""
+"Override settings for this application. They will be reset upon closing the "
+"inspector."
+msgstr ""
+"Prepiši nastavitve tega programa. Ponastavljene bodo ob končanju programa."
+
+#: src/adw-inspector-page.ui:14
+msgid "System Supports Color Schemes"
+msgstr "Sistem podpira barvne sheme"
+
+#: src/adw-inspector-page.ui:20
+msgid "Preferred Color Scheme"
+msgstr "Prednostna barvna shema."
+
+#: src/adw-inspector-page.ui:37
+msgid "High Contrast"
+msgstr "Visok kontrast"
+
+#: src/adw-password-entry-row.c:70
+msgid "Hide Password"
+msgstr "Skrij geslo"
+
+#: src/adw-password-entry-row.c:74
+msgid "Show Password"
+msgstr "Pokaži geslo"
+
+#: src/adw-password-entry-row.c:168
+msgid "Caps Lock is on"
+msgstr "Tipka Caps Lock je vključena"
+
+#: src/adw-password-entry-row.c:176
+msgid "_Show Password"
+msgstr "Pokaži _geslo"
+
+#: src/adw-preferences-dialog.c:256 src/adw-preferences-window.c:259
+msgid "Untitled page"
+msgstr "Neimenovana stran"
+
+#: src/adw-preferences-dialog.ui:5 src/adw-preferences-window.ui:8
+msgid "Preferences"
+msgstr "Možnosti"
+
+#: src/adw-preferences-dialog.ui:70 src/adw-preferences-window.ui:81
+msgid "Search preferences"
+msgstr "Možnosti iskanja"
+
+#: src/adw-preferences-dialog.ui:152 src/adw-preferences-window.ui:163
+msgid "No Results Found"
+msgstr "Ni najdenih zadetkov."
+
+#: src/adw-preferences-dialog.ui:153 src/adw-preferences-window.ui:164
+#: src/adw-tab-overview.ui:111
+msgid "Try a different search."
+msgstr "Poskusite z drugačnim iskalnim nizom"
+
+#: src/adw-split-button.c:519 src/adw-split-button.c:1033
+msgid "More Options"
+msgstr "Več možnosti"
+
+#: src/adw-tab-button.ui:7
+msgid "View Open Tabs"
+msgstr "Pogled odprtih zavihkov"
+
+#. Translators: Tab overview title, %u is the number of open tabs
+#: src/adw-tab-overview.c:928
+#, c-format
+msgid "%u Tab"
+msgid_plural "%u Tabs"
+msgstr[0] "%u zavihkov"
+msgstr[1] "%u zavihek"
+msgstr[2] "%u zavihka"
+msgstr[3] "%u zavihki"
+
+#: src/adw-tab-overview.ui:21
+msgid "Search Tabs"
+msgstr "Poišči zavihke"
+
+#: src/adw-tab-overview.ui:51
+msgid "Search tabs"
+msgstr "Poišči zavihke"
+
+#: src/adw-tab-overview.ui:97
+msgid "No Open Tabs"
+msgstr "Ni odprtih zavihkov"
+
+#: src/adw-tab-overview.ui:110
+msgid "No Tabs Found"
+msgstr "Ni najdenih zavihkov"
+
+#: src/adw-tab-overview.ui:131
+msgid "New _Tab"
+msgstr "Nov _zavihek"
+
+#: src/adw-tab-thumbnail.ui:39 src/adw-tab.ui:95
+msgid "Close Tab"
+msgstr "Zapri zavihek"
+
+#~ msgid "Search…"
+#~ msgstr "Poišči …"
+
+#~ msgid "Hide Text"
+#~ msgstr "Skrij besedilo"
+
+#~ msgid "Show Text"
+#~ msgstr "Pokaži besedilo"
+
+#~ msgid "_Show Text"
+#~ msgstr "Pokaži _besedilo"
+
+#~ msgid "_Save"
+#~ msgstr "_Shrani"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Prekliči"
+
+#~ msgid "Insert placeholder to %s"
+#~ msgstr "Vstavi vsebnik za %s"
+
+#~ msgid "Remove placeholder from %s"
+#~ msgstr "Odstrani vsebnik iz %s"
+
+#~ msgid "This property does not apply when a custom title is set"
+#~ msgstr ""
+#~ "Lastnosti ni mogoče uporabiti sočasno z uporabo nastavitve naslova po meri"
+
+#~ msgid ""
+#~ "The decoration layout does not apply to header bars which do no show "
+#~ "window controls"
+#~ msgstr ""
+#~ "Razporeditev okrasov se ne uveljavi za vrstice naslovov, ki so brez "
+#~ "gumbov okna."
+
+#~ msgid "Add page to %s"
+#~ msgstr "Dodaj stran k %s"
+
+#~ msgid "Search bar is already full"
+#~ msgstr "Iskalna vrstica je že polna"
+
+#~ msgid "Only objects of type %s can be added to objects of type %s."
+#~ msgstr "Le predmete vrste %s je mogoče dodati k predmetom vrste %s."
+
+#~ msgid "Icon name"
+#~ msgstr "Ime ikone"
+
+#~ msgid "Subtitle"
+#~ msgstr "Podnaslov"
+
+#~ msgid "Use underline"
+#~ msgstr "Uporabi podčrtaj"
+
+#~ msgid ""
+#~ "If set, an underline in the text indicates the next character should be "
+#~ "used for the mnemonic accelerator key"
+#~ msgstr ""
+#~ "Izbrana možnost omogoča, da podčrtaj v besedilu označuje črko, ki je "
+#~ "uporabljena kot menijska bližnjica"
+
+#~ msgid "Number of pages"
+#~ msgstr "Število strani"
+
+#~ msgid "Position"
+#~ msgstr "Položaj"
+
+#~ msgid "Spacing"
+#~ msgstr "Razmik"
+
+#~ msgid "Allow mouse drag"
+#~ msgstr "Dovoli vlečenje z miško"
+
+#~ msgid "Whether to allow dragging with mouse pointer"
+#~ msgstr "Ali naj bo dovoljeno vlečenje s kazalnikom miške"
+
+#~ msgid "Maximum size"
+#~ msgstr "Največja velikost"
+
+#~ msgid "The maximum size allocated to the child"
+#~ msgstr "Največja velikost dodeljena podrejenemu predmetu"
+
+#~ msgid "Use subtitle"
+#~ msgstr "Uporabi posnaslov"
+
+#~ msgid "Set the current value as the subtitle"
+#~ msgstr "Nastavi trenutno vrednost kot podnaslov"
+
+#~ msgid "Horizontally homogeneous"
+#~ msgstr "Vodoravno prilagajanje"
+
+#~ msgid "Horizontally homogeneous sizing"
+#~ msgstr "Homogeno vodoravno prilagajanje velikosti"
+
+#~ msgid "Vertically homogeneous"
+#~ msgstr "Navpično prilagajanje"
+
+#~ msgid "Vertically homogeneous sizing"
+#~ msgstr "Homogeno navpično prilagajanje velikosti"
+
+#~ msgid "Visible child"
+#~ msgstr "Vidni podrejeni predmet"
+
+#~ msgid "Name of visible child"
+#~ msgstr "Ime vidnega podrejenega predmeta"
+
+#~ msgid "Transition type"
+#~ msgstr "Vrsta prehoda"
+
+#~ msgid "Transition duration"
+#~ msgstr "Trajanje prehoda"
+
+#~ msgid "Transition running"
+#~ msgstr "Prehod se odvija"
+
+#~ msgid "Whether or not the transition is currently running"
+#~ msgstr "Ali se prehod trenutno izvaja"
+
+#~ msgid "Interpolate size"
+#~ msgstr "Interpoliraj velikost"
+
+#~ msgid ""
+#~ "Whether or not the size should smoothly change when changing between "
+#~ "differently sized children"
+#~ msgstr ""
+#~ "Ali naj se velikost gladko spremeni med spreminjanjem različno velikih "
+#~ "podrejenih predmetov"
+
+#~ msgid "Name"
+#~ msgstr "Ime"
+
+#~ msgid "The name of the child page"
+#~ msgstr "Ime gradnika podrejene strani"
+
+#~ msgid "Expanded"
+#~ msgstr "Razširjeno"
+
+#~ msgid "Enable expansion"
+#~ msgstr "Omogoči razširjanje"
+
+#~ msgid "Whether the expansion is enabled"
+#~ msgstr "Ali naj bo razširjanje omogočeno"
+
+#~ msgid "Minimize"
+#~ msgstr "Skrči"
+
+#~ msgid "Restore"
+#~ msgstr "Obnovi"
+
+#~ msgid "Maximize"
+#~ msgstr "Razpni"
+
+#~ msgid "Pack type"
+#~ msgstr "Vrsta zlaganja"
+
+#~ msgid ""
+#~ "A GtkPackType indicating whether the child is packed with reference to "
+#~ "the start or end of the parent"
+#~ msgstr ""
+#~ "Vrsta GtkPackType, ki pove, ali naj bo podrejeni predmet zložen s sklicem "
+#~ "na začetek ali na konec nadrejenega predmeta"
+
+#~ msgid "The index of the child in the parent"
+#~ msgstr "Indeks podrejenega predmeta v nadrejenem predmetu"
+
+#~ msgid "Title"
+#~ msgstr "Naziv"
+
+#~ msgid "The title to display"
+#~ msgstr "Naslov za prikaz"
+
+#~ msgid "The subtitle to display"
+#~ msgstr "Podnaslov za prikaz"
+
+#~ msgid "Custom Title"
+#~ msgstr "Naslov po meri"
+
+#~ msgid "Custom title widget to display"
+#~ msgstr "Gradnik naziva okna po meri za prikaz"
+
+#~ msgid "The amount of space between children"
+#~ msgstr "Prostor med podrejenimi predmeti"
+
+#~ msgid "Show decorations"
+#~ msgstr "Pokaži okraske"
+
+#~ msgid "Whether to show window decorations"
+#~ msgstr "Ali naj bodo okraski okna prikazani"
+
+#~ msgid "Decoration Layout"
+#~ msgstr "Postavitev okraskov"
+
+#~ msgid "The layout for window decorations"
+#~ msgstr "Postavitev okenskih okraskov"
+
+#~ msgid "Decoration Layout Set"
+#~ msgstr "Določitev postavitve okraskov"
+
+#~ msgid "Whether the decoration-layout property has been set"
+#~ msgstr "Ali je določena lastnost decoration-layout (za postavitev okraskov)"
+
+#~ msgid "Has Subtitle"
+#~ msgstr "Ima podnaslov"
+
+#~ msgid "Whether to reserve space for a subtitle"
+#~ msgstr "Ali naj bo prihranjen prostor za podnaslov"
+
+#~ msgid "The animation duration, in milliseconds"
+#~ msgstr "Trajanje animacije v milisekundah"
+
+#~ msgid "Symbols"
+#~ msgstr "Simboli"
+
+#~ msgid "Row spacing"
+#~ msgstr "Prostor med vrsticami"
+
+#~ msgid "The amount of space between two consecutive rows"
+#~ msgstr "Prostora med zaporednima vrsticama"
+
+#~ msgid "Column spacing"
+#~ msgstr "Prostor med stolpci"
+
+#~ msgid "The amount of space between two consecutive columns"
+#~ msgstr "Prostor med zaporednima stolpcema"
+
+#~ msgid "Entry"
+#~ msgstr "Vnos"
+
+#~ msgid "Description"
+#~ msgstr "Opis"
+
+#~ msgid "Search Mode Enabled"
+#~ msgstr "Omogočen iskalni način"
+
+#~ msgid "Whether the search mode is on and the search bar shown"
+#~ msgstr "Ali naj bo omogočen iskalni način in prikazana iskalna vrstica"
+
+#~ msgid "Show Close Button"
+#~ msgstr "Pokaži gumb za zapiranje"
+
+#~ msgid "Whether to show the close button in the toolbar"
+#~ msgstr "Ali naj se pokaže gumb za zapiranje v orodni vrstici"
+
+#~ msgid "Widget"
+#~ msgstr "Gradnik"
+
+#~ msgid "Homogeneous"
+#~ msgstr "Homogeno"
+
+#~ msgid "Homogeneous sizing"
+#~ msgstr "Homogeno prilagajanje velikosti"
+
+#~ msgid "The type of animation used to transition"
+#~ msgstr "Vrsta animacije, uporabljene za prehode"
+
+#~ msgid "X align"
+#~ msgstr "Poravnava X"
+
+#~ msgid "Y align"
+#~ msgstr "Poravnava Y"
+
+#~ msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+#~ msgstr "Navpična poravnava, od 0 (zgoraj) do 1 (spodaj)"
+
+#~ msgid "Enabled"
+#~ msgstr "Omogočeno"
+
+#~ msgid "Orientation"
+#~ msgstr "Usmerjenost"
+
+#~ msgid "Selection mode"
+#~ msgstr "Način izbire"
+
+#~ msgctxt "HdyValueObjectClass"
+#~ msgid "Value"
+#~ msgstr "Vrednost"
+
+#~ msgid "Policy"
+#~ msgstr "Pravila"
+
+#~ msgid "Stack"
+#~ msgstr "Sklad"
+
+#~ msgid "Reveal"
+#~ msgstr "Razkrij"
+
+#~ msgid "Icon Name"
+#~ msgstr "Ime ikone"
+
+#~ msgid "Icon Size"
+#~ msgstr "Velikost ikone"
+
+#~ msgid "Symbolic size to use for named icon"
+#~ msgstr "Simbolna velikost, ki naj bo uporabljena za imenovano ikono"
+
+#~ msgid "Move"
+#~ msgstr "Premakni"
+
+#~ msgid "Resize"
+#~ msgstr "Spremeni velikost"
+
+#~ msgid "Always on Top"
+#~ msgstr "Vedno na vrhu"

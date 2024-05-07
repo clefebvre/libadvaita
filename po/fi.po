@@ -1,0 +1,1003 @@
+# Finnish translation for libhandy.
+# Copyright (C) 2020 libhandy's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libhandy package.
+# JRfi <starman@starman.fi>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libhandy master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"POT-Creation-Date: 2024-01-22 22:25+0000\n"
+"PO-Revision-Date: 2024-02-22 19:51+0200\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
+"Language-Team: Finnish <lokalisointi-lista@googlegroups.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: src/adw-about-window.c:206
+msgid "GNU General Public License, version 2 or later"
+msgstr "GNU General Public -lisenssi (GPL), versio 2 tai myöhempi"
+
+#: src/adw-about-window.c:207
+msgid "GNU General Public License, version 3 or later"
+msgstr "GNU General Public -lisenssi (GPL), versio 3 tai myöhempi"
+
+#: src/adw-about-window.c:208
+msgid "GNU Lesser General Public License, version 2.1 or later"
+msgstr "GNU Lesser General Public -lisenssi (LGPL), versio 2.1 tai myöhempi"
+
+#: src/adw-about-window.c:209
+msgid "GNU Lesser General Public License, version 3 or later"
+msgstr "GNU Lesser General Public -lisenssi (LGPL), versio 3 tai myöhempi"
+
+#: src/adw-about-window.c:210
+msgid "BSD 2-Clause License"
+msgstr "2-lausekkeinen BSD-lisenssi"
+
+#: src/adw-about-window.c:211
+msgid "The MIT License (MIT)"
+msgstr "MIT-lisenssi (MIT)"
+
+#: src/adw-about-window.c:212
+msgid "Artistic License 2.0"
+msgstr "Artistic-lisenssi 2.0"
+
+#: src/adw-about-window.c:213
+msgid "GNU General Public License, version 2 only"
+msgstr "GNU General Public -lisenssi (GPL), vain versio 2"
+
+#: src/adw-about-window.c:214
+msgid "GNU General Public License, version 3 only"
+msgstr "GNU General Public -lisenssi (GPL), vain versio 3"
+
+#: src/adw-about-window.c:215
+msgid "GNU Lesser General Public License, version 2.1 only"
+msgstr "GNU Lesser General Public -lisenssi (LGPL), vain versio 2.1"
+
+#: src/adw-about-window.c:216
+msgid "GNU Lesser General Public License, version 3 only"
+msgstr "GNU Lesser General Public -lisenssi (LGPL), vain versio 3"
+
+#: src/adw-about-window.c:217
+msgid "GNU Affero General Public License, version 3 or later"
+msgstr "GNU Affero General Public -lisenssi (AGPL), versio 3 tai myöhempi"
+
+#: src/adw-about-window.c:218
+msgid "GNU Affero General Public License, version 3 only"
+msgstr "GNU Affero General Public -lisenssi (AGPL), vain versio 3"
+
+#: src/adw-about-window.c:219
+msgid "BSD 3-Clause License"
+msgstr "3-lausekkeinen BSD-lisenssi"
+
+#: src/adw-about-window.c:220
+msgid "Apache License, Version 2.0"
+msgstr "Apache-lisenssi, versio 2.0"
+
+#: src/adw-about-window.c:221
+msgid "Mozilla Public License 2.0"
+msgstr "Mozilla Public -lisenssi 2.0"
+
+#: src/adw-about-window.c:537
+msgid "Code by"
+msgstr "Koodaus"
+
+#: src/adw-about-window.c:538
+msgid "Design by"
+msgstr "Suunnittelu"
+
+#: src/adw-about-window.c:539
+msgid "Artwork by"
+msgstr "Taiteellinen työ"
+
+#: src/adw-about-window.c:540
+msgid "Documentation by"
+msgstr "Dokumentaatio"
+
+#: src/adw-about-window.c:541
+msgid "Translated by"
+msgstr "Käännös"
+
+#. Translators: this is the license preamble; the string at the end
+#. * contains the name of the license as link text.
+#.
+#: src/adw-about-window.c:570
+#, c-format
+msgid ""
+"This application comes with absolutely no warranty. See the <a "
+"href=\"%s\">%s</a> for details."
+msgstr ""
+"Tämä sovellus ei sisällä minkäänlaista takuuta. Lisätietoja <a "
+"href=\"%s\">%s</a>."
+
+#: src/adw-about-window.c:648
+msgid "This Application"
+msgstr "Tämä sovellus"
+
+#: src/adw-about-window.c:950
+#, c-format
+msgid "Version %s"
+msgstr "Versio %s"
+
+#: src/adw-about-window.c:976
+msgid "Unable to parse release notes:"
+msgstr "Julkaisutietoja ei voitu jäsentää:"
+
+#: src/adw-about-window.c:982
+#, c-format
+msgid "Line: %d, character: %d"
+msgstr "Rivi: %d, merkki: %d"
+
+#: src/adw-about-window.c:1258
+msgid "Copied to clipboard"
+msgstr "Kopioitu leikepöydälle"
+
+#: src/adw-about-window.c:1286
+msgid "Unable to save debugging information"
+msgstr "Vianjäljitystietoja ei voitu tallentaa"
+
+#: src/adw-about-window.c:1291
+msgid "Close"
+msgstr "Sulje"
+
+#: src/adw-about-window.c:1307
+msgid "Save debugging information"
+msgstr "Tallenna vianjäljitystiedot"
+
+#: src/adw-about-window.ui:5
+msgid "About"
+msgstr "Tietoja"
+
+#: src/adw-about-window.ui:92
+msgid "_What’s New"
+msgstr "_Mitä uutta"
+
+#: src/adw-about-window.ui:108
+msgid "_Details"
+msgstr "_Tiedot"
+
+#: src/adw-about-window.ui:124 src/adw-about-window.ui:344
+msgid "_Website"
+msgstr "_Verkkosivusto"
+
+#: src/adw-about-window.ui:148
+msgid "_Support Questions"
+msgstr "T_ukikysymykset"
+
+#: src/adw-about-window.ui:165
+msgid "_Report an Issue"
+msgstr "_Ilmoita ongelmasta"
+
+#: src/adw-about-window.ui:181
+msgid "_Troubleshooting"
+msgstr "_Ongelmanratkaisu"
+
+#: src/adw-about-window.ui:201
+msgid "_Credits"
+msgstr "_Tekijät"
+
+#: src/adw-about-window.ui:217
+msgid "_Legal"
+msgstr "_Lainopillinen"
+
+#: src/adw-about-window.ui:233
+msgid "_Acknowledgements"
+msgstr "Tu_nnustukset"
+
+#: src/adw-about-window.ui:263
+msgid "What’s New"
+msgstr "Mitä uutta"
+
+#: src/adw-about-window.ui:306
+msgid "Details"
+msgstr "Tiedot"
+
+#: src/adw-about-window.ui:372
+msgid "Troubleshooting"
+msgstr "Ongelmanratkaisu"
+
+#: src/adw-about-window.ui:395
+msgid ""
+"To assist in troubleshooting, you can view your debugging information. "
+"Providing this information to the application developers can help diagnose "
+"any problems you encounter when you report an issue."
+msgstr ""
+"Voit katsoa ongelmanratkaisussa hyödyksi olevia vianjäljitystietoja. Näiden "
+"tietojen toimittaminen sovelluskehittäjille voi auttaa mahdollisten "
+"ongelmien selvittämisessä."
+
+#: src/adw-about-window.ui:406
+msgid "_Debugging Information"
+msgstr "_Vianjäljitystiedot"
+
+#: src/adw-about-window.ui:433
+msgid "Debugging Information"
+msgstr "Vianjäljitystiedot"
+
+#: src/adw-about-window.ui:478
+msgid "_Copy Text"
+msgstr "_Kopioi teksti"
+
+#: src/adw-about-window.ui:486
+msgid "_Save As…"
+msgstr "_Tallenna nimellä…"
+
+#: src/adw-about-window.ui:499
+msgid "Credits"
+msgstr "Tekijät"
+
+#: src/adw-about-window.ui:530
+msgid "Legal"
+msgstr "Lainopillinen"
+
+#: src/adw-about-window.ui:561
+msgid "Acknowledgements"
+msgstr "Tunnustukset"
+
+#: src/adw-back-button.c:347 src/adw-back-button.c:445
+#: src/adw-back-button.c:555
+msgid "Back"
+msgstr "Takaisin"
+
+#. Translators: This is a placeholder text of the search entry from AdwComboRow. It should be phrased as a verb.
+#: src/adw-combo-row.ui:50 src/adw-preferences-window.ui:96
+msgid "Search"
+msgstr "Etsi"
+
+#: src/adw-entry-row.ui:97
+msgid "Apply"
+msgstr "Toteuta"
+
+#: src/adw-inspector-page.c:75
+msgid "No Preference"
+msgstr "Ei suosimista"
+
+#: src/adw-inspector-page.c:77
+msgid "Prefer Dark"
+msgstr "Suosi tummaa"
+
+#: src/adw-inspector-page.c:79
+msgid "Prefer Light"
+msgstr "Suosi vaaleaa"
+
+#. Translators: The name of the library, not the stylesheet
+#: src/adw-inspector-page.c:97
+msgid "Adwaita"
+msgstr "Adwaita"
+
+#: src/adw-inspector-page.ui:10
+msgid "System Appearance"
+msgstr "Järjestelmän ulkoasu"
+
+#: src/adw-inspector-page.ui:11
+msgid ""
+"Override settings for this application. They will be reset upon closing the "
+"inspector."
+msgstr ""
+"Ohita asetukset tämän sovelluksen kohdalla. Asetukset nollataan tarkistimen "
+"sulkemisen jälkeen."
+
+#: src/adw-inspector-page.ui:14
+msgid "System Supports Color Schemes"
+msgstr "Järjestelmä tukee väriteemoja"
+
+#: src/adw-inspector-page.ui:20
+msgid "Preferred Color Scheme"
+msgstr "Suosittu väriteema"
+
+#: src/adw-inspector-page.ui:37
+msgid "High Contrast"
+msgstr "Suuri kontrasti"
+
+#: src/adw-password-entry-row.c:70
+msgid "Hide Password"
+msgstr "Piilota salasana"
+
+#: src/adw-password-entry-row.c:74
+msgid "Show Password"
+msgstr "Näytä salasana"
+
+#: src/adw-password-entry-row.c:168
+msgid "Caps Lock is on"
+msgstr "Caps Lock on päällä"
+
+#: src/adw-password-entry-row.c:176
+msgid "_Show Password"
+msgstr "_Näytä salasana"
+
+#: src/adw-preferences-window.c:259
+msgid "Untitled page"
+msgstr "Nimetön sivu"
+
+#: src/adw-preferences-window.ui:8
+msgid "Preferences"
+msgstr "Asetukset"
+
+#: src/adw-preferences-window.ui:81
+msgid "Search preferences"
+msgstr "Etsi asetuksia"
+
+#: src/adw-preferences-window.ui:163
+msgid "No Results Found"
+msgstr "Tuloksia ei löytynyt"
+
+#: src/adw-preferences-window.ui:164 src/adw-tab-overview.ui:111
+msgid "Try a different search."
+msgstr "Kokeile eri hakuehtoja."
+
+#: src/adw-split-button.c:519 src/adw-split-button.c:1033
+msgid "More Options"
+msgstr "Lisää valintoja"
+
+#: src/adw-tab-button.ui:7
+msgid "View Open Tabs"
+msgstr "Näytä avoimet välilehdet"
+
+#. Translators: Tab overview title, %u is the number of open tabs
+#: src/adw-tab-overview.c:928
+#, c-format
+msgid "%u Tab"
+msgid_plural "%u Tabs"
+msgstr[0] "%u välilehti"
+msgstr[1] "%u välilehteä"
+
+#: src/adw-tab-overview.ui:21
+msgid "Search Tabs"
+msgstr "Etsi välilehtiä"
+
+#: src/adw-tab-overview.ui:51
+msgid "Search tabs"
+msgstr "Etsi välilehtiä"
+
+#: src/adw-tab-overview.ui:97
+msgid "No Open Tabs"
+msgstr "Ei avoinna olevia välilehtiä"
+
+#: src/adw-tab-overview.ui:110
+msgid "No Tabs Found"
+msgstr "Välilehtiä ei löytynyt"
+
+#: src/adw-tab-overview.ui:131
+msgid "New _Tab"
+msgstr "Uusi _välilehti"
+
+#: src/adw-tab-thumbnail.ui:39 src/adw-tab.ui:95
+msgid "Close Tab"
+msgstr "Sulje välilehti"
+
+#~ msgid "Search…"
+#~ msgstr "Etsi…"
+
+#~ msgid "Hide Text"
+#~ msgstr "Piilota teksti"
+
+#~ msgid "Show Text"
+#~ msgstr "Näytä teksti"
+
+#~ msgid "_Show Text"
+#~ msgstr "_Näytä teksti"
+
+#~ msgid "_Save"
+#~ msgstr "_Tallenna"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Peru"
+
+#~ msgid "Insert placeholder to %s"
+#~ msgstr "Lisää paikkavaraus %s:lle"
+
+#~ msgid "Remove placeholder from %s"
+#~ msgstr "Poista paikanvaraaja %s:stä"
+
+#~ msgid "This property does not apply when a custom title is set"
+#~ msgstr "Tämä ominaisuus ei ole käytössä, kun itse valittu nimi on asetettu"
+
+#~ msgid ""
+#~ "The decoration layout does not apply to header bars which do no show "
+#~ "window controls"
+#~ msgstr ""
+#~ "Koristeluasettelu ei päde otsikkopalkkeihin, jotka eivät näytä "
+#~ "ikkunanhallinnan nappeja"
+
+#~ msgid "This property only applies when the leaflet is folded"
+#~ msgstr ""
+#~ "Tämä ominaisuus on käytössä vain, kun sivulehdykkä on kokoon taitettuna"
+
+#~ msgid "Add group to %s"
+#~ msgstr "Lisää ryhmä %s:ään"
+
+#~ msgid "Add page to %s"
+#~ msgstr "Lisää sivu %s:ään"
+
+#~ msgid "Search bar is already full"
+#~ msgstr "Etsintärivi on jo täynnä"
+
+#~ msgid "Only objects of type %s can be added to objects of type %s."
+#~ msgstr ""
+#~ "Vain %s tyypin objekteja voidaan lisätä objekteihin, jotka ovat tyyppiä "
+#~ "%s."
+
+#~ msgid "Icon name"
+#~ msgstr "Kuvakkeen nimi"
+
+#~ msgid "Activatable widget"
+#~ msgstr "Aktivoitava pienohjelma"
+
+#~ msgid "The widget to be activated when the row is activated"
+#~ msgstr "Aktivoitava pienohjelma, kun rivi aktivoidaan"
+
+# aliotsikko vai tekstitys?
+#~ msgid "Subtitle"
+#~ msgstr "Tekstitys"
+
+#~ msgid "Use underline"
+#~ msgstr "Käytä alleviivausta"
+
+#, fuzzy
+#~ msgid ""
+#~ "If set, an underline in the text indicates the next character should be "
+#~ "used for the mnemonic accelerator key"
+#~ msgstr ""
+#~ "Mikäli asetettu, alleviivaus tekstissä tarkoittaa että, seuraavaa merkkiä "
+#~ "tulisi käyttää muistisäännön kiihdytyksen avaimena"
+
+#~ msgid "Number of pages"
+#~ msgstr "Sivujen määrä"
+
+#~ msgid "Position"
+#~ msgstr "Sijainti"
+
+#~ msgid "Current scrolling position"
+#~ msgstr "Nykyinen vierityksen sijainti"
+
+#~ msgid "Spacing"
+#~ msgstr "Asettelu"
+
+#~ msgid "Spacing between pages"
+#~ msgstr "Asettelu sivujen välillä"
+
+#~ msgid "Reveal duration"
+#~ msgstr "Paljastuksen kesto"
+
+#~ msgid "Page reveal duration"
+#~ msgstr "Sivun paljastuksen kesto"
+
+#~ msgid "Interactive"
+#~ msgstr "Vuorovaikutteinen"
+
+#~ msgid "Whether the widget can be swiped"
+#~ msgstr "Voiko pienohjelmaa hipaista"
+
+#~ msgid "Animation duration"
+#~ msgstr "Animoinnin kesto"
+
+#~ msgid "Default animation duration"
+#~ msgstr "Oletusanimaation kesto"
+
+#~ msgid "Allow mouse drag"
+#~ msgstr "Salli hiirellä vetäminen"
+
+#~ msgid "Whether to allow dragging with mouse pointer"
+#~ msgstr "Sallitaanko hiiren osoittimella raahaaminen"
+
+#~ msgid "Carousel"
+#~ msgstr "Karuselli"
+
+#~ msgid "Maximum size"
+#~ msgstr "Maksimi koko"
+
+#~ msgid "The maximum size allocated to the child"
+#~ msgstr "Suurin lapsiobjektille varattu koko"
+
+#~ msgid "Tightening threshold"
+#~ msgstr "Raja-arvon tiukennus"
+
+# sisällön kontekstin merkitys?
+#, fuzzy
+#~ msgid "The size from which the clamp will tighten its grip on the child"
+#~ msgstr "Koko, jossa puristin tiukentaa otettaan lapsiobjektista"
+
+#~ msgid "Selected index"
+#~ msgstr "Valittu indeksitunnus"
+
+#~ msgid "The index of the selected item"
+#~ msgstr "Valitun asian indeksitunnus"
+
+# Aliotsikko vai tekstitys?
+#~ msgid "Use subtitle"
+#~ msgstr "Käytä tekstitystä"
+
+# aliotsikko vai tekstitys?
+#~ msgid "Set the current value as the subtitle"
+#~ msgstr "Aseta nykyinen arvo tekstitykseksi"
+
+#~ msgid "Horizontally homogeneous"
+#~ msgstr "Vaakatasossa yhtenevä"
+
+#~ msgid "Horizontally homogeneous sizing"
+#~ msgstr "Vaakatasossa yhtenevät koot"
+
+#~ msgid "Vertically homogeneous"
+#~ msgstr "Pystysuuntaan yhtenevät"
+
+#~ msgid "Vertically homogeneous sizing"
+#~ msgstr "Pystysuuntaan yhtenevät koot"
+
+#~ msgid "Visible child"
+#~ msgstr "Näkyvä lapsiobjekti"
+
+#~ msgid "The widget currently visible"
+#~ msgstr "Nyt näkyvissä oleva pienohjelma"
+
+#~ msgid "Name of visible child"
+#~ msgstr "Näkyvän lapsiobjektin nimi"
+
+#~ msgid "The name of the widget currently visible"
+#~ msgstr "Nyt näkyvissä olevan pienohjelman nimi"
+
+#~ msgid "Transition type"
+#~ msgstr "Muutoksen tyyppi"
+
+#~ msgid "The type of animation used to transition between children"
+#~ msgstr "Animaation tyyppi siirryttäessä lapsiobjektien välillä"
+
+#~ msgid "Transition duration"
+#~ msgstr "Muutoksen kesto"
+
+#~ msgid "The transition animation duration, in milliseconds"
+#~ msgstr "Siirtymäanimaation kesto, millisekunneissa"
+
+#~ msgid "Transition running"
+#~ msgstr "Muutos menossa"
+
+#~ msgid "Whether or not the transition is currently running"
+#~ msgstr "Onko muutos juuri nyt käynnissä"
+
+#~ msgid "Interpolate size"
+#~ msgstr "Päättele koko"
+
+#~ msgid ""
+#~ "Whether or not the size should smoothly change when changing between "
+#~ "differently sized children"
+#~ msgstr ""
+#~ "Tulisiko koon vaihtua sulavasti vaihdettaessa erikokoisten lasten välillä"
+
+#~ msgid "Can swipe back"
+#~ msgstr "Voi hipaista takaisin"
+
+#~ msgid ""
+#~ "Whether or not swipe gesture can be used to switch to the previous child"
+#~ msgstr "Voidaanko hipaisua käyttää vaihtamaan edelliseen lapsiobjektiin"
+
+#~ msgid "Can swipe forward"
+#~ msgstr "Voi hipaista eteenpäin"
+
+#~ msgid "Whether or not swipe gesture can be used to switch to the next child"
+#~ msgstr "Voidaanko hipaisua käyttää vaihtamaan seuraavaan lapsiobjektiin"
+
+#~ msgid "Name"
+#~ msgstr "Nimi"
+
+#~ msgid "The name of the child page"
+#~ msgstr "Lapsiobjektin sivun nimi"
+
+# Aliotsikko vai tekstitys?
+#~ msgid "The subtitle for this row"
+#~ msgstr "Tämän rivin tekstitys"
+
+#~ msgid "Expanded"
+#~ msgstr "Laajennettu"
+
+#~ msgid "Whether the row is expanded"
+#~ msgstr "Onko rivi laajennettuna"
+
+#~ msgid "Enable expansion"
+#~ msgstr "Salli laajennus"
+
+#~ msgid "Whether the expansion is enabled"
+#~ msgstr "Onko laajennus käytössä"
+
+#~ msgid "Show enable switch"
+#~ msgstr "Näytä sallimisen kytkin"
+
+#~ msgid "Whether the switch enabling the expansion is visible"
+#~ msgstr "Onko laajennuksen käytön salliva kytkin näkyvissä"
+
+#~ msgid "Minimize"
+#~ msgstr "Minimoi"
+
+#~ msgid "Restore"
+#~ msgstr "Palauta"
+
+#~ msgid "Maximize"
+#~ msgstr "Maksimoi"
+
+#~ msgid "Pack type"
+#~ msgstr "Pakkauksen tyyppi"
+
+# Sisältö ei ihan aukea
+#~ msgid ""
+#~ "A GtkPackType indicating whether the child is packed with reference to "
+#~ "the start or end of the parent"
+#~ msgstr ""
+#~ "GtkPackType, joka kertoo mikäli lapsiobjektilla on yhteystieto "
+#~ "emoprosessin alkuun tai loppuun"
+
+#~ msgid "The index of the child in the parent"
+#~ msgstr "Lapsiobjektin indeksitunnus isännässä"
+
+#~ msgid "Title"
+#~ msgstr "Nimi"
+
+#~ msgid "The title to display"
+#~ msgstr "Näytettävä nimi"
+
+# Aliotsikko vai tekstitys?
+#~ msgid "The subtitle to display"
+#~ msgstr "Näytettävä tekstitys"
+
+#~ msgid "Custom Title"
+#~ msgstr "Itse valittu nimi"
+
+#~ msgid "Custom title widget to display"
+#~ msgstr "Itse valittu pienohjelman nimi esitettäväksi"
+
+#~ msgid "The amount of space between children"
+#~ msgstr "Tila lapsiobjektien välisen tilan määrä"
+
+#~ msgid "Show decorations"
+#~ msgstr "Näytä koristeet"
+
+#~ msgid "Whether to show window decorations"
+#~ msgstr "Näytetäänkö ikkunoiden koristeita"
+
+#~ msgid "Decoration Layout"
+#~ msgstr "Koristelun asettelu"
+
+#~ msgid "The layout for window decorations"
+#~ msgstr "Asettelu ikkunan koristeille"
+
+#~ msgid "Decoration Layout Set"
+#~ msgstr "Koristelun asettelun asettaminen"
+
+#~ msgid "Whether the decoration-layout property has been set"
+#~ msgstr "Onko koristeluasettelun ominaisuus asetettu"
+
+# aliotsikko vai tekstitys?
+#~ msgid "Has Subtitle"
+#~ msgstr "Tekstitys käytössä"
+
+# Aliotsikko vai teksitys?
+#~ msgid "Whether to reserve space for a subtitle"
+#~ msgstr "Varataanko tilaa tekstitykselle"
+
+#~ msgid "Centering policy"
+#~ msgstr "Keskityksen asetus"
+
+#~ msgid "The policy to horizontally align the center widget"
+#~ msgstr "Yleinen sääntö asetella keskimmäinen pienohjelma vaakatasossa"
+
+#~ msgid "The animation duration, in milliseconds"
+#~ msgstr "Animaation kesto, millisekunneissa"
+
+#~ msgid "Decorate all"
+#~ msgstr "Korista kaikki"
+
+#~ msgid ""
+#~ "Whether the elements of the group should all receive the full decoration"
+#~ msgstr "Kuuluuko joukon kaikkien elementtien saada täysi koristelu"
+
+# Merkki vai numero?
+#~ msgid "Digit"
+#~ msgstr "Merkki"
+
+#~ msgid "The keypad digit of the button"
+#~ msgstr "Näppäimistön painikkeen merkki"
+
+#~ msgid "Symbols"
+#~ msgstr "Symbolit"
+
+#~ msgid ""
+#~ "The keypad symbols of the button. The first symbol is used as the digit"
+#~ msgstr ""
+#~ "Näppäimistön painikkeen symbolit. Ensimmäistä symbolia käytetään merkkinä"
+
+#~ msgid "Show symbols"
+#~ msgstr "Näytä symbolit"
+
+#~ msgid "Whether the second line of symbols should be shown or not"
+#~ msgstr "Kuuluuko toisen rivillisen symboleita olla näkyvissä"
+
+#~ msgid "Row spacing"
+#~ msgstr "Rivien välys"
+
+#~ msgid "The amount of space between two consecutive rows"
+#~ msgstr "Kahden vierekkäisen rivin välisen tilan määrä"
+
+#~ msgid "Column spacing"
+#~ msgstr "Sarakkeiden välys"
+
+#~ msgid "The amount of space between two consecutive columns"
+#~ msgstr "Kahden vierekkäisen sarakkeen välisen tilan määrä"
+
+#~ msgid "Letters visible"
+#~ msgstr "Kirjaimia näkyvissä"
+
+#~ msgid "Whether the letters below the digits should be visible"
+#~ msgstr "Kuuluuko merkkien alla olevien kirjainten olla näkyvissä"
+
+#~ msgid "Symbols visible"
+#~ msgstr "Näkyvät symbolit"
+
+#~ msgid "Whether the hash, plus, and asterisk symbols should be visible"
+#~ msgstr "Kuuluuko risuaita-, plus- ja tähtimerkkien olla näkyvissä"
+
+#~ msgid "Entry"
+#~ msgstr "Merkintä"
+
+#~ msgid "The entry widget connected to the keypad"
+#~ msgstr "Sisääntulon pienohjelma liittyen näppäimistöön"
+
+#~ msgid "End action"
+#~ msgstr "Lopeta toiminta"
+
+#, fuzzy
+#~ msgid "The end action widget"
+#~ msgstr "Lopputoiminnon pienohjelma"
+
+#~ msgid "Start action"
+#~ msgstr "Aloita toiminto"
+
+#, fuzzy
+#~ msgid "The start action widget"
+#~ msgstr "Alkutoiminnon pienohjelma"
+
+#~ msgid "Folded"
+#~ msgstr "Taitettu kokoon"
+
+#~ msgid "Whether the widget is folded"
+#~ msgstr "Onko pienohjelma kokoon taitettuna"
+
+#~ msgid "Horizontally homogeneous folded"
+#~ msgstr "Vaakatasossa yhtenevästi kokoontaitettu"
+
+#~ msgid "Horizontally homogeneous sizing when the leaflet is folded"
+#~ msgstr "Vaakatasossa yhtenevät koot, kun sivulehdykkä on kokoon taitettuna"
+
+#~ msgid "Vertically homogeneous folded"
+#~ msgstr "Pystysuuntaan yhtenevästi kokoon taitetut"
+
+#~ msgid "Vertically homogeneous sizing when the leaflet is folded"
+#~ msgstr "Pystysuuntaan yhtenevät koot, kun sivulehdykkä on kokoon taitettuna"
+
+#~ msgid "Box horizontally homogeneous"
+#~ msgstr "Laatikoi vaakatasoon samansuuruisina"
+
+#~ msgid "Horizontally homogeneous sizing when the leaflet is unfolded"
+#~ msgstr "Vaakatasossa yhtenevät koot, kun sivulehdykkä on avattuna esiin"
+
+#~ msgid "Box vertically homogeneous"
+#~ msgstr "Laatikoi pystysuunnassa samansuuruisina"
+
+#~ msgid "Vertically homogeneous sizing when the leaflet is unfolded"
+#~ msgstr "Pystysuuntaan yhtenevät koot, kun sivulehdykkä on avattuna esiin"
+
+#~ msgid "The widget currently visible when the leaflet is folded"
+#~ msgstr ""
+#~ "Nyt näkyvissä oleva pienohjelma, kun sivulehdykkä on kokoon taitettuna"
+
+#~ msgid ""
+#~ "The name of the widget currently visible when the children are stacked"
+#~ msgstr ""
+#~ "Nyt näkyvissä olevan pienohjelman nimi, kun lapsiobjektit on kasattu"
+
+#~ msgid "The type of animation used to transition between modes and children"
+#~ msgstr "Animaation tyyppi siirryttäessä tilojen ja lapsiobjektien välillä"
+
+#~ msgid "Mode transition duration"
+#~ msgstr "Tilan muutoksen kesto"
+
+#~ msgid "The mode transition animation duration, in milliseconds"
+#~ msgstr "Tilan muutoksen animaation kesto, millisekunneissa"
+
+#~ msgid "Child transition duration"
+#~ msgstr "Lapsiobjektin siirtymän kesto"
+
+#~ msgid "The child transition animation duration, in milliseconds"
+#~ msgstr "Lapsiobjektin siirtymäanimaation kesto, millisekunneissa"
+
+#~ msgid "Child transition running"
+#~ msgstr "Lapsiobjektin siirtymä menossa"
+
+#~ msgid "Whether or not the child transition is currently running"
+#~ msgstr "Onko lapsiobjektin muutos juuri nyt käynnissä"
+
+#, fuzzy
+#~ msgid "Navigatable"
+#~ msgstr "Navigoitavissa"
+
+#~ msgid "Whether the child can be navigated to"
+#~ msgstr "Voiko lapsiobjektiin navigoida"
+
+#~ msgid "Description"
+#~ msgstr "Kuvaus"
+
+#~ msgid "The title of the preference"
+#~ msgstr "Asetusten nimi"
+
+#~ msgid "Whether search is enabled"
+#~ msgstr "Onko haku sallittu"
+
+#~ msgid ""
+#~ "Whether or not swipe gesture can be used to switch from a subpage to the "
+#~ "preferences"
+#~ msgstr "Voidaanko hipaisua käyttää vaihtamaan alisivulta asetuksiin"
+
+#~ msgid "Search Mode Enabled"
+#~ msgstr "Etsintätila sallittu"
+
+#~ msgid "Whether the search mode is on and the search bar shown"
+#~ msgstr "Onko hakutoiminto käytössä ja hakurivi näkyvissä"
+
+#~ msgid "Show Close Button"
+#~ msgstr "Näytä 'Sulje' nappi"
+
+#~ msgid "Whether to show the close button in the toolbar"
+#~ msgstr "Näytetäänkö 'Sulje' nappi työkalupalkissa"
+
+#~ msgid "Widget"
+#~ msgstr "Pienohjelma"
+
+#~ msgid "The widget the shadow will be drawn for"
+#~ msgstr "Pienohjelma, josta varjo piirretään"
+
+#~ msgid "Homogeneous"
+#~ msgstr "Yhtenevä"
+
+#~ msgid "Homogeneous sizing"
+#~ msgstr "Yhtenevän kokoinen"
+
+#~ msgid "The widget currently visible in the squeezer"
+#~ msgstr "Nyt puristimessa näkyvissä oleva pienohjelma"
+
+#~ msgid "The type of animation used to transition"
+#~ msgstr "Animaation tyyppi siirtymissä"
+
+#~ msgid "X align"
+#~ msgstr "X tasaus"
+
+#~ msgid "The horizontal alignment, from 0 (start) to 1 (end)"
+#~ msgstr "Vaakatason asettelu, alkaen 0:sta (alku) päättyen 1:een (loppu)"
+
+#~ msgid "Y align"
+#~ msgstr "Y tasaus"
+
+#~ msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+#~ msgstr ""
+#~ "Pystysuuntainen sijoittuminen, alkaen 0:sta (ylin) loppuen 1:een (alin)"
+
+#~ msgid "Enabled"
+#~ msgstr "Sallittu"
+
+#~ msgid ""
+#~ "Whether the child can be picked or should be ignored when looking for the "
+#~ "child fitting the available size best"
+#~ msgstr ""
+#~ "Voiko lapsiobjektin valita vai pitäisikö se sivuuttaa, kun etsitään "
+#~ "saatavilla olevaan kokoon sopivaa lapsiobjektia"
+
+#~ msgid "Horizontally homogeneous sizing when the widget is folded"
+#~ msgstr "Vaakatasossa yhtenevät koot, kun pienohjelma on kokoontaitettuna"
+
+#~ msgid "Vertically homogeneous sizing when the widget is folded"
+#~ msgstr "Pystysuuntaan yhtenevät koot, kun pienohjelma on kokoon taitettuna"
+
+#~ msgid "Horizontally homogeneous sizing when the widget is unfolded"
+#~ msgstr "Vaakatasossa yhtenevät koot, kun pienohjelma on avattuna esiin"
+
+#~ msgid "Vertically homogeneous sizing when the widget is unfolded"
+#~ msgstr "Pystysuuntaan yhtenevät koot, kun pienohjelma on avattuna esiin"
+
+#~ msgid "The widget currently visible when the widget is folded"
+#~ msgstr ""
+#~ "Nyt näkyvissä oleva pienohjelma, kun pienohjelma on kokoon taitettuna"
+
+#~ msgid "Orientation"
+#~ msgstr "Suunta"
+
+#~ msgid "Swipeable"
+#~ msgstr "Hipaistavissa"
+
+#~ msgid "The swipeable the swipe tracker is attached to"
+#~ msgstr "Hipaistavissa oleva, johon hipaisun seuranta liittyy"
+
+#~ msgid "Whether the swipe tracker processes events"
+#~ msgstr "Käsitteleekö hipaisujen seuraaja tapahtumia"
+
+#~ msgid "Reversed"
+#~ msgstr "Käänteinen"
+
+#~ msgid "Whether swipe direction is reversed"
+#~ msgstr "Onko hipaisun suunta käänteinen"
+
+#~ msgid "Selection mode"
+#~ msgstr "Valintatila"
+
+#~ msgid "Whether or not the title bar is in selection mode"
+#~ msgstr "Onko otsikkopalkki valintatilassa"
+
+#~ msgctxt "HdyValueObjectClass"
+#~ msgid "Value"
+#~ msgstr "Arvo"
+
+#~ msgctxt "HdyValueObjectClass"
+#~ msgid "The contained value"
+#~ msgstr "Kohteen arvo"
+
+#~ msgid "Policy"
+#~ msgstr "Yleinen sääntö"
+
+#~ msgid "The policy to determine the mode to use"
+#~ msgstr "Yleinen sääntö, jolla määrätään mitä tilaa käytetään"
+
+#~ msgid "Stack"
+#~ msgstr "Kasa"
+
+#~ msgid "Reveal"
+#~ msgstr "Paljasta"
+
+#~ msgid "Whether the view switcher is revealed"
+#~ msgstr "Onko näkymän vaihtaja paljastettu"
+
+#~ msgid "Icon Name"
+#~ msgstr "Kuvakkeen nimi"
+
+#~ msgid "Icon name for image"
+#~ msgstr "Kuvakkeen nimi kuvalle"
+
+#~ msgid "Icon Size"
+#~ msgstr "Kuvakkeen koko"
+
+#~ msgid "Symbolic size to use for named icon"
+#~ msgstr "Symbolinen koko käytettäväksi nimetylle ikonille"
+
+#~ msgid "Needs attention"
+#~ msgstr "Tarvitsee huomiota"
+
+#~ msgid "Hint the view needs attention"
+#~ msgstr "Vihje näkymän huomion tarpeesta"
+
+#~ msgid "Narrow ellipsize"
+#~ msgstr "Merkkijonon lyhennys pisteillä"
+
+#~ msgid ""
+#~ "The preferred place to ellipsize the string, if the narrow mode label "
+#~ "does not have enough room to display the entire string"
+#~ msgstr ""
+#~ "Haluttu kohta, jossa merkkijonoa kavennetaan pisteillä, mikäli kapean "
+#~ "tilan otsakkeella ei ole tarpeeksi tilaa esittää koko merkkijonoa"
+
+#~ msgid "View switcher enabled"
+#~ msgstr "Näkymänyhdistäjä käytössä"
+
+#~ msgid "Whether the view switcher is enabled"
+#~ msgstr "Onko näkymän vaihtaja käytössä"
+
+#~ msgid "Title visible"
+#~ msgstr "Nimi näkyvissä"
+
+#~ msgid "Whether the title label is visible"
+#~ msgstr "Onko nimen otsakerivi näkyvissä"
+
+#~ msgid "Move"
+#~ msgstr "Siirrä"
+
+#~ msgid "Resize"
+#~ msgstr "Muuta kokoa"
+
+#~ msgid "Always on Top"
+#~ msgstr "Aina päällimmäisenä"

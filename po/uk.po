@@ -1,0 +1,1272 @@
+# Ukrainian translation for libhandy.
+# Copyright (C) 2020 libhandy's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libhandy package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2020, 2021, 2022, 2023, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: libhandy master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"POT-Creation-Date: 2024-02-26 19:00+0000\n"
+"PO-Revision-Date: 2024-02-26 22:17+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 23.04.1\n"
+
+#: src/adw-about-dialog.c:207 src/adw-about-window.c:206
+msgid "GNU General Public License, version 2 or later"
+msgstr "Загальна громадська ліцензія GNU (GNU GPL), версія 2 або новіша"
+
+#: src/adw-about-dialog.c:208 src/adw-about-window.c:207
+msgid "GNU General Public License, version 3 or later"
+msgstr "Загальна громадська ліцензія GNU (GNU GPL), версія 3 або новіша"
+
+#: src/adw-about-dialog.c:209 src/adw-about-window.c:208
+msgid "GNU Lesser General Public License, version 2.1 or later"
+msgstr ""
+"Звужена загальна громадська ліцензія GNU (GNU LGPL), версія 2.1 або новіша"
+
+#: src/adw-about-dialog.c:210 src/adw-about-window.c:209
+msgid "GNU Lesser General Public License, version 3 or later"
+msgstr ""
+"Звужена загальна громадська ліцензія GNU (GNU LGPL), версія 3 або новіша"
+
+#: src/adw-about-dialog.c:211 src/adw-about-window.c:210
+msgid "BSD 2-Clause License"
+msgstr "Спрощена (2-Clause) ліцензія BSD"
+
+#: src/adw-about-dialog.c:212 src/adw-about-window.c:211
+msgid "The MIT License (MIT)"
+msgstr "Ліцензія MIT (MIT)"
+
+#: src/adw-about-dialog.c:213 src/adw-about-window.c:212
+msgid "Artistic License 2.0"
+msgstr "Артистична ліцензія 2.0"
+
+#: src/adw-about-dialog.c:214 src/adw-about-window.c:213
+msgid "GNU General Public License, version 2 only"
+msgstr "Загальна громадська ліцензія GNU (GNU GPL), лише версії 2"
+
+#: src/adw-about-dialog.c:215 src/adw-about-window.c:214
+msgid "GNU General Public License, version 3 only"
+msgstr "Загальна громадська ліцензія GNU (GNU GPL), лише версії 3"
+
+#: src/adw-about-dialog.c:216 src/adw-about-window.c:215
+msgid "GNU Lesser General Public License, version 2.1 only"
+msgstr "Скорочена загальна громадська ліцензія GNU, лише версії 2.1"
+
+#: src/adw-about-dialog.c:217 src/adw-about-window.c:216
+msgid "GNU Lesser General Public License, version 3 only"
+msgstr "Скорочена загальна громадська ліцензія GNU, лише версії 3"
+
+#: src/adw-about-dialog.c:218 src/adw-about-window.c:217
+msgid "GNU Affero General Public License, version 3 or later"
+msgstr "Звужена загальна громадська ліцензія GNU Affero, версія 3 або новіша"
+
+#: src/adw-about-dialog.c:219 src/adw-about-window.c:218
+msgid "GNU Affero General Public License, version 3 only"
+msgstr "Загальна громадська ліцензія Affero GNU (GNU GPL), лише версії 3"
+
+#: src/adw-about-dialog.c:220 src/adw-about-window.c:219
+msgid "BSD 3-Clause License"
+msgstr "Спрощена (3-Clause) ліцензія BSD"
+
+#: src/adw-about-dialog.c:221 src/adw-about-window.c:220
+msgid "Apache License, Version 2.0"
+msgstr "Ліцензія Apache, версія 2.0"
+
+#: src/adw-about-dialog.c:222 src/adw-about-window.c:221
+msgid "Mozilla Public License 2.0"
+msgstr "Громадська ліцензія Mozilla 2.0"
+
+#: src/adw-about-dialog.c:223 src/adw-about-window.c:222
+#| msgid "BSD 2-Clause License"
+msgid "BSD Zero-Clause License"
+msgstr "Ліцензія Zero-Clause BSD"
+
+#: src/adw-about-dialog.c:560 src/adw-about-window.c:558
+msgid "Code by"
+msgstr "Програмний код"
+
+#: src/adw-about-dialog.c:561 src/adw-about-window.c:559
+msgid "Design by"
+msgstr "Дизайн"
+
+#: src/adw-about-dialog.c:562 src/adw-about-window.c:560
+msgid "Artwork by"
+msgstr "Графіка"
+
+#: src/adw-about-dialog.c:563 src/adw-about-window.c:561
+msgid "Documentation by"
+msgstr "Документація"
+
+#: src/adw-about-dialog.c:564 src/adw-about-window.c:562
+msgid "Translated by"
+msgstr "Переклад"
+
+#. Translators: this is the license preamble; the string at the end
+#. * contains the name of the license as link text.
+#.
+#: src/adw-about-dialog.c:593 src/adw-about-window.c:591
+#, c-format
+msgid ""
+"This application comes with absolutely no warranty. See the <a "
+"href=\"%s\">%s</a> for details."
+msgstr ""
+"Ця програма постачається БЕЗ БУДЬ-ЯКИХ ГАРАНТІЙ. Щоб дізнатися більше, "
+"відвідайте <a href=\"%s\">%s</a>."
+
+#: src/adw-about-dialog.c:671 src/adw-about-window.c:669
+msgid "This Application"
+msgstr "Ця програма"
+
+#: src/adw-about-dialog.c:973 src/adw-about-window.c:971
+#, c-format
+msgid "Version %s"
+msgstr "Версія %s"
+
+#: src/adw-about-dialog.c:999 src/adw-about-window.c:997
+msgid "Unable to parse release notes:"
+msgstr "Не вдалося обробити нотатки щодо випуску:"
+
+#: src/adw-about-dialog.c:1005 src/adw-about-window.c:1003
+#, c-format
+msgid "Line: %d, character: %d"
+msgstr "Рядок: %d, символ: %d"
+
+#: src/adw-about-dialog.c:1291 src/adw-about-window.c:1289
+msgid "Copied to clipboard"
+msgstr "Скопійовано до буфера обміну"
+
+#: src/adw-about-dialog.c:1318 src/adw-about-window.c:1317
+msgid "Unable to save debugging information"
+msgstr "Не вдалося зберегти діагностичні дані"
+
+#: src/adw-about-dialog.c:1323 src/adw-about-window.c:1322
+msgid "Close"
+msgstr "Закрити"
+
+#: src/adw-about-dialog.c:1340 src/adw-about-window.c:1338
+msgid "Save debugging information"
+msgstr "Зберегти діагностичні дані"
+
+#: src/adw-about-dialog.ui:5 src/adw-about-window.ui:5
+msgid "About"
+msgstr "Про програму"
+
+#: src/adw-about-dialog.ui:89 src/adw-about-window.ui:92
+msgid "_What’s New"
+msgstr "_Що нового"
+
+#: src/adw-about-dialog.ui:105 src/adw-about-window.ui:108
+msgid "_Details"
+msgstr "Подро_биці"
+
+#: src/adw-about-dialog.ui:121 src/adw-about-dialog.ui:341
+#: src/adw-about-window.ui:124 src/adw-about-window.ui:344
+msgid "_Website"
+msgstr "_Сайт"
+
+#: src/adw-about-dialog.ui:145 src/adw-about-window.ui:148
+msgid "_Support Questions"
+msgstr "П_итання супроводу"
+
+#: src/adw-about-dialog.ui:162 src/adw-about-window.ui:165
+msgid "_Report an Issue"
+msgstr "По_відомити про ваду"
+
+#: src/adw-about-dialog.ui:178 src/adw-about-window.ui:181
+msgid "_Troubleshooting"
+msgstr "_Усунення проблем"
+
+#: src/adw-about-dialog.ui:198 src/adw-about-window.ui:201
+msgid "_Credits"
+msgstr "_Подяки"
+
+#: src/adw-about-dialog.ui:214 src/adw-about-window.ui:217
+msgid "_Legal"
+msgstr "_Юридичні відомості"
+
+#: src/adw-about-dialog.ui:230 src/adw-about-window.ui:233
+msgid "_Acknowledgements"
+msgstr "_Відомості"
+
+#: src/adw-about-dialog.ui:260 src/adw-about-window.ui:263
+msgid "What’s New"
+msgstr "Що нового?"
+
+#: src/adw-about-dialog.ui:303 src/adw-about-window.ui:306
+msgid "Details"
+msgstr "Подробиці"
+
+#: src/adw-about-dialog.ui:369 src/adw-about-window.ui:372
+msgid "Troubleshooting"
+msgstr "Усунення проблем"
+
+#: src/adw-about-dialog.ui:392 src/adw-about-window.ui:395
+msgid ""
+"To assist in troubleshooting, you can view your debugging information. "
+"Providing this information to the application developers can help diagnose "
+"any problems you encounter when you report an issue."
+msgstr ""
+"Щоб полегшити усування проблем, ви можете переглянути діагностичні дані. "
+"Надання цих даних розробникам програм у вашому звіті щодо вади може "
+"допомогти у визначенні джерела проблеми, з якою ви зіткнулися."
+
+#: src/adw-about-dialog.ui:403 src/adw-about-window.ui:406
+msgid "_Debugging Information"
+msgstr "_Діагностичні дані"
+
+#: src/adw-about-dialog.ui:430 src/adw-about-window.ui:433
+msgid "Debugging Information"
+msgstr "Діагностичні дані"
+
+#: src/adw-about-dialog.ui:475 src/adw-about-window.ui:478
+msgid "_Copy Text"
+msgstr "_Копіювати текст"
+
+#: src/adw-about-dialog.ui:483 src/adw-about-window.ui:486
+msgid "_Save As…"
+msgstr "З_берегти як…"
+
+#: src/adw-about-dialog.ui:496 src/adw-about-window.ui:499
+msgid "Credits"
+msgstr "Подяки"
+
+#: src/adw-about-dialog.ui:527 src/adw-about-window.ui:530
+msgid "Legal"
+msgstr "Юридичні відомості"
+
+#: src/adw-about-dialog.ui:559 src/adw-about-window.ui:562
+msgid "Acknowledgements"
+msgstr "Відомості"
+
+#: src/adw-back-button.c:347 src/adw-back-button.c:445
+#: src/adw-back-button.c:555
+msgid "Back"
+msgstr "Назад"
+
+#. Translators: This is a placeholder text of the search entry from AdwComboRow. It should be phrased as a verb.
+#: src/adw-combo-row.ui:50 src/adw-preferences-dialog.ui:85
+#: src/adw-preferences-window.ui:96
+msgid "Search"
+msgstr "Пошук"
+
+#: src/adw-entry-row.ui:97
+msgid "Apply"
+msgstr "Застосувати"
+
+#: src/adw-inspector-page.c:75
+msgid "No Preference"
+msgstr "Без переваг"
+
+#: src/adw-inspector-page.c:77
+msgid "Prefer Dark"
+msgstr "Перевага темної"
+
+#: src/adw-inspector-page.c:79
+msgid "Prefer Light"
+msgstr "Перевага світлої"
+
+#. Translators: The name of the library, not the stylesheet
+#: src/adw-inspector-page.c:97
+msgid "Adwaita"
+msgstr "Adwaita"
+
+#: src/adw-inspector-page.ui:10
+msgid "System Appearance"
+msgstr "Вигляд системи"
+
+#: src/adw-inspector-page.ui:11
+msgid ""
+"Override settings for this application. They will be reset upon closing the "
+"inspector."
+msgstr ""
+"Перевизначити параметри для цієї програми. Перевизначення буде скинуто після "
+"закриття вікна інспектування."
+
+#: src/adw-inspector-page.ui:14
+msgid "System Supports Color Schemes"
+msgstr "У системі передбачено підтримку схем кольорів"
+
+#: src/adw-inspector-page.ui:20
+msgid "Preferred Color Scheme"
+msgstr "Бажана схема кольорів"
+
+#: src/adw-inspector-page.ui:37
+msgid "High Contrast"
+msgstr "Висока контрастність"
+
+#: src/adw-password-entry-row.c:70
+msgid "Hide Password"
+msgstr "Приховати пароль"
+
+#: src/adw-password-entry-row.c:74
+msgid "Show Password"
+msgstr "Показати пароль"
+
+#: src/adw-password-entry-row.c:168
+msgid "Caps Lock is on"
+msgstr "Caps Lock увімкнено"
+
+#: src/adw-password-entry-row.c:176
+msgid "_Show Password"
+msgstr "_Показати пароль"
+
+#: src/adw-preferences-dialog.c:256 src/adw-preferences-window.c:259
+msgid "Untitled page"
+msgstr "Сторінка без назви"
+
+#: src/adw-preferences-dialog.ui:5 src/adw-preferences-window.ui:8
+msgid "Preferences"
+msgstr "Налаштування"
+
+#: src/adw-preferences-dialog.ui:70 src/adw-preferences-window.ui:81
+msgid "Search preferences"
+msgstr "Параметри пошуку"
+
+#: src/adw-preferences-dialog.ui:152 src/adw-preferences-window.ui:163
+msgid "No Results Found"
+msgstr "Нічого не знайдено"
+
+#: src/adw-preferences-dialog.ui:153 src/adw-preferences-window.ui:164
+#: src/adw-tab-overview.ui:111
+msgid "Try a different search."
+msgstr "Спробуйте інші критерії пошуку."
+
+#: src/adw-split-button.c:519 src/adw-split-button.c:1033
+msgid "More Options"
+msgstr "Додаткові параметри"
+
+#: src/adw-tab-button.ui:7
+msgid "View Open Tabs"
+msgstr "Переглянути відкриті вкладки"
+
+#. Translators: Tab overview title, %u is the number of open tabs
+#: src/adw-tab-overview.c:928
+#, c-format
+msgid "%u Tab"
+msgid_plural "%u Tabs"
+msgstr[0] "%u вкладка"
+msgstr[1] "%u вкладки"
+msgstr[2] "%u вкладок"
+msgstr[3] "%u вкладка"
+
+#: src/adw-tab-overview.ui:21
+msgid "Search Tabs"
+msgstr "Шукати вкладки"
+
+#: src/adw-tab-overview.ui:51
+msgid "Search tabs"
+msgstr "Шукати вкладки"
+
+#: src/adw-tab-overview.ui:97
+msgid "No Open Tabs"
+msgstr "Немає відкритих вкладок"
+
+#: src/adw-tab-overview.ui:110
+msgid "No Tabs Found"
+msgstr "Вкладок не знайдено"
+
+#: src/adw-tab-overview.ui:131
+msgid "New _Tab"
+msgstr "Нова _вкладка"
+
+#: src/adw-tab-thumbnail.ui:39 src/adw-tab.ui:95
+msgid "Close Tab"
+msgstr "Закрити вкладку"
+
+#~ msgid "Search…"
+#~ msgstr "Шукати…"
+
+#~ msgid "Hide Text"
+#~ msgstr "Сховати текст"
+
+#~ msgid "Show Text"
+#~ msgstr "Показати текст"
+
+#~ msgid "_Show Text"
+#~ msgstr "По_казати текст"
+
+#~ msgid "_Save"
+#~ msgstr "З_берегти"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Скасувати"
+
+#~ msgid "Icon name"
+#~ msgstr "Назва піктограми"
+
+#~ msgid "Activatable widget"
+#~ msgstr "Активований віджет"
+
+#~ msgid "The widget to be activated when the row is activated"
+#~ msgstr "Віджет, який буде активовано, якщо активовано рядок"
+
+#~ msgid "Subtitle"
+#~ msgstr "Підзаголовок"
+
+#~ msgid "Use underline"
+#~ msgstr "Використовувати підкреслення"
+
+#~ msgid ""
+#~ "If set, an underline in the text indicates the next character should be "
+#~ "used for the mnemonic accelerator key"
+#~ msgstr ""
+#~ "Якщо встановлено, то підкреслення в тексті означає, що наступний символ "
+#~ "має використовуватися в комбінації клавіш."
+
+#~ msgid "Number of title lines"
+#~ msgstr "Кількість рядків у заголовку"
+
+#~ msgid "The desired number of title lines"
+#~ msgstr "Бажана кількість рядків у заголовку"
+
+#~ msgid "Number of subtitle lines"
+#~ msgstr "Кількість рядків у підзаголовку"
+
+#~ msgid "The desired number of subtitle lines"
+#~ msgstr "Бажана кількість рядків у підзаголовку"
+
+#~ msgid "Child"
+#~ msgstr "Дочірній"
+
+#~| msgid "The flap widget"
+#~ msgid "The child widget"
+#~ msgstr "Дочірній віджет"
+
+#~ msgid "Number of pages"
+#~ msgstr "Кількість сторінок"
+
+#~ msgid "Position"
+#~ msgstr "Позиція"
+
+#~ msgid "Current scrolling position"
+#~ msgstr "Поточна позиція гортання"
+
+#~ msgid "Spacing"
+#~ msgstr "Інтервал"
+
+#~ msgid "Spacing between pages"
+#~ msgstr "Інтервал між сторінками"
+
+#~ msgid "Reveal duration"
+#~ msgstr "Тривалість появи"
+
+#~ msgid "Page reveal duration"
+#~ msgstr "Тривалість появи сторінки"
+
+#~ msgid "Interactive"
+#~ msgstr "Інтерактивний"
+
+#~ msgid "Whether the widget can be swiped"
+#~ msgstr "Визначає, чи можна змахнути віджет"
+
+#~ msgid "Animation duration"
+#~ msgstr "Тривалість анімації"
+
+#~ msgid "Default animation duration"
+#~ msgstr "Типова тривалість анімації"
+
+#~ msgid "Allow mouse drag"
+#~ msgstr "Дозволити перетягування мишею"
+
+#~ msgid "Whether to allow dragging with mouse pointer"
+#~ msgstr "Визначає, чи можна перетягувати за допомогою вказівника миші"
+
+#~ msgid "Allow long swipes"
+#~ msgstr "Дозволити довгі змахування"
+
+#~ msgid "Whether to allow swiping for more than one page at a time"
+#~ msgstr "Визначає, чи дозволено змахування декількох сторінок одним рухом"
+
+#~ msgid "Carousel"
+#~ msgstr "Карусель"
+
+#~ msgid "Maximum size"
+#~ msgstr "Максимальний розмір"
+
+#~ msgid "The maximum size allocated to the child"
+#~ msgstr "Максимальний розмір, який буде отримано для дочірнього об'єкта"
+
+#~ msgid "Tightening threshold"
+#~ msgstr "Поріг ущільнення"
+
+#~ msgid "The size from which the clamp will tighten its grip on the child"
+#~ msgstr ""
+#~ "Розмір, починаючи з якого защіпка починає ущільнювати дочірній об'єкт"
+
+#~ msgid "Model"
+#~ msgstr "Модель"
+
+#~| msgid "The index of the selected item"
+#~ msgid "Model for the displayed items"
+#~ msgstr "Модель для показаних пунктів"
+
+#~| msgid "Selected index"
+#~ msgid "Selected"
+#~ msgstr "Позначено"
+
+#~| msgid "The index of the selected item"
+#~ msgid "Position of the selected item"
+#~ msgstr "Розташування позначеного пункту"
+
+#~| msgid "Selected index"
+#~ msgid "Selected Item"
+#~ msgstr "Вибраний елемент"
+
+#~| msgid "The index of the selected item"
+#~ msgid "The selected item"
+#~ msgstr "Позначений пункт"
+
+#~ msgid "Factory"
+#~ msgstr "Фабрика"
+
+#~ msgid "Factory for populating list items"
+#~ msgstr "Фабрика для заповнення пунктів списку"
+
+#~ msgid "List Factory"
+#~ msgstr "Фабрика списку"
+
+#~ msgid "Expression"
+#~ msgstr "Вираз"
+
+#~ msgid "Expression to determine strings to search for"
+#~ msgstr "Вираз, який визначає рядки для пошуку"
+
+#~ msgid "Use subtitle"
+#~ msgstr "Використовувати підзаголовок"
+
+#~ msgid "Set the current value as the subtitle"
+#~ msgstr "Встановити поточне значення як підзаголовок"
+
+#~ msgid "Enum type"
+#~ msgstr "Тип переліку"
+
+#~ msgid "The type of the enum to construct the model from"
+#~ msgstr "Тип переліку, на основі якого слід побудувати модель"
+
+#~| msgctxt "HdyValueObjectClass"
+#~| msgid "Value"
+#~ msgid "Value"
+#~ msgstr "Значення"
+
+#~ msgid "The enum object value"
+#~ msgstr "Значення об'єкта переліку"
+
+#~ msgid "Name"
+#~ msgstr "Назва"
+
+#~ msgid "The enum object name"
+#~ msgstr "Назва об'єкта переліку"
+
+#~ msgid "Nick"
+#~ msgstr "Псевдонім"
+
+#~ msgid "The enum object nick"
+#~ msgstr "Псевдонім об'єкта переліку"
+
+#~ msgid "The subtitle for this row"
+#~ msgstr "Підзаголовок цього рядка"
+
+#~ msgid "Expanded"
+#~ msgstr "Розгорнутий"
+
+#~ msgid "Whether the row is expanded"
+#~ msgstr "Чи є рядок розгорнутим"
+
+#~ msgid "Enable expansion"
+#~ msgstr "Увімкнути розгортання"
+
+#~ msgid "Whether the expansion is enabled"
+#~ msgstr "Визначає, чи увімкнено розгортання"
+
+#~ msgid "Show enable switch"
+#~ msgstr "Показувати перемикач вмикання"
+
+#~ msgid "Whether the switch enabling the expansion is visible"
+#~ msgstr "Визначає, чи є видимим перемикач, який вмикає розгортання"
+
+#~ msgid "Content"
+#~ msgstr "Вміст"
+
+#~ msgid "The content Widget"
+#~ msgstr "Віджет вмісту"
+
+#~ msgid "Flap"
+#~ msgstr "Відкидна панель"
+
+#~ msgid "The flap widget"
+#~ msgstr "Віджет відкидної панелі"
+
+#~ msgid "Separator"
+#~ msgstr "Роздільник"
+
+#~ msgid "The separator widget"
+#~ msgstr "Віджет роздільника"
+
+#~ msgid "Flap Position"
+#~ msgstr "Позиція відкидної панелі"
+
+#~ msgid "The flap position"
+#~ msgstr "Позиція відкидної панелі"
+
+#~ msgid "Reveal Flap"
+#~ msgstr "Розкриття відкидної панелі"
+
+#~ msgid "Whether the flap is revealed"
+#~ msgstr "Визначає, чи розкрито відкидну панель"
+
+#~ msgid "Reveal Duration"
+#~ msgstr "Тривалість розкриття"
+
+#~ msgid "The reveal transition animation duration, in milliseconds"
+#~ msgstr "Тривалість анімації переходу розкриття у мілісекундах"
+
+#~ msgid "Reveal Progress"
+#~ msgstr "Поступ розкриття"
+
+#~ msgid "The current reveal transition progress"
+#~ msgstr "Поточний поступ переходу розкриття"
+
+#~ msgid "Fold Policy"
+#~ msgstr "Правила відкидної панелі"
+
+#~ msgid "The current fold policy"
+#~ msgstr "Поточні правила згортання"
+
+#~ msgid "Fold Duration"
+#~ msgstr "Тривалість згортання"
+
+#~ msgid "The fold transition animation duration, in milliseconds"
+#~ msgstr "Тривалість анімації переходу згортання у мілісекундах"
+
+#~ msgid "Folded"
+#~ msgstr "Згорнуто"
+
+#~ msgid "Whether the flap is currently folded"
+#~ msgstr "Визначає, чи згорнуто відкидну панель"
+
+#~ msgid "Locked"
+#~ msgstr "Заблоковано"
+
+#~ msgid "Whether the flap is locked"
+#~ msgstr "Визначає, чи заблоковано відкидну панель"
+
+#~ msgid "Transition Type"
+#~ msgstr "Тип переходу"
+
+#~ msgid "The type of animation used for reveal and fold transitions"
+#~ msgstr ""
+#~ "Тип анімації, яку буде використано для переходів розгортання і згортання"
+
+#~ msgid "Modal"
+#~ msgstr "Модальне"
+
+#~ msgid "Whether the flap is modal"
+#~ msgstr "Визначає, чи є відкидна панель модальною"
+
+#~ msgid "Swipe to Open"
+#~ msgstr "Змахнути для відкриття"
+
+#~ msgid "Whether the flap can be opened with a swipe gesture"
+#~ msgstr "Визначає, чи можна відкрити відкидну панель жестом змахування"
+
+#~ msgid "Swipe to Close"
+#~ msgstr "Змахування для закриття"
+
+#~ msgid "Whether the flap can be closed with a swipe gesture"
+#~ msgstr "Визначає, чи можна закрити відкидну панель жестом змахування"
+
+#~| msgid "The content Widget"
+#~ msgid "Title Widget"
+#~ msgstr "Віджет заголовка"
+
+#~| msgid "Custom title widget to display"
+#~ msgid "Title widget to display"
+#~ msgstr "Віджет заголовка, який слід показати"
+
+#~| msgid "Show Close Button"
+#~ msgid "Show start title buttons"
+#~ msgstr "Показувати кнопки на початку заголовка"
+
+#~| msgid "Whether to show the close button in the toolbar"
+#~ msgid "Whether to show start title buttons"
+#~ msgstr "Чи показувати кнопки на початку заголовка"
+
+#~| msgid "Show Close Button"
+#~ msgid "Show end title buttons"
+#~ msgstr "Показувати кнопки наприкінці заголовка"
+
+#~| msgid "Whether to show window decorations"
+#~ msgid "Whether to show end title buttons"
+#~ msgstr "Чи показувати кнопки наприкінці заголовка"
+
+#~ msgid "Decoration Layout"
+#~ msgstr "Компонування оформлення"
+
+#~ msgid "The layout for window decorations"
+#~ msgstr "Компонування оформлення вікон"
+
+#~ msgid "Centering policy"
+#~ msgstr "Правила центрування"
+
+#~ msgid "The policy to horizontally align the center widget"
+#~ msgstr "Правила для горизонтального вирівнювання центрального віджета"
+
+#~| msgid "The name of the child page"
+#~ msgid "The child of the page"
+#~ msgstr "Дочірній об'єкт сторінки"
+
+#~ msgid "The name of the child page"
+#~ msgstr "Назва дочірньої сторінки"
+
+#~ msgid "Navigatable"
+#~ msgstr "Придатний до навігації"
+
+#~ msgid "Whether the child can be navigated to"
+#~ msgstr "Визначає, чи можна переходити до дочірнього об'єкта"
+
+#~ msgid "Whether the widget is folded"
+#~ msgstr "Визначає, чи згорнуто віджет"
+
+#~ msgid "Horizontally homogeneous folded"
+#~ msgstr "Горизонтально однорідний згорнутий"
+
+#~ msgid "Horizontally homogeneous sizing when the leaflet is folded"
+#~ msgstr "Однорідний за розміром горизонтально, якщо листівку згорнуто"
+
+#~ msgid "Vertically homogeneous folded"
+#~ msgstr "Вертикально однорідний згорнутий"
+
+#~ msgid "Vertically homogeneous sizing when the leaflet is folded"
+#~ msgstr "Однорідний за розміром вертикально, якщо листівку згорнуто"
+
+#~ msgid "Box horizontally homogeneous"
+#~ msgstr "Панель горизонтально однорідна"
+
+#~ msgid "Horizontally homogeneous sizing when the leaflet is unfolded"
+#~ msgstr "Однорідний за розміром горизонтально, якщо листівку розгорнуто"
+
+#~ msgid "Box vertically homogeneous"
+#~ msgstr "Панель вертикально однорідна"
+
+#~ msgid "Vertically homogeneous sizing when the leaflet is unfolded"
+#~ msgstr "Однорідний за розміром вертикально, якщо листівку розгорнуто"
+
+#~ msgid "Visible child"
+#~ msgstr "Видимий дочірній елемент"
+
+#~ msgid "The widget currently visible when the leaflet is folded"
+#~ msgstr "Віджет є видимим, коли листівку згорнуто"
+
+#~ msgid "Name of visible child"
+#~ msgstr "Назва видимого дочірнього елемента"
+
+#~ msgid ""
+#~ "The name of the widget currently visible when the children are stacked"
+#~ msgstr "Назва віджета є видимою, коли дочірні об'єкти розташовано у стосі"
+
+#~ msgid "Transition type"
+#~ msgstr "Тип переходу"
+
+#~ msgid "The type of animation used to transition between modes and children"
+#~ msgstr ""
+#~ "Тип анімації, який буде використано для переходу між режимами і дочірніми "
+#~ "об'єктами"
+
+#~ msgid "Mode transition duration"
+#~ msgstr "Тривалість переходу між режимами"
+
+#~ msgid "The mode transition animation duration, in milliseconds"
+#~ msgstr "Тривалість анімації переходу між режимами у мілісекундах"
+
+#~ msgid "Child transition duration"
+#~ msgstr "Тривалість переходу між дочірніми об'єктами"
+
+#~ msgid "The child transition animation duration, in milliseconds"
+#~ msgstr "Тривалість анімації переходу між дочірніми об'єктами у мілісекундах"
+
+#~ msgid "Child transition running"
+#~ msgstr "Виконання переходу між дочірніми об'єктами"
+
+#~ msgid "Whether or not the child transition is currently running"
+#~ msgstr "Чи виконується перехід між дочірніми об'єктами цієї миті"
+
+#~ msgid "Interpolate size"
+#~ msgstr "Інтерполювати розмір"
+
+#~ msgid ""
+#~ "Whether or not the size should smoothly change when changing between "
+#~ "differently sized children"
+#~ msgstr ""
+#~ "Визначає, чи повинен розмір змінюватися плавно при перемиканні між "
+#~ "дочірніми елементами різних розмірів"
+
+#~ msgid "Can swipe back"
+#~ msgstr "Можна змахнути назад"
+
+#~ msgid ""
+#~ "Whether or not swipe gesture can be used to switch to the previous child"
+#~ msgstr ""
+#~ "Визначає, чи можна скористатися жестом змахування для перемикання до "
+#~ "попереднього дочірнього об'єкта"
+
+#~ msgid "Can swipe forward"
+#~ msgstr "Можна змахувати вперед"
+
+#~ msgid "Whether or not swipe gesture can be used to switch to the next child"
+#~ msgstr ""
+#~ "Визначає, чи можна скористатися жестом змахування для перемикання до "
+#~ "наступного дочірнього об'єкта"
+
+#~ msgid "Can unfold"
+#~ msgstr "Можна розгортати"
+
+#~| msgid "Whether or not the title bar is in selection mode"
+#~ msgid "Whether or not the leaflet can unfold"
+#~ msgstr "Визначає, чи можна розгортати відгалуження"
+
+#~ msgid "Pages"
+#~ msgstr "Сторінки"
+
+#~ msgid "A selection model with the leaflet's pages"
+#~ msgstr "Модель вибору із відгалуженнями сторінок"
+
+#~ msgid "Description"
+#~ msgstr "Опис"
+
+#~ msgid "Title"
+#~ msgstr "Заголовок"
+
+#~ msgid ""
+#~ "Whether an embedded underline in the text of the title label indicates a "
+#~ "mnemonic"
+#~ msgstr ""
+#~ "Визначає, чи вбудоване до тексту мітки заголовка підкреслювання позначає "
+#~ "клавіатурне скорочення"
+
+#~ msgid "The title of the preference"
+#~ msgstr "Заголовок налаштувань"
+
+#~ msgid "Whether search is enabled"
+#~ msgstr "Визначає, чи увімкнено пошук"
+
+#~ msgid ""
+#~ "Whether or not swipe gesture can be used to switch from a subpage to the "
+#~ "preferences"
+#~ msgstr ""
+#~ "Визначає, чи можна скористатися жестом змахування для перемикання з "
+#~ "допоміжної сторінки до сторінки параметрів"
+
+#~ msgid "Widget"
+#~ msgstr "Віджет"
+
+#~ msgid "The widget the shadow will be drawn for"
+#~ msgstr "Віджет, для якого буде намальовано тінь"
+
+#~ msgid "Enabled"
+#~ msgstr "Увімкнено"
+
+#~ msgid ""
+#~ "Whether the child can be picked or should be ignored when looking for the "
+#~ "child fitting the available size best"
+#~ msgstr ""
+#~ "Визначає, можна вибирати дочірній об'єкт чи його слід ігнорувати при "
+#~ "пошуку найкращої відповідності розмірів дочірнього об'єкта"
+
+#~ msgid "Homogeneous"
+#~ msgstr "Однорідний"
+
+#~ msgid "Homogeneous sizing"
+#~ msgstr "Однорідний розмір"
+
+#~ msgid "The widget currently visible in the squeezer"
+#~ msgstr "Віджет, який зараз показано у відтискачі"
+
+#~ msgid "Transition duration"
+#~ msgstr "Тривалість переходу"
+
+#~ msgid "The animation duration, in milliseconds"
+#~ msgstr "Тривалість анімації у мілісекундах"
+
+#~ msgid "The type of animation used to transition"
+#~ msgstr "Тип анімації, яку буде використано для переходу"
+
+#~ msgid "Transition running"
+#~ msgstr "Виконання переходу"
+
+#~ msgid "Whether or not the transition is currently running"
+#~ msgstr "Чи виконується перехід цієї миті"
+
+#~ msgid "X align"
+#~ msgstr "Вирівнювання за X"
+
+#~ msgid "The horizontal alignment, from 0 (start) to 1 (end)"
+#~ msgstr "Вирівнювання за горизонталлю, від 0 (початок) до 1 (кінець)"
+
+#~ msgid "Y align"
+#~ msgstr "Вирівнювання за Y"
+
+#~ msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+#~ msgstr "Вирівнювання за вертикаллю, від 0 (верх) до 1 (низ)"
+
+#~ msgid "A selection model with the squeezer's pages"
+#~ msgstr "Модель вибору із виштовхуванням сторінок"
+
+#~ msgid "The name of the icon to be used"
+#~ msgstr "Назва піктограми, яку слід використати"
+
+#~ msgid "The title to be displayed below the icon"
+#~ msgstr "Заголовок, який має бути показано під піктограмою"
+
+#~ msgid "The description to be displayed below the title"
+#~ msgstr "Опис, який слід показати під заголовком"
+
+#~ msgid "Swipeable"
+#~ msgstr "Змахуваний"
+
+#~ msgid "The swipeable the swipe tracker is attached to"
+#~ msgstr "Змахуваний об'єкт, до якого долучено стеження за змахуванням"
+
+#~ msgid "Whether the swipe tracker processes events"
+#~ msgstr "Визначає, чи стеження за змахуванням обробляє події"
+
+#~ msgid "Reversed"
+#~ msgstr "Обернене"
+
+#~ msgid "Whether swipe direction is reversed"
+#~ msgstr "Визначає, що напрям змахування є оберненим"
+
+#~| msgid "Whether to allow dragging with mouse pointer"
+#~ msgid "Whether to allow swiping for more than one snap point at a time"
+#~ msgstr ""
+#~ "Визначає, чи дозволено змахування декількох точок прилипання одним рухом"
+
+#~| msgctxt "HdyValueObjectClass"
+#~| msgid "Value"
+#~ msgctxt "AdwValueObjectClass"
+#~ msgid "Value"
+#~ msgstr "Значення"
+
+#~| msgctxt "HdyValueObjectClass"
+#~| msgid "The contained value"
+#~ msgctxt "AdwValueObjectClass"
+#~ msgid "The contained value"
+#~ msgstr "Вміщене значення"
+
+#~ msgid "Policy"
+#~ msgstr "Поведінка"
+
+#~ msgid "The policy to determine the mode to use"
+#~ msgstr "Правила для визначення режиму, яким слід скористатися"
+
+#~ msgid "Stack"
+#~ msgstr "Стос"
+
+#~ msgid "Reveal"
+#~ msgstr "Показати"
+
+#~ msgid "Whether the view switcher is revealed"
+#~ msgstr "Визначає, чи показано перемикач перегляду"
+
+#~ msgid "Icon Name"
+#~ msgstr "Назва значка"
+
+#~ msgid "Icon name for image"
+#~ msgstr "Назва піктограми для зображення"
+
+#~ msgid "Needs attention"
+#~ msgstr "Потребує уваги"
+
+#~ msgid "Hint the view needs attention"
+#~ msgstr "Підказка про те, що перегляд потребує уваги"
+
+#~ msgid "Narrow ellipsize"
+#~ msgstr "Багатокрапка при звуженні"
+
+#~ msgid ""
+#~ "The preferred place to ellipsize the string, if the narrow mode label "
+#~ "does not have enough room to display the entire string"
+#~ msgstr ""
+#~ "Бажане місце для обривання рядка багатокрапкою, якщо мітка у вузькому "
+#~ "режимі не має достатньо місця для показу цілого рядка"
+
+#~ msgid "The title to display"
+#~ msgstr "Заголовок для показу"
+
+#~ msgid "The subtitle to display"
+#~ msgstr "Підзаголовок для показу"
+
+#~ msgid "View switcher enabled"
+#~ msgstr "Увімкнено перемикач перегляду"
+
+#~ msgid "Whether the view switcher is enabled"
+#~ msgstr "Визначає, чи увімкнено перемикач перегляду"
+
+#~ msgid "Title visible"
+#~ msgstr "Заголовок видимий"
+
+#~ msgid "Whether the title label is visible"
+#~ msgstr "Визначає, чи видимою є мітка заголовка"
+
+#~ msgid "Insert placeholder to %s"
+#~ msgstr "Вставка заповнювача місця до %s"
+
+#~ msgid "Remove placeholder from %s"
+#~ msgstr "Вилучення заповнювача з %s"
+
+#~ msgid "This property does not apply when a custom title is set"
+#~ msgstr ""
+#~ "Ця властивість не застосовується, якщо встановлено нетиповий заголовок"
+
+#~| msgid ""
+#~| "The decoration layout does not apply to header bars which do no show "
+#~| "window controls"
+#~ msgid ""
+#~ "The decoration layout does not apply to header bars which do not show "
+#~ "window controls"
+#~ msgstr ""
+#~ "Компонування декорацій не стосується смужок заголовків, на яких не буде "
+#~ "показано засоби керування вікном"
+
+#~ msgid "This property only applies when the leaflet is folded"
+#~ msgstr "Ця властивість застосовується, лише якщо листівку згорнуто"
+
+#~ msgid "Add group to %s"
+#~ msgstr "Додати групу до %s"
+
+#~ msgid "Add page to %s"
+#~ msgstr "Додати сторінку до %s"
+
+#~ msgid "Search bar is already full"
+#~ msgstr "Панель пошуку вже заповнено"
+
+#~ msgid "Only objects of type %s can be added to objects of type %s."
+#~ msgstr "Лише об'єкти типу %s можна додавати до об'єктів типу %s."
+
+#~ msgid "Horizontally homogeneous"
+#~ msgstr "Горизонтально однорідний"
+
+#~ msgid "Horizontally homogeneous sizing"
+#~ msgstr "Однорідний за розміром горизонтально"
+
+#~ msgid "Vertically homogeneous"
+#~ msgstr "Вертикально однорідний"
+
+#~ msgid "Vertically homogeneous sizing"
+#~ msgstr "Однорідний за розміром вертикально"
+
+#~ msgid "The widget currently visible"
+#~ msgstr "Віджет є видимим"
+
+#~ msgid "The name of the widget currently visible"
+#~ msgstr "Назва віджета є видимою"
+
+#~ msgid "The type of animation used to transition between children"
+#~ msgstr ""
+#~ "Тип анімації, який буде використано для переходу між дочірніми об'єктами"
+
+#~ msgid "The transition animation duration, in milliseconds"
+#~ msgstr "Тривалість анімації переходу у мілісекундах"
+
+#~ msgid "Minimize"
+#~ msgstr "Мінімізувати"
+
+#~ msgid "Restore"
+#~ msgstr "Відновити"
+
+#~ msgid "Maximize"
+#~ msgstr "Максимізувати"
+
+#~ msgid "Pack type"
+#~ msgstr "Тип упаковки"
+
+#~ msgid ""
+#~ "A GtkPackType indicating whether the child is packed with reference to "
+#~ "the start or end of the parent"
+#~ msgstr ""
+#~ "Об'єкт GtkPackType, що визначає відносно чого упаковується вкладений "
+#~ "об'єкт -- відносно початку, кінця, чи батьківського об'єкта"
+
+#~ msgid "The index of the child in the parent"
+#~ msgstr "Індекс вкладеного елемента у батьківському"
+
+#~ msgid "Custom Title"
+#~ msgstr "Нетиповий заголовок"
+
+#~ msgid "The amount of space between children"
+#~ msgstr "Відстані між вкладеними елементами"
+
+#~ msgid "Show decorations"
+#~ msgstr "Показувати оформлення"
+
+#~ msgid "Decoration Layout Set"
+#~ msgstr "Компонування оформлення встановлено"
+
+#~ msgid "Whether the decoration-layout property has been set"
+#~ msgstr "Чи було встановлено властивість decoration-layout"
+
+#~ msgid "Has Subtitle"
+#~ msgstr "Має підзаголовок"
+
+#~ msgid "Whether to reserve space for a subtitle"
+#~ msgstr "Чи резервувати місце для підзаголовка"
+
+#~ msgid "Decorate all"
+#~ msgstr "Декорувати усе"
+
+#~ msgid ""
+#~ "Whether the elements of the group should all receive the full decoration"
+#~ msgstr "Чи мають елементи групи усі отримувати повну декорацію"
+
+#~ msgid "Digit"
+#~ msgstr "Цифра"
+
+#~ msgid "The keypad digit of the button"
+#~ msgstr "Цифра цифрової панелі для кнопки"
+
+#~ msgid "Symbols"
+#~ msgstr "Символи"
+
+#~ msgid ""
+#~ "The keypad symbols of the button. The first symbol is used as the digit"
+#~ msgstr ""
+#~ "Символи цифрової панелі на кнопці. Перший символ буде використано як цифру"
+
+#~ msgid "Show symbols"
+#~ msgstr "Показувати символи"
+
+#~ msgid "Whether the second line of symbols should be shown or not"
+#~ msgstr "Визначає, чи має бути показано другий рядок символів"
+
+#~ msgid "Row spacing"
+#~ msgstr "Міжрядковий інтервал"
+
+#~ msgid "The amount of space between two consecutive rows"
+#~ msgstr "Інтервал між двома послідовними рядками"
+
+#~ msgid "Column spacing"
+#~ msgstr "Інтервал між стовпчиками"
+
+#~ msgid "The amount of space between two consecutive columns"
+#~ msgstr "Інтервал між двома послідовними стовпчиками"
+
+#~ msgid "Letters visible"
+#~ msgstr "Видимі літери"
+
+#~ msgid "Whether the letters below the digits should be visible"
+#~ msgstr "Визначає, чи будуть видимими літери під цифрами"
+
+#~ msgid "Symbols visible"
+#~ msgstr "Видимі символи"
+
+#~ msgid "Whether the hash, plus, and asterisk symbols should be visible"
+#~ msgstr "Визначає, чи має бути показано символи решітки, плюса та зірочки"
+
+#~ msgid "Entry"
+#~ msgstr "Введення"
+
+#~ msgid "The entry widget connected to the keypad"
+#~ msgstr "Віджет введення, з'єднаний із цифровою панеллю"
+
+#~ msgid "End action"
+#~ msgstr "Завершення дії"
+
+#~ msgid "The end action widget"
+#~ msgstr "Віджет завершення дії"
+
+#~ msgid "Start action"
+#~ msgstr "Початок дії"
+
+#~ msgid "The start action widget"
+#~ msgstr "Віджет початку дії"
+
+#~ msgid "Search Mode Enabled"
+#~ msgstr "Режим пошуку увімкнено"
+
+#~ msgid "Whether the search mode is on and the search bar shown"
+#~ msgstr "Чи увімкнено режим пошуку й чи відкрита панель пошуку"
+
+#~ msgid "Horizontally homogeneous sizing when the widget is folded"
+#~ msgstr "Однорідний за розміром горизонтально, якщо віджет згорнуто"
+
+#~ msgid "Vertically homogeneous sizing when the widget is folded"
+#~ msgstr "Однорідний за розміром вертикально, якщо віджет згорнуто"
+
+#~ msgid "Horizontally homogeneous sizing when the widget is unfolded"
+#~ msgstr "Однорідний за розміром горизонтально, якщо віджет розгорнуто"
+
+#~ msgid "Vertically homogeneous sizing when the widget is unfolded"
+#~ msgstr "Однорідний за розміром вертикально, якщо віджет розгорнуто"
+
+#~ msgid "The widget currently visible when the widget is folded"
+#~ msgstr "Віджет є видимим, коли віджет згорнуто"
+
+#~ msgid "Orientation"
+#~ msgstr "Орієнтація"
+
+#~ msgid "Selection mode"
+#~ msgstr "Режим вибирання"
+
+#~ msgid "Icon Size"
+#~ msgstr "Розмір піктограм"
+
+#~ msgid "Symbolic size to use for named icon"
+#~ msgstr "Символьний розмір, використовуваний для іменованої піктограми"
+
+#~ msgid "Move"
+#~ msgstr "Пересунути"
+
+#~ msgid "Resize"
+#~ msgstr "Змінити розмір"
+
+#~ msgid "Always on Top"
+#~ msgstr "Завжди зверху"
+
+#~ msgid "This property does not apply unless Show Indicators is set."
+#~ msgstr ""
+#~ "Цю властивість не буде застосовано, доки не встановлено «Показувати "
+#~ "індикатори»."
+
+#~ msgid "Indicator style"
+#~ msgstr "Стиль індикаторів"
+
+#~ msgid "Page indicator style"
+#~ msgstr "Стиль індикаторів сторінки"
+
+#~ msgid "Indicator spacing"
+#~ msgstr "Інтервал індикатора"
+
+#~ msgid "Spacing between content and indicators"
+#~ msgstr "Інтервал між вмістом та індикаторами"
+
+#~ msgid "Whether to center pages to compensate for indicators"
+#~ msgstr "Визначає, чи слід центрувати сторінки для компенсації індикаторів"
+
+#~ msgid "The title for this row"
+#~ msgstr "Заголовок цього рядка"
+
+#~ msgid "Only Digits"
+#~ msgstr "Лише цифри"
+
+#~ msgid ""
+#~ "Whether the keypad should show only digits or also extra buttons for #, *"
+#~ msgstr ""
+#~ "Визначає, слід показувати на цифровій панелі лише цифри чи додаткові "
+#~ "кнопки #, *"
+
+#~ msgid "Entry widget"
+#~ msgstr "Віджет введення"
+
+#~ msgid "Right action widget"
+#~ msgstr "Віджет дії праворуч"
+
+#~ msgid "Left action widget"
+#~ msgstr "Віджет дії ліворуч"

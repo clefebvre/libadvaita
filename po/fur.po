@@ -1,0 +1,925 @@
+# Friulian translation for libhandy.
+# Copyright (C) 2020 libhandy's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libhandy package.
+# Fabio Tomat <f.t.public@gmail.com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libhandy master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"POT-Creation-Date: 2023-07-08 11:22+0000\n"
+"PO-Revision-Date: 2023-07-20 21:59+0200\n"
+"Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
+"Language-Team: Friulian <fur@li.org>\n"
+"Language: fur\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: src/adw-about-window.c:206
+msgid "GNU General Public License, version 2 or later"
+msgstr "Licence Publiche Gjenerâl GNU GPL, version 2 o sucessive"
+
+#: src/adw-about-window.c:207
+msgid "GNU General Public License, version 3 or later"
+msgstr "Licence Publiche Gjenerâl GNU GPL, version 3 o sucessive"
+
+#: src/adw-about-window.c:208
+msgid "GNU Lesser General Public License, version 2.1 or later"
+msgstr "Licence Publiche Gjenerâl Minôr GNU LGPL, version 2.1 o sucessive"
+
+#: src/adw-about-window.c:209
+msgid "GNU Lesser General Public License, version 3 or later"
+msgstr "Licence Publiche Gjenerâl Minôr GNU LGPL, version 3 o sucessive"
+
+#: src/adw-about-window.c:210
+msgid "BSD 2-Clause License"
+msgstr "Licence BSD 2-Clausolis"
+
+#: src/adw-about-window.c:211
+msgid "The MIT License (MIT)"
+msgstr "La licence MIT (MIT)"
+
+#: src/adw-about-window.c:212
+msgid "Artistic License 2.0"
+msgstr "Licence Artistiche 2.0"
+
+#: src/adw-about-window.c:213
+msgid "GNU General Public License, version 2 only"
+msgstr "Licence Publiche Gjenerâl GNU GPL, dome version 2"
+
+#: src/adw-about-window.c:214
+msgid "GNU General Public License, version 3 only"
+msgstr "Licence Publiche Gjenerâl GNU GPL, dome version 3"
+
+#: src/adw-about-window.c:215
+msgid "GNU Lesser General Public License, version 2.1 only"
+msgstr "Licence Publiche Gjenerâl Minôr GNU LGPL, dome version 2.1"
+
+#: src/adw-about-window.c:216
+msgid "GNU Lesser General Public License, version 3 only"
+msgstr "Licence Publiche Gjenerâl Minôr GNU LGPL, dome version 3"
+
+#: src/adw-about-window.c:217
+msgid "GNU Affero General Public License, version 3 or later"
+msgstr "Licence Publiche Gjenerâl GNU Affero AGPL, version 3 o sucessive"
+
+#: src/adw-about-window.c:218
+msgid "GNU Affero General Public License, version 3 only"
+msgstr "Licence Publiche Gjenerâl GNU Affero, dome version 3"
+
+#: src/adw-about-window.c:219
+msgid "BSD 3-Clause License"
+msgstr "Licence BSD 3-Clausolis"
+
+#: src/adw-about-window.c:220
+msgid "Apache License, Version 2.0"
+msgstr "Licence Apache, Version 2.0"
+
+#: src/adw-about-window.c:221
+msgid "Mozilla Public License 2.0"
+msgstr "Licence Publiche di Mozilla 2.0"
+
+#: src/adw-about-window.c:535
+msgid "Code by"
+msgstr "Codiç di"
+
+#: src/adw-about-window.c:536
+msgid "Design by"
+msgstr "Design di"
+
+#: src/adw-about-window.c:537
+msgid "Artwork by"
+msgstr "Grafiche di"
+
+#: src/adw-about-window.c:538
+msgid "Documentation by"
+msgstr "Documentazion di"
+
+#: src/adw-about-window.c:539
+msgid "Translated by"
+msgstr "Tradot di"
+
+#. Translators: this is the license preamble; the string at the end
+#. * contains the name of the license as link text.
+#.
+#: src/adw-about-window.c:568
+#, c-format
+msgid ""
+"This application comes with absolutely no warranty. See the <a "
+"href=\"%s\">%s</a> for details."
+msgstr ""
+"Chest program al rive cence nissune garanzie. Par vê plui detais consultâ <a "
+"href=\"%s\">%s</a>."
+
+#: src/adw-about-window.c:646
+msgid "This Application"
+msgstr "Cheste aplicazion"
+
+#: src/adw-about-window.c:948
+#, c-format
+msgid "Version %s"
+msgstr "Version %s"
+
+#: src/adw-about-window.c:974
+msgid "Unable to parse release notes:"
+msgstr "Impussibil analizâ lis notis di publicazion:"
+
+#: src/adw-about-window.c:980
+#, c-format
+msgid "Line: %d, character: %d"
+msgstr "Rie: %d, caratar: %d"
+
+#: src/adw-about-window.c:1256
+msgid "Copied to clipboard"
+msgstr "Copiât tes notis"
+
+#: src/adw-about-window.c:1284
+msgid "Unable to save debugging information"
+msgstr "Impussibil salvâ lis informazion di debug"
+
+#: src/adw-about-window.c:1289
+msgid "Close"
+msgstr "Siere"
+
+#: src/adw-about-window.c:1305
+msgid "Save debugging information"
+msgstr "Salve informazions di debug"
+
+#: src/adw-about-window.ui:5
+msgid "About"
+msgstr "Informazions"
+
+#: src/adw-about-window.ui:91
+msgid "_What’s New"
+msgstr "_Novitâts"
+
+#: src/adw-about-window.ui:106
+msgid "_Details"
+msgstr "_Detais"
+
+#: src/adw-about-window.ui:121 src/adw-about-window.ui:331
+msgid "_Website"
+msgstr "Sît _web"
+
+#: src/adw-about-window.ui:144
+msgid "_Support Questions"
+msgstr "Domandis di _supuart"
+
+#: src/adw-about-window.ui:160
+msgid "_Report an Issue"
+msgstr "_Segnale un probleme"
+
+#: src/adw-about-window.ui:175
+msgid "_Troubleshooting"
+msgstr "Soluzion _problemis"
+
+#: src/adw-about-window.ui:194
+msgid "_Credits"
+msgstr "Ri_cognossiments"
+
+#: src/adw-about-window.ui:209
+msgid "_Legal"
+msgstr "_Legâl"
+
+#: src/adw-about-window.ui:224
+msgid "_Acknowledgements"
+msgstr "Ringr_aciaments"
+
+#: src/adw-about-window.ui:253
+msgid "What’s New"
+msgstr "Novitâts"
+
+#: src/adw-about-window.ui:293
+msgid "Details"
+msgstr "Detais"
+
+#: src/adw-about-window.ui:358
+msgid "Troubleshooting"
+msgstr "Soluzion problemis"
+
+#: src/adw-about-window.ui:381
+msgid ""
+"To assist in troubleshooting, you can view your debugging information. "
+"Providing this information to the application developers can help diagnose "
+"any problems you encounter when you report an issue."
+msgstr ""
+"Par assisti te risoluzion problemis, tu puedis visualizâ lis tôs "
+"informazions di debug. Furnint chestis informazion ai svilupadôrs de "
+"aplicazion tu puedis judâ a diagnosticâ cualsisei probleme che tu cjatis "
+"cuant che tu segnalis un probleme."
+
+#: src/adw-about-window.ui:392
+msgid "_Debugging Information"
+msgstr "Informazions di _debug"
+
+#: src/adw-about-window.ui:418
+msgid "Debugging Information"
+msgstr "Informazions di debug"
+
+#: src/adw-about-window.ui:460
+msgid "_Copy Text"
+msgstr "_Copie test"
+
+#: src/adw-about-window.ui:468
+msgid "_Save as…"
+msgstr "_Salve come…"
+
+#: src/adw-about-window.ui:481
+msgid "Credits"
+msgstr "Ricognossiments"
+
+#: src/adw-about-window.ui:512
+msgid "Legal"
+msgstr "Legâl"
+
+#: src/adw-about-window.ui:543
+msgid "Acknowledgements"
+msgstr "Ringraciaments"
+
+#: src/adw-back-button.c:444
+msgid "Back"
+msgstr "Indaûr"
+
+#: src/adw-combo-row.ui:50
+msgid "Search…"
+msgstr "Cîr…"
+
+#: src/adw-entry-row.ui:97
+msgid "Apply"
+msgstr "Apliche"
+
+#: src/adw-inspector-page.c:75
+msgid "No Preference"
+msgstr "Nissune preference"
+
+#: src/adw-inspector-page.c:77
+msgid "Prefer Dark"
+msgstr "Preferìs scûr"
+
+#: src/adw-inspector-page.c:79
+msgid "Prefer Light"
+msgstr "Preferìs clâr"
+
+#. Translators: The name of the library, not the stylesheet
+#: src/adw-inspector-page.c:97
+msgid "Adwaita"
+msgstr "Adwaita"
+
+#: src/adw-inspector-page.ui:10
+msgid "System Appearance"
+msgstr "Aspiet dal sisteme"
+
+#: src/adw-inspector-page.ui:11
+msgid ""
+"Override settings for this application. They will be reset upon closing the "
+"inspector."
+msgstr ""
+"Passe sore aes impostazions par cheste aplicazion. A vignaran ripristinadis "
+"ae sieradure dal ispetôr."
+
+#: src/adw-inspector-page.ui:14
+msgid "System Supports Color Schemes"
+msgstr "Il sisteme al supuarte i schemis di colôr"
+
+#: src/adw-inspector-page.ui:20
+msgid "Preferred Color Scheme"
+msgstr "Scheme di colôr preferît"
+
+#: src/adw-inspector-page.ui:37
+msgid "High Contrast"
+msgstr "Contrast elevât"
+
+#: src/adw-password-entry-row.c:70
+msgid "Hide Password"
+msgstr "Plate la password"
+
+#: src/adw-password-entry-row.c:74
+msgid "Show Password"
+msgstr "Mostre la password"
+
+#: src/adw-password-entry-row.c:168
+msgid "Caps Lock is on"
+msgstr "BlocMaiusc al è atîf"
+
+#: src/adw-password-entry-row.c:176
+msgid "_Show Password"
+msgstr "_Mostre password"
+
+#: src/adw-preferences-window.c:259
+msgid "Untitled page"
+msgstr "Pagjine cence titul"
+
+#: src/adw-preferences-window.ui:8
+msgid "Preferences"
+msgstr "Preferencis"
+
+#: src/adw-preferences-window.ui:81
+msgid "Search preferences"
+msgstr "Preferencis di ricercje"
+
+#: src/adw-preferences-window.ui:96
+msgid "Search"
+msgstr "Cîr"
+
+#: src/adw-preferences-window.ui:163
+msgid "No Results Found"
+msgstr "Nissun risultât cjatât"
+
+#: src/adw-preferences-window.ui:164 src/adw-tab-overview.ui:111
+msgid "Try a different search."
+msgstr "Prove cuntune ricercje diferente."
+
+#: src/adw-split-button.c:519 src/adw-split-button.c:1033
+msgid "More Options"
+msgstr "Altris opzions"
+
+#: src/adw-tab-button.ui:7
+msgid "View Open Tabs"
+msgstr "Viôt schedis viertis"
+
+#. Translators: Tab overview title, %u is the number of open tabs
+#: src/adw-tab-overview.c:918
+#, c-format
+msgid "%u Tab"
+msgid_plural "%u Tabs"
+msgstr[0] "%u schede"
+msgstr[1] "%u schedis"
+
+#: src/adw-tab-overview.ui:21
+msgid "Search Tabs"
+msgstr "Cîr schedis"
+
+#: src/adw-tab-overview.ui:51
+msgid "Search tabs"
+msgstr "Cîr schedis"
+
+#: src/adw-tab-overview.ui:97
+msgid "No Open Tabs"
+msgstr "Nissune schede vierte"
+
+#: src/adw-tab-overview.ui:110
+msgid "No Tabs Found"
+msgstr "Nissune schede cjatade"
+
+#: src/adw-tab-overview.ui:131
+msgid "New _Tab"
+msgstr "Gnove _schede"
+
+#: src/adw-tab-thumbnail.ui:39 src/adw-tab.ui:95
+msgid "Close Tab"
+msgstr "Siere schede"
+
+#~ msgid "Hide Text"
+#~ msgstr "Plate Test"
+
+#~ msgid "Show Text"
+#~ msgstr "Mostre Test"
+
+#~ msgid "_Show Text"
+#~ msgstr "_Mostre Test"
+
+#~ msgid "_Save"
+#~ msgstr "_Salve"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Anule"
+
+#~ msgid "Insert placeholder to %s"
+#~ msgstr "Inserìs segnepuest a %s"
+
+#~ msgid "Remove placeholder from %s"
+#~ msgstr "Gjave segnepuest di %s"
+
+#~ msgid "This property does not apply when a custom title is set"
+#~ msgstr ""
+#~ "Cuant che si stabilìs un titul personalizât, cheste proprietât no si "
+#~ "apliche"
+
+#~ msgid ""
+#~ "The decoration layout does not apply to header bars which do no show "
+#~ "window controls"
+#~ msgstr ""
+#~ "La disposizion de decorazion no si apliche aes sbaris di intestazion che "
+#~ "no mostrin i controi dal barcon"
+
+#~ msgid "This property only applies when the leaflet is folded"
+#~ msgstr "Cheste proprietât si apliche dome cuant che il sfueut al è pleât"
+
+#~ msgid "Add group to %s"
+#~ msgstr "Zonte grup a %s"
+
+#~ msgid "Add page to %s"
+#~ msgstr "Zonte pagjine a %s"
+
+#~ msgid "Search bar is already full"
+#~ msgstr "La sbare di ricercje e je za plene"
+
+#~ msgid "Only objects of type %s can be added to objects of type %s."
+#~ msgstr ""
+#~ "Dome i ogjets di gjenar %s a puedin jessi zontâts ai ogjets di gjenar %s."
+
+#~ msgid "Icon name"
+#~ msgstr "Non icone"
+
+#~ msgid "Activatable widget"
+#~ msgstr "Widget ativabil"
+
+#~ msgid "The widget to be activated when the row is activated"
+#~ msgstr "Il widget che si à di ativâ cuant che la rie e ven ativade"
+
+#~ msgid "Subtitle"
+#~ msgstr "Sottitul"
+
+#~ msgid "Use underline"
+#~ msgstr "Dopre sotlineât"
+
+#~ msgid ""
+#~ "If set, an underline in the text indicates the next character should be "
+#~ "used for the mnemonic accelerator key"
+#~ msgstr ""
+#~ "Se stabilide, une sotlinie intal test e indiche il prossim caratar che si "
+#~ "à di doprâ pal tast aceleradôr mnemonic"
+
+#~ msgid "Number of pages"
+#~ msgstr "Numar di pagjinis"
+
+#~ msgid "Position"
+#~ msgstr "Posizion"
+
+#~ msgid "Current scrolling position"
+#~ msgstr "Posizion di scoriment atuâl"
+
+#~ msgid "Spacing"
+#~ msgstr "Spaziadure"
+
+#~ msgid "Spacing between pages"
+#~ msgstr "Spaziadure tra lis pagjinis"
+
+#~ msgid "Reveal duration"
+#~ msgstr "Durade rivelazion"
+
+#~ msgid "Page reveal duration"
+#~ msgstr "Durade de rivelazion de pagjine"
+
+#~ msgid "Interactive"
+#~ msgstr "Interatîf"
+
+#~ msgid "Whether the widget can be swiped"
+#~ msgstr "Indiche se si pues scori il widget"
+
+#~ msgid "Animation duration"
+#~ msgstr "Durade animazion"
+
+#~ msgid "Default animation duration"
+#~ msgstr "Durade predefinide de animazion"
+
+#~ msgid "Allow mouse drag"
+#~ msgstr "Permet strissinament mouse"
+
+#~ msgid "Whether to allow dragging with mouse pointer"
+#~ msgstr "Indiche se permeti il strissinament cul pontadôr dal mouse"
+
+#~ msgid "Carousel"
+#~ msgstr "Gjostre"
+
+#~ msgid "Maximum size"
+#~ msgstr "Dimension massime"
+
+#~ msgid "The maximum size allocated to the child"
+#~ msgstr "Dimension massime assegnade al fi"
+
+#~ msgid "Tightening threshold"
+#~ msgstr "Soiâr di strenziment"
+
+#~ msgid "The size from which the clamp will tighten its grip on the child"
+#~ msgstr "La dimension che di chê il smuarset al strenzarà la prese sul fi"
+
+#~ msgid "Use subtitle"
+#~ msgstr "Dopre sottitul"
+
+#~ msgid "Set the current value as the subtitle"
+#~ msgstr "Met come sottitul il valôr atuâl"
+
+#~ msgid "Horizontally homogeneous"
+#~ msgstr "Omogjenei in maniere orizontâl"
+
+#~ msgid "Horizontally homogeneous sizing"
+#~ msgstr "Dimensionament omogjenei in orizontâl"
+
+#~ msgid "Vertically homogeneous"
+#~ msgstr "Omogjenei in maniere verticâl"
+
+#~ msgid "Vertically homogeneous sizing"
+#~ msgstr "Dimensionament omogjenei in verticâl"
+
+#~ msgid "Visible child"
+#~ msgstr "Fi visibil"
+
+#~ msgid "The widget currently visible"
+#~ msgstr "Il widget cumò visibil"
+
+#~ msgid "Name of visible child"
+#~ msgstr "Non dal fi visibil"
+
+#~ msgid "The name of the widget currently visible"
+#~ msgstr "Il non dal widget cumò visibil"
+
+#~ msgid "Transition type"
+#~ msgstr "Gjenar di transizion"
+
+#~ msgid "The type of animation used to transition between children"
+#~ msgstr "Il gjenar di animazion doprade pe transizion tra i fîs"
+
+#~ msgid "Transition duration"
+#~ msgstr "Durade transizion"
+
+#~ msgid "The transition animation duration, in milliseconds"
+#~ msgstr "La durade de animazion pe transizion, in miliseconts"
+
+#~ msgid "Transition running"
+#~ msgstr "Transizion in esecuzion"
+
+#~ msgid "Whether or not the transition is currently running"
+#~ msgstr "Indiche se (o mancul) la transizion e je cumò in esecuzion"
+
+#~ msgid ""
+#~ "Whether or not the size should smoothly change when changing between "
+#~ "differently sized children"
+#~ msgstr ""
+#~ "Indiche se (o mancul) la dimension e à di cambiâ in maniere dolce cuant "
+#~ "che si cambie tra i fîs di dimension diferente"
+
+#~ msgid "Can swipe back"
+#~ msgstr "Al pues scori indaûr"
+
+#~ msgid ""
+#~ "Whether or not swipe gesture can be used to switch to the previous child"
+#~ msgstr ""
+#~ "Indiche se (o mancul) il moviment di scoriment al pues jessi doprât par "
+#~ "passâ al fi precedent"
+
+#~ msgid "Can swipe forward"
+#~ msgstr "Al pues scori indenant"
+
+#~ msgid "Whether or not swipe gesture can be used to switch to the next child"
+#~ msgstr ""
+#~ "Indiche se (o mancul) il moviment di scoriment al pues jessi doprât par "
+#~ "passâ al fi sucessîf"
+
+#~ msgid "Name"
+#~ msgstr "Non"
+
+#~ msgid "The name of the child page"
+#~ msgstr "Il non de pagjine dal fi"
+
+#~ msgid "The subtitle for this row"
+#~ msgstr "Il sottitul par cheste rie"
+
+#~ msgid "Expanded"
+#~ msgstr "Pandût"
+
+#~ msgid "Whether the row is expanded"
+#~ msgstr "Indiche se la rie e je pandude"
+
+#~ msgid "Enable expansion"
+#~ msgstr "Abilite espansion"
+
+#~ msgid "Whether the expansion is enabled"
+#~ msgstr "Indiche se la espansion e je abilitade"
+
+#~ msgid "Minimize"
+#~ msgstr "Minimize"
+
+#~ msgid "Restore"
+#~ msgstr "Ripristine"
+
+#~ msgid "Maximize"
+#~ msgstr "Slargje"
+
+#~ msgid "Pack type"
+#~ msgstr "Gjenar di pachet"
+
+#~ msgid ""
+#~ "A GtkPackType indicating whether the child is packed with reference to "
+#~ "the start or end of the parent"
+#~ msgstr ""
+#~ "Un GtkPackType che al indiche se il fi al è impachetât cul riferiment al "
+#~ "inizi o ae fin dal gjenitôr"
+
+#~ msgid "Title"
+#~ msgstr "Titul"
+
+#~ msgid "The title to display"
+#~ msgstr "Il titul di visualizâ"
+
+#~ msgid "The subtitle to display"
+#~ msgstr "Il sottitul di visualizâ"
+
+#~ msgid "Custom Title"
+#~ msgstr "Titul personalizât"
+
+#~ msgid "Custom title widget to display"
+#~ msgstr "Il widget dal titul personalizât di visualizâ"
+
+#~ msgid "The amount of space between children"
+#~ msgstr "La cuantitât di spazi tra i fîs"
+
+#~ msgid "Show decorations"
+#~ msgstr "Mostre decorazions"
+
+#~ msgid "Whether to show window decorations"
+#~ msgstr "Indiche se mostrâ lis decorazions dai barcons"
+
+#~ msgid "Decoration Layout"
+#~ msgstr "Disposizion de decorazion"
+
+#~ msgid "The layout for window decorations"
+#~ msgstr "La disposizion pes decorazions dal barcon"
+
+#~ msgid "Decoration Layout Set"
+#~ msgstr "Disposizion de decorazion stabilide"
+
+#~ msgid "Whether the decoration-layout property has been set"
+#~ msgstr ""
+#~ "Indiche se la proprietât de disposizion de decorazion e je stade stabilide"
+
+#~ msgid "Has Subtitle"
+#~ msgstr "Al à sottitul"
+
+#~ msgid "Whether to reserve space for a subtitle"
+#~ msgstr "Indiche se riservâ spazi par un sottitul"
+
+#~ msgid "Centering policy"
+#~ msgstr "Politiche di centradure"
+
+#, fuzzy
+#~ msgid "The policy to horizontally align the center widget"
+#~ msgstr "La politiche par inlineâ in orizontâl il centri dal widget"
+
+#~ msgid "The animation duration, in milliseconds"
+#~ msgstr "La durade de animazion, in miliseconts"
+
+#~ msgid "Decorate all"
+#~ msgstr "Decore dut"
+
+#~ msgid ""
+#~ "Whether the elements of the group should all receive the full decoration"
+#~ msgstr ""
+#~ "Indiche se i elements dal grup a àn di ricevi ducj la decorazion complete"
+
+#~ msgid "Digit"
+#~ msgstr "Numar"
+
+#~ msgid "The keypad digit of the button"
+#~ msgstr "La cifre dal boton de tastierute numeriche"
+
+#~ msgid "Symbols"
+#~ msgstr "Simbui"
+
+#~ msgid ""
+#~ "The keypad symbols of the button. The first symbol is used as the digit"
+#~ msgstr ""
+#~ "I simbui dal boton de tastierute numeriche. Il prin simbul al ven doprât "
+#~ "come cifre"
+
+#~ msgid "Show symbols"
+#~ msgstr "Mostre simbui"
+
+#~ msgid "Whether the second line of symbols should be shown or not"
+#~ msgstr "Indiche se si à di mostrâ o mancul la seconde rie dai simbui"
+
+#~ msgid "Row spacing"
+#~ msgstr "Spaziadure riis"
+
+#~ msgid "The amount of space between two consecutive rows"
+#~ msgstr "La cuantitât di spazi tra dôs riis consecutivis"
+
+#~ msgid "Column spacing"
+#~ msgstr "Spaziadure colonis"
+
+#~ msgid "The amount of space between two consecutive columns"
+#~ msgstr "La cuantitât di spazi tra dôs colonis consecutivis"
+
+#~ msgid "Letters visible"
+#~ msgstr "Letaris visibilis"
+
+#~ msgid "Whether the letters below the digits should be visible"
+#~ msgstr "Indiche se si à di rindi visibilis lis letaris sot dai numars"
+
+#~ msgid "Symbols visible"
+#~ msgstr "Simbui visibii"
+
+#~ msgid "Whether the hash, plus, and asterisk symbols should be visible"
+#~ msgstr "Indiche se i simbui cancelut, plui e asterisc a àn di jessi visibii"
+
+#~ msgid "Entry"
+#~ msgstr "Vôs"
+
+#~ msgid "The entry widget connected to the keypad"
+#~ msgstr "Il widget de vôs conetût ae tastierute numeriche"
+
+#~ msgid "End action"
+#~ msgstr "Azion di fin"
+
+#~ msgid "The end action widget"
+#~ msgstr "Il widget de azion di fin"
+
+#~ msgid "Start action"
+#~ msgstr "Azion di inizi"
+
+#~ msgid "The start action widget"
+#~ msgstr "Il widget de azion di inizi"
+
+#~ msgid "Folded"
+#~ msgstr "Pleât"
+
+#~ msgid "Whether the widget is folded"
+#~ msgstr "Indiche se il widget al è pleât"
+
+#~ msgid "Horizontally homogeneous folded"
+#~ msgstr "Omogjenei in orizontâl pleât"
+
+#~ msgid "Horizontally homogeneous sizing when the leaflet is folded"
+#~ msgstr ""
+#~ "Dimensionament omogjenei in orizontâl cuant che il sfueut al è pleât"
+
+#~ msgid "Vertically homogeneous folded"
+#~ msgstr "Omogjenei in verticâl pleât"
+
+#~ msgid "Vertically homogeneous sizing when the leaflet is folded"
+#~ msgstr "Dimensionament omogjenei in verticâl cuant che il sfueut al è pleât"
+
+#~ msgid "Horizontally homogeneous sizing when the leaflet is unfolded"
+#~ msgstr ""
+#~ "Dimensionament omogjenei in orizontâl cuant che il sfueut nol è pleât"
+
+#~ msgid "Vertically homogeneous sizing when the leaflet is unfolded"
+#~ msgstr ""
+#~ "Dimensionament omogjenei in verticâl cuant che il sfueut nol è pleât"
+
+#~ msgid "The widget currently visible when the leaflet is folded"
+#~ msgstr "Il widget cumò visibil cuant che il sfueut al è pleât"
+
+#~ msgid ""
+#~ "The name of the widget currently visible when the children are stacked"
+#~ msgstr "Il non dal ogjet cumò visibil cuant che i fîs a son intassâts"
+
+#~ msgid "The type of animation used to transition between modes and children"
+#~ msgstr "Il gjenar di animazion doprade par passâ tra modalitâts e fîs"
+
+#~ msgid "Mode transition duration"
+#~ msgstr "Durade transizion modalitât"
+
+#~ msgid "The mode transition animation duration, in milliseconds"
+#~ msgstr "La durade de animazion pe transizion de modalitât, in miliseconts"
+
+#~ msgid "Child transition duration"
+#~ msgstr "Durade transizion fi"
+
+#~ msgid "The child transition animation duration, in milliseconds"
+#~ msgstr "La durade de animazion pe transizion dal fi, in miliseconts"
+
+#~ msgid "Child transition running"
+#~ msgstr "Transizion fi in esecuzion"
+
+#~ msgid "Whether or not the child transition is currently running"
+#~ msgstr "Indiche se (o mancul) la transizion dal fi e je cumò in esecuzion"
+
+#~ msgid "Description"
+#~ msgstr "Descrizion"
+
+#~ msgid "The title of the preference"
+#~ msgstr "Il titul de preference"
+
+#~ msgid "Whether search is enabled"
+#~ msgstr "Indiche se la ricercje e je abilitade"
+
+#~ msgid "Search Mode Enabled"
+#~ msgstr "Modalitât ricercje abilitade"
+
+#~ msgid "Whether the search mode is on and the search bar shown"
+#~ msgstr ""
+#~ "Indiche se la modalitât di ricercje e je ative e la sbare di ricercje "
+#~ "mostrade"
+
+#~ msgid "Show Close Button"
+#~ msgstr "Mostre boton par sierâ"
+
+#~ msgid "Whether to show the close button in the toolbar"
+#~ msgstr "Indiche se mostrâ il boton par sierâ inte sbare dai struments"
+
+#~ msgid "Widget"
+#~ msgstr "Widget"
+
+#~ msgid "The widget the shadow will be drawn for"
+#~ msgstr "Il widget che par chel e vignarà dissegnade la ombrene"
+
+#~ msgid "Homogeneous"
+#~ msgstr "Omogjenei"
+
+#~ msgid "Homogeneous sizing"
+#~ msgstr "Dimensionament omogjenei"
+
+#~ msgid "The type of animation used to transition"
+#~ msgstr "Il gjenar di animazion doprade pe transizion"
+
+#~ msgid "X align"
+#~ msgstr "Inlineament X"
+
+#~ msgid "The horizontal alignment, from 0 (start) to 1 (end)"
+#~ msgstr "L'inlineament orizontâl, di 0 (inizi) a 1 (fin)"
+
+#~ msgid "Y align"
+#~ msgstr "Inlineament Y"
+
+#~ msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+#~ msgstr "L'inlineament verticâl, di 0 (parsore) a 1 (in bas)"
+
+#~ msgid "Enabled"
+#~ msgstr "Abilitât"
+
+#~ msgid "Horizontally homogeneous sizing when the widget is folded"
+#~ msgstr ""
+#~ "Dimensionament omogjenei in orizontâl cuant che il widget al è pleât"
+
+#~ msgid "Vertically homogeneous sizing when the widget is folded"
+#~ msgstr "Dimensionament omogjenei in verticâl cuant che il widget al è pleât"
+
+#~ msgid "Horizontally homogeneous sizing when the widget is unfolded"
+#~ msgstr ""
+#~ "Dimensionament omogjenei in orizontâl cuant che il widget nol è pleât"
+
+#~ msgid "Vertically homogeneous sizing when the widget is unfolded"
+#~ msgstr ""
+#~ "Dimensionament omogjenei in verticâl cuant che il widget nol è pleât"
+
+#~ msgid "Orientation"
+#~ msgstr "Orientament"
+
+#~ msgid "Reversed"
+#~ msgstr "Invertît"
+
+#~ msgid "Whether swipe direction is reversed"
+#~ msgstr "Indiche se la direzion dal scoriment e je invertide"
+
+#~ msgid "Selection mode"
+#~ msgstr "Modalitât di selezion"
+
+#~ msgid "Whether or not the title bar is in selection mode"
+#~ msgstr "Indiche se (o mancul) la sbare dal titul e je in modalitât selezion"
+
+#~ msgctxt "HdyValueObjectClass"
+#~ msgid "Value"
+#~ msgstr "Valôr"
+
+#~ msgctxt "HdyValueObjectClass"
+#~ msgid "The contained value"
+#~ msgstr "Il valôr contignût"
+
+#~ msgid "Policy"
+#~ msgstr "Politiche"
+
+#~ msgid "The policy to determine the mode to use"
+#~ msgstr "La politiche par determinâ la modalitât di doprâ"
+
+#~ msgid "Stack"
+#~ msgstr "Tasse"
+
+#~ msgid "Reveal"
+#~ msgstr "Mostre"
+
+#~ msgid "Icon Name"
+#~ msgstr "Non icone"
+
+#~ msgid "Icon name for image"
+#~ msgstr "Non de icone pe imagjin"
+
+#~ msgid "Icon Size"
+#~ msgstr "Dimension icone"
+
+#~ msgid "Symbolic size to use for named icon"
+#~ msgstr "Dimension simboliche di doprâ pe icone nomenade"
+
+#~ msgid "Needs attention"
+#~ msgstr "Al clame atenzion"
+
+#~ msgid "Hint the view needs attention"
+#~ msgstr "Sugjeriment che la viodude e domande atenzion"
+
+#~ msgid "Title visible"
+#~ msgstr "Titul visibil"
+
+#~ msgid "Whether the title label is visible"
+#~ msgstr "Indiche se la etichete dal titul e je visibile"
+
+#~ msgid "Move"
+#~ msgstr "Sposte"
+
+#~ msgid "Resize"
+#~ msgstr "Ridimensione"
+
+#~ msgid "Always on Top"
+#~ msgstr "Simpri Denant"

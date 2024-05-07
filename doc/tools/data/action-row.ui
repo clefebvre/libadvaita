@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="libadwaita" version="1.0"/>
+  <object class="GtkListBox" id="widget">
+    <property name="margin-top">6</property>
+    <property name="margin-bottom">6</property>
+    <property name="margin-start">6</property>
+    <property name="margin-end">6</property>
+    <property name="selection-mode">none</property>
+    <property name="width-request">400</property>
+    <style>
+      <class name="boxed-list"/>
+    </style>
+    <child>
+      <object class="AdwActionRow">
+        <property name="title">Title</property>
+        <property name="subtitle">Subtitle</property>
+        <property name="activatable-widget">button</property>
+        <child>
+          <object class="GtkButton" id="button">
+            <property name="icon-name">edit-copy-symbolic</property>
+            <property name="valign">center</property>
+            <style>
+              <class name="flat"/>
+            </style>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

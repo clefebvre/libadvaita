@@ -1,0 +1,1125 @@
+# Swedish translation for libadwaita.
+# Copyright © 2020-2024 libadwaita's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libadwaita package.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2020, 2021, 2022, 2023, 2024.
+# Luna Jernberg <droidbittin@gmail.com>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libadwaita master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"POT-Creation-Date: 2024-02-26 19:00+0000\n"
+"PO-Revision-Date: 2024-02-26 20:04+0100\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: src/adw-about-dialog.c:207 src/adw-about-window.c:206
+msgid "GNU General Public License, version 2 or later"
+msgstr "GNU General Public License, version 2 eller senare"
+
+#: src/adw-about-dialog.c:208 src/adw-about-window.c:207
+msgid "GNU General Public License, version 3 or later"
+msgstr "GNU General Public License, version 3 eller senare"
+
+#: src/adw-about-dialog.c:209 src/adw-about-window.c:208
+msgid "GNU Lesser General Public License, version 2.1 or later"
+msgstr "GNU Lesser General Public License, version 2.1 eller senare"
+
+#: src/adw-about-dialog.c:210 src/adw-about-window.c:209
+msgid "GNU Lesser General Public License, version 3 or later"
+msgstr "GNU Lesser General Public License, version 3 eller senare"
+
+#: src/adw-about-dialog.c:211 src/adw-about-window.c:210
+msgid "BSD 2-Clause License"
+msgstr "BSD 2-Clause License"
+
+#: src/adw-about-dialog.c:212 src/adw-about-window.c:211
+msgid "The MIT License (MIT)"
+msgstr "The MIT License (MIT)"
+
+#: src/adw-about-dialog.c:213 src/adw-about-window.c:212
+msgid "Artistic License 2.0"
+msgstr "Artistic License 2.0"
+
+#: src/adw-about-dialog.c:214 src/adw-about-window.c:213
+msgid "GNU General Public License, version 2 only"
+msgstr "GNU General Public License, endast version 2"
+
+#: src/adw-about-dialog.c:215 src/adw-about-window.c:214
+msgid "GNU General Public License, version 3 only"
+msgstr "GNU General Public License, endast version 3"
+
+#: src/adw-about-dialog.c:216 src/adw-about-window.c:215
+msgid "GNU Lesser General Public License, version 2.1 only"
+msgstr "GNU Lesser General Public License, endast version 2.1"
+
+#: src/adw-about-dialog.c:217 src/adw-about-window.c:216
+msgid "GNU Lesser General Public License, version 3 only"
+msgstr "GNU Lesser General Public License, endast version 3"
+
+#: src/adw-about-dialog.c:218 src/adw-about-window.c:217
+msgid "GNU Affero General Public License, version 3 or later"
+msgstr "GNU Affero General Public License, version 3 eller senare"
+
+#: src/adw-about-dialog.c:219 src/adw-about-window.c:218
+msgid "GNU Affero General Public License, version 3 only"
+msgstr "GNU Affero General Public License, endast version 3"
+
+#: src/adw-about-dialog.c:220 src/adw-about-window.c:219
+msgid "BSD 3-Clause License"
+msgstr "BSD 3-Clause License"
+
+#: src/adw-about-dialog.c:221 src/adw-about-window.c:220
+msgid "Apache License, Version 2.0"
+msgstr "Apache License, Version 2.0"
+
+#: src/adw-about-dialog.c:222 src/adw-about-window.c:221
+msgid "Mozilla Public License 2.0"
+msgstr "Mozilla Public License 2.0"
+
+#: src/adw-about-dialog.c:223 src/adw-about-window.c:222
+#| msgid "BSD 2-Clause License"
+msgid "BSD Zero-Clause License"
+msgstr "BSD Zero-Clause License"
+
+#: src/adw-about-dialog.c:560 src/adw-about-window.c:558
+msgid "Code by"
+msgstr "Kod av"
+
+#: src/adw-about-dialog.c:561 src/adw-about-window.c:559
+msgid "Design by"
+msgstr "Design av"
+
+#: src/adw-about-dialog.c:562 src/adw-about-window.c:560
+msgid "Artwork by"
+msgstr "Grafik av"
+
+#: src/adw-about-dialog.c:563 src/adw-about-window.c:561
+msgid "Documentation by"
+msgstr "Dokumentation av"
+
+#: src/adw-about-dialog.c:564 src/adw-about-window.c:562
+msgid "Translated by"
+msgstr "Översatt av"
+
+#. Translators: this is the license preamble; the string at the end
+#. * contains the name of the license as link text.
+#.
+#: src/adw-about-dialog.c:593 src/adw-about-window.c:591
+#, c-format
+msgid ""
+"This application comes with absolutely no warranty. See the <a "
+"href=\"%s\">%s</a> for details."
+msgstr ""
+"Detta program levereras utan någon form av garanti. Se <a href=\"%s\">%s</a> "
+"för detaljer."
+
+#: src/adw-about-dialog.c:671 src/adw-about-window.c:669
+msgid "This Application"
+msgstr "Detta program"
+
+#: src/adw-about-dialog.c:973 src/adw-about-window.c:971
+#, c-format
+msgid "Version %s"
+msgstr "Version %s"
+
+#: src/adw-about-dialog.c:999 src/adw-about-window.c:997
+msgid "Unable to parse release notes:"
+msgstr "Kunde inte tolka kommentarer till utgåva:"
+
+#: src/adw-about-dialog.c:1005 src/adw-about-window.c:1003
+#, c-format
+msgid "Line: %d, character: %d"
+msgstr "Rad: %d, tecken: %d"
+
+#: src/adw-about-dialog.c:1291 src/adw-about-window.c:1289
+msgid "Copied to clipboard"
+msgstr "Kopierat till urklipp"
+
+#: src/adw-about-dialog.c:1318 src/adw-about-window.c:1317
+msgid "Unable to save debugging information"
+msgstr "Kunde inte spara felsökningsinformation"
+
+#: src/adw-about-dialog.c:1323 src/adw-about-window.c:1322
+msgid "Close"
+msgstr "Stäng"
+
+#: src/adw-about-dialog.c:1340 src/adw-about-window.c:1338
+msgid "Save debugging information"
+msgstr "Spara felsökningsinformation"
+
+#: src/adw-about-dialog.ui:5 src/adw-about-window.ui:5
+msgid "About"
+msgstr "Om"
+
+#: src/adw-about-dialog.ui:89 src/adw-about-window.ui:92
+msgid "_What’s New"
+msgstr "_Vad är nytt"
+
+#: src/adw-about-dialog.ui:105 src/adw-about-window.ui:108
+msgid "_Details"
+msgstr "_Detaljer"
+
+#: src/adw-about-dialog.ui:121 src/adw-about-dialog.ui:341
+#: src/adw-about-window.ui:124 src/adw-about-window.ui:344
+msgid "_Website"
+msgstr "_Webbplats"
+
+#: src/adw-about-dialog.ui:145 src/adw-about-window.ui:148
+msgid "_Support Questions"
+msgstr "_Supportfrågor"
+
+#: src/adw-about-dialog.ui:162 src/adw-about-window.ui:165
+msgid "_Report an Issue"
+msgstr "_Rapportera ett problem"
+
+#: src/adw-about-dialog.ui:178 src/adw-about-window.ui:181
+msgid "_Troubleshooting"
+msgstr "_Problemlösning"
+
+#: src/adw-about-dialog.ui:198 src/adw-about-window.ui:201
+msgid "_Credits"
+msgstr "_Tack till"
+
+#: src/adw-about-dialog.ui:214 src/adw-about-window.ui:217
+msgid "_Legal"
+msgstr "_Juridisk information"
+
+#: src/adw-about-dialog.ui:230 src/adw-about-window.ui:233
+msgid "_Acknowledgements"
+msgstr "T_illkännagivanden"
+
+#: src/adw-about-dialog.ui:260 src/adw-about-window.ui:263
+msgid "What’s New"
+msgstr "Vad är nytt"
+
+#: src/adw-about-dialog.ui:303 src/adw-about-window.ui:306
+msgid "Details"
+msgstr "Detaljer"
+
+#: src/adw-about-dialog.ui:369 src/adw-about-window.ui:372
+msgid "Troubleshooting"
+msgstr "Problemlösning"
+
+#: src/adw-about-dialog.ui:392 src/adw-about-window.ui:395
+msgid ""
+"To assist in troubleshooting, you can view your debugging information. "
+"Providing this information to the application developers can help diagnose "
+"any problems you encounter when you report an issue."
+msgstr ""
+"För att hjälpa till att lösa problem kan du se din felsökningsinformation. "
+"Att tillhandahålla denna information till programutvecklarna kan hjälpa till "
+"att diagnosticera problem som du stöter på när du rapporterar ett ärende."
+
+#: src/adw-about-dialog.ui:403 src/adw-about-window.ui:406
+msgid "_Debugging Information"
+msgstr "_Felsökningsinformation"
+
+#: src/adw-about-dialog.ui:430 src/adw-about-window.ui:433
+msgid "Debugging Information"
+msgstr "Felsökningsinformation"
+
+#: src/adw-about-dialog.ui:475 src/adw-about-window.ui:478
+msgid "_Copy Text"
+msgstr "_Kopiera text"
+
+#: src/adw-about-dialog.ui:483 src/adw-about-window.ui:486
+msgid "_Save As…"
+msgstr "_Spara som…"
+
+#: src/adw-about-dialog.ui:496 src/adw-about-window.ui:499
+msgid "Credits"
+msgstr "Tack till"
+
+#: src/adw-about-dialog.ui:527 src/adw-about-window.ui:530
+msgid "Legal"
+msgstr "Juridisk information"
+
+#: src/adw-about-dialog.ui:559 src/adw-about-window.ui:562
+msgid "Acknowledgements"
+msgstr "Tillkännagivanden"
+
+#: src/adw-back-button.c:347 src/adw-back-button.c:445
+#: src/adw-back-button.c:555
+msgid "Back"
+msgstr "Bakåt"
+
+#. Translators: This is a placeholder text of the search entry from AdwComboRow. It should be phrased as a verb.
+#: src/adw-combo-row.ui:50 src/adw-preferences-dialog.ui:85
+#: src/adw-preferences-window.ui:96
+msgid "Search"
+msgstr "Sök"
+
+#: src/adw-entry-row.ui:97
+msgid "Apply"
+msgstr "Verkställ"
+
+#: src/adw-inspector-page.c:75
+msgid "No Preference"
+msgstr "Inget föredraget"
+
+#: src/adw-inspector-page.c:77
+msgid "Prefer Dark"
+msgstr "Föredra mörkt"
+
+#: src/adw-inspector-page.c:79
+msgid "Prefer Light"
+msgstr "Föredra ljust"
+
+#. Translators: The name of the library, not the stylesheet
+#: src/adw-inspector-page.c:97
+msgid "Adwaita"
+msgstr "Adwaita"
+
+#: src/adw-inspector-page.ui:10
+msgid "System Appearance"
+msgstr "Systemutseende"
+
+#: src/adw-inspector-page.ui:11
+msgid ""
+"Override settings for this application. They will be reset upon closing the "
+"inspector."
+msgstr ""
+"Åsidosätt inställningar för detta program. De kommer återställas då "
+"inspektören stängs."
+
+#: src/adw-inspector-page.ui:14
+msgid "System Supports Color Schemes"
+msgstr "Systemet stöder färgscheman"
+
+#: src/adw-inspector-page.ui:20
+msgid "Preferred Color Scheme"
+msgstr "Föredraget färgschema"
+
+#: src/adw-inspector-page.ui:37
+msgid "High Contrast"
+msgstr "Hög kontrast"
+
+#: src/adw-password-entry-row.c:70
+msgid "Hide Password"
+msgstr "Dölj lösenord"
+
+#: src/adw-password-entry-row.c:74
+msgid "Show Password"
+msgstr "Visa lösenord"
+
+#: src/adw-password-entry-row.c:168
+msgid "Caps Lock is on"
+msgstr "Caps Lock är på"
+
+#: src/adw-password-entry-row.c:176
+msgid "_Show Password"
+msgstr "_Visa lösenord"
+
+#: src/adw-preferences-dialog.c:256 src/adw-preferences-window.c:259
+msgid "Untitled page"
+msgstr "Namnlös sida"
+
+#: src/adw-preferences-dialog.ui:5 src/adw-preferences-window.ui:8
+msgid "Preferences"
+msgstr "Inställningar"
+
+# Platshållare vid sökning av inställningar
+#: src/adw-preferences-dialog.ui:70 src/adw-preferences-window.ui:81
+msgid "Search preferences"
+msgstr "Sök inställningar"
+
+#: src/adw-preferences-dialog.ui:152 src/adw-preferences-window.ui:163
+msgid "No Results Found"
+msgstr "Inga resultat hittades"
+
+#: src/adw-preferences-dialog.ui:153 src/adw-preferences-window.ui:164
+#: src/adw-tab-overview.ui:111
+msgid "Try a different search."
+msgstr "Försök med en annan sökning."
+
+#: src/adw-split-button.c:519 src/adw-split-button.c:1033
+msgid "More Options"
+msgstr "Fler alternativ"
+
+#: src/adw-tab-button.ui:7
+msgid "View Open Tabs"
+msgstr "Visa öppna flikar"
+
+#. Translators: Tab overview title, %u is the number of open tabs
+#: src/adw-tab-overview.c:928
+#, c-format
+msgid "%u Tab"
+msgid_plural "%u Tabs"
+msgstr[0] "%u flik"
+msgstr[1] "%u flikar"
+
+#: src/adw-tab-overview.ui:21
+msgid "Search Tabs"
+msgstr "Sök flikar"
+
+#: src/adw-tab-overview.ui:51
+msgid "Search tabs"
+msgstr "Sök flikar"
+
+#: src/adw-tab-overview.ui:97
+msgid "No Open Tabs"
+msgstr "Inga öppna flikar"
+
+#: src/adw-tab-overview.ui:110
+msgid "No Tabs Found"
+msgstr "Inga flikar hittades"
+
+#: src/adw-tab-overview.ui:131
+msgid "New _Tab"
+msgstr "Ny _flik"
+
+#: src/adw-tab-thumbnail.ui:39 src/adw-tab.ui:95
+msgid "Close Tab"
+msgstr "Stäng flik"
+
+#~ msgid "Search…"
+#~ msgstr "Sök…"
+
+#~ msgid "Hide Text"
+#~ msgstr "Dölj text"
+
+#~ msgid "Show Text"
+#~ msgstr "Visa text"
+
+#~ msgid "_Show Text"
+#~ msgstr "_Visa text"
+
+#~ msgid "_Save"
+#~ msgstr "_Spara"
+
+#~ msgid "_Cancel"
+#~ msgstr "A_vbryt"
+
+#~ msgid "Insert placeholder to %s"
+#~ msgstr "Infoga platshållare till %s"
+
+#~ msgid "Remove placeholder from %s"
+#~ msgstr "Ta bort platshållare från %s"
+
+#~ msgid "This property does not apply when a custom title is set"
+#~ msgstr "Denna egenskap gäller inte när en anpassad titel är satt"
+
+#~ msgid ""
+#~ "The decoration layout does not apply to header bars which do not show "
+#~ "window controls"
+#~ msgstr ""
+#~ "Dekorationslayouten gäller inte rubrikrader som inte visar "
+#~ "fönsterkontroller"
+
+#~ msgid "This property only applies when the leaflet is folded"
+#~ msgstr "Denna egenskap gäller endast när broschyren är ihopvikt"
+
+#~ msgid "Add group to %s"
+#~ msgstr "Lägg till grupp till %s"
+
+#~ msgid "Add page to %s"
+#~ msgstr "Lägg till sida till %s"
+
+#~ msgid "Search bar is already full"
+#~ msgstr "Sökraden är redan full"
+
+#~ msgid "Only objects of type %s can be added to objects of type %s."
+#~ msgstr "Endast objekt av typen %s kan läggas till i objekt av typen %s."
+
+#~ msgid "Icon name"
+#~ msgstr "Ikonnamn"
+
+#~ msgid "Activatable widget"
+#~ msgstr "Aktiverbar gränssnittskomponent"
+
+#~ msgid "The widget to be activated when the row is activated"
+#~ msgstr "Den gränssnittskomponent som ska aktiveras då raden aktiveras"
+
+#~ msgid "Subtitle"
+#~ msgstr "Undertitel"
+
+#~ msgid "Use underline"
+#~ msgstr "Använd understrykning"
+
+#~ msgid ""
+#~ "If set, an underline in the text indicates the next character should be "
+#~ "used for the mnemonic accelerator key"
+#~ msgstr ""
+#~ "Om detta är angivet kommer en understrykning i texten att indikera att "
+#~ "nästa tecken ska användas som en snabbtangent"
+
+#~ msgid "Number of title lines"
+#~ msgstr "Antal titelrader"
+
+#~ msgid "The desired number of title lines"
+#~ msgstr "Det önskade antalet titelrader"
+
+#~ msgid "Number of subtitle lines"
+#~ msgstr "Antal undertitelrader"
+
+#~ msgid "The desired number of subtitle lines"
+#~ msgstr "Det önskade antalet undertitelrader"
+
+#~ msgid "Number of pages"
+#~ msgstr "Antal sidor"
+
+#~ msgid "Position"
+#~ msgstr "Position"
+
+#~ msgid "Current scrolling position"
+#~ msgstr "Aktuell rullningsposition"
+
+#~ msgid "Spacing"
+#~ msgstr "Mellanrum"
+
+#~ msgid "Spacing between pages"
+#~ msgstr "Mellanrum mellan sidor"
+
+#~ msgid "Reveal duration"
+#~ msgstr "Visningslängd"
+
+#~ msgid "Page reveal duration"
+#~ msgstr "Visningslängd för sidor"
+
+#~ msgid "Interactive"
+#~ msgstr "Interaktiv"
+
+#~ msgid "Whether the widget can be swiped"
+#~ msgstr "Huruvida gränssnittskomponenten kan svepas"
+
+#~ msgid "Animation duration"
+#~ msgstr "Animeringstid"
+
+#~ msgid "Default animation duration"
+#~ msgstr "Animeringstid som standard"
+
+#~ msgid "Allow mouse drag"
+#~ msgstr "Tillåt musdrag"
+
+#~ msgid "Whether to allow dragging with mouse pointer"
+#~ msgstr "Huruvida dragning med muspekaren ska tillåtas"
+
+#~ msgid "Carousel"
+#~ msgstr "Karusell"
+
+#~ msgid "Maximum size"
+#~ msgstr "Maximal storlek"
+
+#~ msgid "The maximum size allocated to the child"
+#~ msgstr "Den största storlek som allokeras till den underordnade"
+
+#~ msgid "Tightening threshold"
+#~ msgstr "Åtstramningströskelvärde"
+
+#~ msgid "The size from which the clamp will tighten its grip on the child"
+#~ msgstr ""
+#~ "Storleken från vilken klämman kommer att strama åt sitt grepp om den "
+#~ "underordnade"
+
+#~ msgid "Selected index"
+#~ msgstr "Markerat index"
+
+#~ msgid "The index of the selected item"
+#~ msgstr "Index för det markerade objektet"
+
+#~ msgid "Use subtitle"
+#~ msgstr "Använd undertitel"
+
+#~ msgid "Set the current value as the subtitle"
+#~ msgstr "Ställ in det aktuella värdet som undertitel"
+
+#~ msgid "Horizontally homogeneous"
+#~ msgstr "Vågrätt homogen"
+
+#~ msgid "Horizontally homogeneous sizing"
+#~ msgstr "Vågrätt homogen omformning"
+
+#~ msgid "Vertically homogeneous"
+#~ msgstr "Lodrätt homogen"
+
+#~ msgid "Vertically homogeneous sizing"
+#~ msgstr "Lodrätt homogen omformning"
+
+#~ msgid "Visible child"
+#~ msgstr "Synlig underordnad"
+
+#~ msgid "The widget currently visible"
+#~ msgstr "Komponenten som för närvarande är synlig"
+
+#~ msgid "Name of visible child"
+#~ msgstr "Namn på synlig underordnad"
+
+#~ msgid "The name of the widget currently visible"
+#~ msgstr "Namnet på gränssnittskomponenten som för närvarande är synlig"
+
+#~ msgid "Transition type"
+#~ msgstr "Övergångstyp"
+
+#~ msgid "The type of animation used to transition between children"
+#~ msgstr "Den typ av animering som används vid övergång mellan underordnade"
+
+#~ msgid "Transition duration"
+#~ msgstr "Övergångstid"
+
+#~ msgid "The transition animation duration, in milliseconds"
+#~ msgstr "Längd på övergångsanimeringen i millisekunder"
+
+#~ msgid "Transition running"
+#~ msgstr "Övergång körs"
+
+#~ msgid "Whether or not the transition is currently running"
+#~ msgstr "Huruvida övergången körs för närvarande"
+
+#~ msgid "Interpolate size"
+#~ msgstr "Interpolera storlek"
+
+#~ msgid ""
+#~ "Whether or not the size should smoothly change when changing between "
+#~ "differently sized children"
+#~ msgstr ""
+#~ "Huruvida storleken mjukt ska ändras vid ändring mellan underordnade av "
+#~ "olika storlekar"
+
+#~ msgid "Can swipe back"
+#~ msgstr "Kan svepa bakåt"
+
+#~ msgid ""
+#~ "Whether or not swipe gesture can be used to switch to the previous child"
+#~ msgstr ""
+#~ "Huruvida en svepgest kan användas för att växla till föregående "
+#~ "underordnade"
+
+#~ msgid "Can swipe forward"
+#~ msgstr "Kan svepa framåt"
+
+#~ msgid "Whether or not swipe gesture can be used to switch to the next child"
+#~ msgstr ""
+#~ "Huruvida en svepgest kan användas för att växla till nästa underordnade"
+
+#~ msgid "Name"
+#~ msgstr "Namn"
+
+#~ msgid "The name of the child page"
+#~ msgstr "Namnet på den underordnade sidan"
+
+#~ msgid "The subtitle for this row"
+#~ msgstr "Undertiteln för denna rad"
+
+#~ msgid "Expanded"
+#~ msgstr "Expanderad"
+
+#~ msgid "Whether the row is expanded"
+#~ msgstr "Huruvida raden är expanderad"
+
+#~ msgid "Enable expansion"
+#~ msgstr "Aktivera expansion"
+
+#~ msgid "Whether the expansion is enabled"
+#~ msgstr "Huruvida expansionen är aktiverad"
+
+#~ msgid "Show enable switch"
+#~ msgstr "Visa brytare för aktivering"
+
+#~ msgid "Whether the switch enabling the expansion is visible"
+#~ msgstr "Huruvida brytaren som aktiverar expansionen är synlig"
+
+#~ msgid "Content"
+#~ msgstr "Innehåll"
+
+#~ msgid "The content Widget"
+#~ msgstr "Innehållskomponenten"
+
+# https://gitlab.gnome.org/GNOME/libhandy/-/issues/202
+# Som en sidopanel, men kan även vara högst upp/längst ner.
+#~ msgid "Flap"
+#~ msgstr "Flikpanel"
+
+#~ msgid "The flap widget"
+#~ msgstr "Flikpanelskomponenten"
+
+#~ msgid "Separator"
+#~ msgstr "Avgränsare"
+
+#~ msgid "The separator widget"
+#~ msgstr "Avgränsarkomponenten"
+
+#~ msgid "Flap Position"
+#~ msgstr "Flikpanelsposition"
+
+#~ msgid "The flap position"
+#~ msgstr "Flikpanelspositionen"
+
+#~ msgid "Reveal Flap"
+#~ msgstr "Visa flikpanel"
+
+#~ msgid "Whether the flap is revealed"
+#~ msgstr "Huruvida flikpanelen visas"
+
+#~ msgid "Reveal Duration"
+#~ msgstr "Visningslängd"
+
+#~ msgid "The reveal transition animation duration, in milliseconds"
+#~ msgstr "Längd på visningsövergångsanimeringen i millisekunder"
+
+#~ msgid "Reveal Progress"
+#~ msgstr "Visningsförlopp"
+
+# 0 means fully hidden,
+#  * 1 means fully revealed
+#~ msgid "The current reveal transition progress"
+#~ msgstr "Det aktuella visningsövergångsförloppet"
+
+#~ msgid "Fold Policy"
+#~ msgstr "Vikningspolicy"
+
+#~ msgid "The current fold policy"
+#~ msgstr "Aktuell vikningspolicy"
+
+#~ msgid "Fold Duration"
+#~ msgstr "Vikningslängd"
+
+#~ msgid "The fold transition animation duration, in milliseconds"
+#~ msgstr "Längd på vikningsövergångsanimeringen i millisekunder"
+
+#~ msgid "Folded"
+#~ msgstr "Ihopvikt"
+
+#~ msgid "Whether the flap is currently folded"
+#~ msgstr "Huruvida flikpanelen är ihopvikt"
+
+#~ msgid "Locked"
+#~ msgstr "Låst"
+
+#~ msgid "Whether the flap is locked"
+#~ msgstr "Huruvida flikpanelen är låst"
+
+#~ msgid "Transition Type"
+#~ msgstr "Övergångstyp"
+
+#~ msgid "The type of animation used for reveal and fold transitions"
+#~ msgstr ""
+#~ "Den typ av animering som används vid visnings- och vikningsövergångar"
+
+#~ msgid "Modal"
+#~ msgstr "Modal"
+
+#~ msgid "Whether the flap is modal"
+#~ msgstr "Huruvida flikpanelen är modal"
+
+#~ msgid "Swipe to Open"
+#~ msgstr "Svep för att öppna"
+
+#~ msgid "Whether the flap can be opened with a swipe gesture"
+#~ msgstr "Huruvida flikpanelen kan öppnas med en svepgest"
+
+#~ msgid "Swipe to Close"
+#~ msgstr "Svep för att stänga"
+
+#~ msgid "Whether the flap can be closed with a swipe gesture"
+#~ msgstr "Huruvida flikpanelen kan stängas med en svepgest"
+
+#~ msgid "Minimize"
+#~ msgstr "Minimera"
+
+#~ msgid "Restore"
+#~ msgstr "Återställ"
+
+#~ msgid "Maximize"
+#~ msgstr "Maximera"
+
+#~ msgid "Pack type"
+#~ msgstr "Packningstyp"
+
+#~ msgid ""
+#~ "A GtkPackType indicating whether the child is packed with reference to "
+#~ "the start or end of the parent"
+#~ msgstr ""
+#~ "En GtkPackType som indikerar huruvida den underordnade packas med "
+#~ "avseende på början eller slutet på den överordnade"
+
+#~ msgid "The index of the child in the parent"
+#~ msgstr "Indexet för den underordnade i den överordnade"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "The title to display"
+#~ msgstr "Titeln att visa"
+
+#~ msgid "The subtitle to display"
+#~ msgstr "Undertiteln att visa"
+
+#~ msgid "Custom Title"
+#~ msgstr "Anpassad titel"
+
+#~ msgid "Custom title widget to display"
+#~ msgstr "Anpassad titelkomponent att visa"
+
+#~ msgid "The amount of space between children"
+#~ msgstr "Mängden utrymme mellan underordnade"
+
+#~ msgid "Show decorations"
+#~ msgstr "Visa dekorationer"
+
+#~ msgid "Whether to show window decorations"
+#~ msgstr "Huruvida fönsterdekorationer ska visas"
+
+#~ msgid "Decoration Layout"
+#~ msgstr "Dekorationslayout"
+
+#~ msgid "The layout for window decorations"
+#~ msgstr "Layouten för fönsterdekorationer"
+
+#~ msgid "Decoration Layout Set"
+#~ msgstr "Dekorationslayout inställd"
+
+#~ msgid "Whether the decoration-layout property has been set"
+#~ msgstr "Huruvida egenskapen decoration-layout har ställts in"
+
+#~ msgid "Has Subtitle"
+#~ msgstr "Har undertitel"
+
+#~ msgid "Whether to reserve space for a subtitle"
+#~ msgstr "Huruvida utrymme för en undertitel ska reserveras"
+
+#~ msgid "Centering policy"
+#~ msgstr "Centreringspolicy"
+
+#~ msgid "The policy to horizontally align the center widget"
+#~ msgstr "Policyn för att vågrätt justera centerkomponenten"
+
+#~ msgid "The animation duration, in milliseconds"
+#~ msgstr "Animeringstiden i millisekunder"
+
+#~ msgid "Decorate all"
+#~ msgstr "Dekorera alla"
+
+#~ msgid ""
+#~ "Whether the elements of the group should all receive the full decoration"
+#~ msgstr "Huruvida alla element i gruppen ska få full dekoration"
+
+#~ msgid "Digit"
+#~ msgstr "Siffra"
+
+#~ msgid "The keypad digit of the button"
+#~ msgstr "Knappsatssiffran för knappen"
+
+#~ msgid "Symbols"
+#~ msgstr "Symboler"
+
+#~ msgid ""
+#~ "The keypad symbols of the button. The first symbol is used as the digit"
+#~ msgstr ""
+#~ "Knappsatssymbolerna för knappen. Den första symbolen används för siffran"
+
+#~ msgid "Show symbols"
+#~ msgstr "Visa symboler"
+
+#~ msgid "Whether the second line of symbols should be shown or not"
+#~ msgstr "Huruvida den andra raden med symboler ska visas eller inte"
+
+#~ msgid "Row spacing"
+#~ msgstr "Radavstånd"
+
+#~ msgid "The amount of space between two consecutive rows"
+#~ msgstr "Mängden utrymme mellan två efterföljande rader"
+
+#~ msgid "Column spacing"
+#~ msgstr "Kolumnavstånd"
+
+#~ msgid "The amount of space between two consecutive columns"
+#~ msgstr "Mängden utrymme mellan två efterföljande kolumner"
+
+#~ msgid "Letters visible"
+#~ msgstr "Bokstäver synliga"
+
+#~ msgid "Whether the letters below the digits should be visible"
+#~ msgstr "Huruvida bokstäverna under siffrorna ska vara synliga"
+
+#~ msgid "Symbols visible"
+#~ msgstr "Symboler synliga"
+
+#~ msgid "Whether the hash, plus, and asterisk symbols should be visible"
+#~ msgstr "Huruvida symbolerna fyrkant, plus och asterisk ska vara synliga"
+
+#~ msgid "Entry"
+#~ msgstr "Fält"
+
+#~ msgid "The entry widget connected to the keypad"
+#~ msgstr "Fältkomponenten som är kopplad till knappsatsen"
+
+# The “right-action” property has been replaced by #HdyHeaderGroup:end-action
+#~ msgid "End action"
+#~ msgstr "Slutåtgärd"
+
+#~ msgid "The end action widget"
+#~ msgstr "Åtgärdskomponenten i slutet"
+
+# The “left-action” property has been replaced by #HdyHeaderGroup:start-action
+#~ msgid "Start action"
+#~ msgstr "Startåtgärd"
+
+#~ msgid "The start action widget"
+#~ msgstr "Åtgärdskomponenten i början"
+
+#~ msgid "Whether the widget is folded"
+#~ msgstr "Huruvida komponenten är ihopvikt"
+
+#~ msgid "Horizontally homogeneous folded"
+#~ msgstr "Vågrätt homogent ihopvikt"
+
+#~ msgid "Horizontally homogeneous sizing when the leaflet is folded"
+#~ msgstr "Vågrätt homogen omformning när broschyren är ihopvikt"
+
+#~ msgid "Vertically homogeneous folded"
+#~ msgstr "Lodrätt homogent ihopvikt"
+
+#~ msgid "Vertically homogeneous sizing when the leaflet is folded"
+#~ msgstr "Lodrätt homogen omformning när broschyren är ihopvikt"
+
+# #HdyLeaflet widget can display its children like a #GtkBox does or like a #GtkStack does, when unfolded respectively folded
+#~ msgid "Box horizontally homogeneous"
+#~ msgstr "Vågrätt homogent utfälld"
+
+#~ msgid "Horizontally homogeneous sizing when the leaflet is unfolded"
+#~ msgstr "Vågrätt homogen omformning när broschyren är utfälld"
+
+# #HdyLeaflet widget can display its children like a
+# #GtkBox does or like a #GtkStack does, when
+# unfolded respectively folded
+#~ msgid "Box vertically homogeneous"
+#~ msgstr "Lodrätt homogent utfälld"
+
+#~ msgid "Vertically homogeneous sizing when the leaflet is unfolded"
+#~ msgstr "Lodrätt homogen omformning när broschyren är utfälld"
+
+#~ msgid "The widget currently visible when the leaflet is folded"
+#~ msgstr "Komponenten som för närvarande är synlig när broschyren är ihopvikt"
+
+#~ msgid ""
+#~ "The name of the widget currently visible when the children are stacked"
+#~ msgstr ""
+#~ "Namnet på komponenten som för närvarande är synlig när de underordnade är "
+#~ "staplade"
+
+#~ msgid "The type of animation used to transition between modes and children"
+#~ msgstr ""
+#~ "Den typ av animering som används vid övergång mellan lägen och "
+#~ "underordnade"
+
+#~ msgid "Mode transition duration"
+#~ msgstr "Längd på lägesövergång"
+
+#~ msgid "The mode transition animation duration, in milliseconds"
+#~ msgstr "Längd på lägesövergångsanimeringen i millisekunder"
+
+#~ msgid "Child transition duration"
+#~ msgstr "Längd för övergång mellan underordnade"
+
+#~ msgid "The child transition animation duration, in milliseconds"
+#~ msgstr ""
+#~ "Animeringslängden för övergången mellan underordnade i millisekunder"
+
+#~ msgid "Child transition running"
+#~ msgstr "Övergång mellan underordnade körs"
+
+#~ msgid "Whether or not the child transition is currently running"
+#~ msgstr "Huruvida övergången mellan underordnade körs för närvarande"
+
+#~ msgid "Navigatable"
+#~ msgstr "Navigerbar"
+
+#~ msgid "Whether the child can be navigated to"
+#~ msgstr "Huruvida det går att navigera till den underordnade"
+
+#~ msgid "Description"
+#~ msgstr "Beskrivning"
+
+#~ msgid "The title of the preference"
+#~ msgstr "Inställningens titel"
+
+#~ msgid "Whether search is enabled"
+#~ msgstr "Huruvida sökning är aktiverad"
+
+#~ msgid ""
+#~ "Whether or not swipe gesture can be used to switch from a subpage to the "
+#~ "preferences"
+#~ msgstr ""
+#~ "Huruvida en svepgest kan användas för att växla från en undersida till "
+#~ "inställningarna"
+
+#~ msgid "Search Mode Enabled"
+#~ msgstr "Sökläge aktiverat"
+
+#~ msgid "Whether the search mode is on and the search bar shown"
+#~ msgstr "Huruvida sökläget är påslaget och sökraden visas"
+
+#~ msgid "Show Close Button"
+#~ msgstr "Visa Stäng-knappen"
+
+#~ msgid "Whether to show the close button in the toolbar"
+#~ msgstr "Huruvida stängknappen ska visas i verktygsfältet"
+
+#~ msgid "Widget"
+#~ msgstr "Gränssnittskomponent"
+
+#~ msgid "The widget the shadow will be drawn for"
+#~ msgstr "Komponenten som skuggan kommer att ritas för"
+
+#~ msgid "Homogeneous"
+#~ msgstr "Homogen"
+
+#~ msgid "Homogeneous sizing"
+#~ msgstr "Homogen omformning"
+
+#  * The HdySqueezer widget is a container which only shows the first of its children that fits in the available size.
+#~ msgid "The widget currently visible in the squeezer"
+#~ msgstr "Komponenten som för närvarande är synlig i pressen"
+
+#~ msgid "The type of animation used to transition"
+#~ msgstr "Den typ av animering som används vid en övergång"
+
+#~ msgid "X align"
+#~ msgstr "X-justering"
+
+#~ msgid "The horizontal alignment, from 0 (start) to 1 (end)"
+#~ msgstr "Vågrät justering, från 0 (start) till 1 (slut)"
+
+#~ msgid "Y align"
+#~ msgstr "Y-justering"
+
+#~ msgid "The vertical alignment, from 0 (top) to 1 (bottom)"
+#~ msgstr "Lodrät justering, från 0 (överst) till 1 (nederst)"
+
+#~ msgid "Enabled"
+#~ msgstr "Aktiverad"
+
+#~ msgid ""
+#~ "Whether the child can be picked or should be ignored when looking for the "
+#~ "child fitting the available size best"
+#~ msgstr ""
+#~ "Huruvida den underordnade kan väljas eller ska ignoreras vid sökning av "
+#~ "den underordnade som passar den tillgängliga storleken bäst"
+
+#~ msgid "Horizontally homogeneous sizing when the widget is folded"
+#~ msgstr "Vågrätt homogen omformning när komponenten är ihopvikt"
+
+#~ msgid "Vertically homogeneous sizing when the widget is folded"
+#~ msgstr "Lodrätt homogen omformning när komponenten är ihopvikt"
+
+#~ msgid "Horizontally homogeneous sizing when the widget is unfolded"
+#~ msgstr "Vågrätt homogen omformning när komponenten är utfälld"
+
+#~ msgid "Vertically homogeneous sizing when the widget is unfolded"
+#~ msgstr "Lodrätt homogen omformning när komponenten är utfälld"
+
+#~ msgid "The widget currently visible when the widget is folded"
+#~ msgstr ""
+#~ "Komponenten som för närvarande är synlig när komponenten är ihopvikt"
+
+#~ msgid "Orientation"
+#~ msgstr "Orientering"
+
+#~ msgid "The name of the icon to be used"
+#~ msgstr "Namnet på ikonen som ska användas"
+
+#~ msgid "The title to be displayed below the icon"
+#~ msgstr "Titeln att visa under ikonen"
+
+#~ msgid "The description to be displayed below the title"
+#~ msgstr "Beskrivningen som ska visas under titeln"
+
+#~ msgid "Swipeable"
+#~ msgstr "Svepbar"
+
+#~ msgid "The swipeable the swipe tracker is attached to"
+#~ msgstr "Den svepbara som svepningsspåraren är fäst vid"
+
+#~ msgid "Whether the swipe tracker processes events"
+#~ msgstr "Huruvida svepningsspåraren bearbetar händelser"
+
+#~ msgid "Reversed"
+#~ msgstr "Omvänd"
+
+#~ msgid "Whether swipe direction is reversed"
+#~ msgstr "Huruvida svepriktning är omvänd"
+
+#~ msgid "Selection mode"
+#~ msgstr "Markeringsläge"
+
+#~ msgid "Whether or not the title bar is in selection mode"
+#~ msgstr "Huruvida namnlisten är i markeringsläge"
+
+#~ msgctxt "HdyValueObjectClass"
+#~ msgid "Value"
+#~ msgstr "Värde"
+
+#~ msgctxt "HdyValueObjectClass"
+#~ msgid "The contained value"
+#~ msgstr "Värdet som innehålls"
+
+#~ msgid "Policy"
+#~ msgstr "Policy"
+
+#~ msgid "The policy to determine the mode to use"
+#~ msgstr "Policyn för att avgöra läget att använda"
+
+#~ msgid "Stack"
+#~ msgstr "Stack"
+
+#~ msgid "Reveal"
+#~ msgstr "Visa"
+
+#~ msgid "Whether the view switcher is revealed"
+#~ msgstr "Huruvida vyväxlaren visas"
+
+#~ msgid "Icon Name"
+#~ msgstr "Ikonnamn"
+
+#~ msgid "Icon name for image"
+#~ msgstr "Ikonnamn för bild"
+
+#~ msgid "Icon Size"
+#~ msgstr "Ikonstorlek"
+
+#~ msgid "Symbolic size to use for named icon"
+#~ msgstr "Symbolisk storlek att använda för namngiven ikon"
+
+#~ msgid "Needs attention"
+#~ msgstr "Behöver uppmärksamhet"
+
+#~ msgid "Hint the view needs attention"
+#~ msgstr "Tips om att vyn behöver uppmärksamhet"
+
+#~ msgid "Narrow ellipsize"
+#~ msgstr "Smal elliptisering"
+
+#~ msgid ""
+#~ "The preferred place to ellipsize the string, if the narrow mode label "
+#~ "does not have enough room to display the entire string"
+#~ msgstr ""
+#~ "Den föredragna platsen att elliptisera strängen, om etiketten i smalt "
+#~ "läge inte har tillräckligt med utrymme för att visa hela strängen"
+
+#~ msgid "View switcher enabled"
+#~ msgstr "Vyväxlare aktiverad"
+
+#~ msgid "Whether the view switcher is enabled"
+#~ msgstr "Huruvida vyväxlaren är aktiverad"
+
+#~ msgid "Title visible"
+#~ msgstr "Titel synlig"
+
+#~ msgid "Whether the title label is visible"
+#~ msgstr "Huruvida titeletiketten är synlig"
+
+#~ msgid "Move"
+#~ msgstr "Flytta"
+
+#~ msgid "Resize"
+#~ msgstr "Ändra storlek"
+
+#~ msgid "Always on Top"
+#~ msgstr "Alltid överst"

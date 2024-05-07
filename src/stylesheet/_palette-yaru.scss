@@ -1,0 +1,118 @@
+// Keep this in sync with
+//   https://github.com/ubuntu/yaru/blob/master/gtk/src/default/gtk-4.0/_palette.scss
+
+$blue_1: #75d3f4;
+$blue_2: #47c4f1;
+$blue_3: #19b6ee; // Yaru blue
+$blue_4: #007aa6; // Yaru linkblue
+$blue_5: #335280; // Yaru darkblue
+$green_1: #5aed70;
+$green_2: #47d35c;
+$green_3: #34b948;
+$green_4: #219e34;
+$green_5: #0e8420; // Yaru green
+$yellow_1: #fccd87;
+$yellow_2: #fbc16a;
+$yellow_3: #fbb44c;
+$yellow_4: #faa82f;
+$yellow_5: #f99b11; // Yaru yellow
+$orange_1: #f29879;
+$orange_2: #f08763;
+$orange_3: #ed764d;
+$orange_4: #eb6536;
+$orange_5: #e95420; // Yaru orange
+$red_1: #ea485c;
+$red_2: #de374c;
+$red_3: #d3273b;
+$red_4: #c7162b; // Yaru red
+$red_5: #a91224;
+$purple_1: #924d8b; // Yaru aubergine
+$purple_2: #762572; // Yaru purple
+$purple_3: #77216f; // Yaru light aubergine
+$purple_4: #5e2750; // Yaru mid aubergine
+$purple_5: #2c001e; // Yaru dark aubergine
+$brown_1: #e1b289;
+$brown_2: #c5976e;
+$brown_3: #aa7b53;
+$brown_4: #8e6038;
+$brown_5: #72441d;
+$light_1: #ffffff;
+$light_2: #f7f7f7; // Yaru porcelain
+$light_3: #ccc; // Yaru silk
+$light_4: #aea79f; // Yaru warm gray
+$light_5: #878787; // Yaru ash
+$dark_1: #666666; // Yaru graphite
+$dark_2: #5d5d5d; // Yaru slate
+$dark_3: #3d3d3d; // Yaru inkstone
+$dark_4: #181818; // Yaru jet
+$dark_5: #000000;
+
+$blue: $blue_3;
+$linkblue: $blue_4;
+$darkblue: $blue_5;
+$green: $green_5;
+$yellow: $yellow_5;
+$orange: $orange_5;
+$red: $red_4;
+$aubergine: $purple_1;
+$purple: $purple_2;
+$light_aubergine: $purple_3;
+$mid_aubergine: $purple_4;
+$dark_aubergine: $purple_5;
+$porcelain: $light_2;
+$silk: $light_3;
+$warm_gray: $light_4;
+$ash: $light_5;
+$graphite: $dark_1;
+$slate: $dark_2;
+$inkstone: $dark_3;
+$jet: $dark_4;
+
+// Sass thinks we're using the colors in the variables as strings and may shoot
+// warning, it's innocuous and can be defeated by using #{$var}.
+
+@define-color blue_1 #{$blue_1};
+@define-color blue_2 #{$blue_2};
+@define-color blue_3 #{$blue_3};
+@define-color blue_4 #{$blue_4};
+@define-color blue_5 #{$blue_5};
+@define-color green_1 #{$green_1};
+@define-color green_2 #{$green_2};
+@define-color green_3 #{$green_3};
+@define-color green_4 #{$green_4};
+@define-color green_5 #{$green_5};
+@define-color yellow_1 #{$yellow_1};
+@define-color yellow_2 #{$yellow_2};
+@define-color yellow_3 #{$yellow_3};
+@define-color yellow_4 #{$yellow_4};
+@define-color yellow_5 #{$yellow_5};
+@define-color orange_1 #{$orange_1};
+@define-color orange_2 #{$orange_2};
+@define-color orange_3 #{$orange_3};
+@define-color orange_4 #{$orange_4};
+@define-color orange_5 #{$orange_5};
+@define-color red_1 #{$red_1};
+@define-color red_2 #{$red_2};
+@define-color red_3 #{$red_3};
+@define-color red_4 #{$red_4};
+@define-color red_5 #{$red_5};
+@define-color purple_1 #{$purple_1};
+@define-color purple_2 #{$purple_2};
+@define-color purple_3 #{$purple_3};
+@define-color purple_4 #{$purple_4};
+@define-color purple_5 #{$purple_5};
+@define-color brown_1 #{$brown_1};
+@define-color brown_2 #{$brown_2};
+@define-color brown_3 #{$brown_3};
+@define-color brown_4 #{$brown_4};
+@define-color brown_5 #{$brown_5};
+@define-color light_1 #{$light_1};
+@define-color light_2 #{$light_2};
+@define-color light_3 #{$light_3};
+@define-color light_4 #{$light_4};
+@define-color light_5 #{$light_5};
+@define-color dark_1 #{$dark_1};
+@define-color dark_2 #{$dark_2};
+@define-color dark_3 #{$dark_3};
+@define-color dark_4 #{$dark_4};
+@define-color dark_5 #{$dark_5};

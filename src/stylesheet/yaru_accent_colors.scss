@@ -1,0 +1,75 @@
+// Keep this in sync with
+//   https://github.com/ubuntu/yaru/blob/master/common/accent-colors.scss.in
+
+@function get_accent_color($accent_color, $is_dark: false) {
+    $color: null;
+    @if $accent_color == 'default' {
+        $color: #E95420;
+    } @else if $accent_color == 'bark' {
+        $color: #787859;
+    } @else if $accent_color == 'sage' {
+        $color: #657B69;
+    } @else if $accent_color == 'olive' {
+        $color: #4B8501;
+    } @else if $accent_color == 'viridian' {
+        $color: #03875B;
+    } @else if $accent_color == 'prussiangreen' {
+        $color: #308280;
+    } @else if $accent_color == 'blue' {
+        $color: #0073E5;
+    } @else if $accent_color == 'purple' {
+        $color: #7764D8;
+    } @else if $accent_color == 'magenta' {
+        $color: #B34CB3;
+    } @else if $accent_color == 'red' {
+        $color: #DA3450;
+    } @else {
+        @error('No known accent color defined!');
+    }
+    @debug('Using accent color ' + $accent_color + ': ' + $color);
+    @return $color;
+}
+
+$yaru_is_dark_variant: @yaru_dark_variant@;
+$yaru_accent_bg_color: get_accent_color('@yaru_accent_color@', $yaru_is_dark_variant);
+$accent_bg_color: $yaru_accent_bg_color;
+$accent_color: $yaru_accent_bg_color;
+@debug("Accent color is " + $yaru_accent_bg_color);
+
+@import '@yaru_theme_entry_point@';
+
+// Optimize accent-color definition for default background colors
+@import 'sass-utils';
+@import 'palette-yaru';
+@import 'functions';
+
+@if str-contains('@yaru_theme_entry_point@', 'stylesheet/defaults') {
+    $window-bg-color: if($variant == 'light', #FAFAFA, lighten($jet, 8%));
+    $window-fg-color: if($variant == 'light', $inkstone, $porcelain);
+    @define-color window_bg_color #{$window-bg-color};
+    @define-color window_fg_color #{$window-fg-color};
+
+    @define-color warning_fg_color #{$window-fg-color};
+    @define-color view_fg_color #{$window-fg-color};
+    @define-color headerbar_fg_color #{$window-fg-color};
+    @define-color headerbar_backdrop_color #{$window-bg-color};
+    @define-color headerbar_border_color #{$window-fg-color};
+    @define-color card_fg_color #{$window-fg-color};
+    @define-color dialog_fg_color #{$window-fg-color};
+    @define-color popover_fg_color #{$window-fg-color};
+    @define-color thumbnail_fg_color #{$window-fg-color};
+
+    $contrast_target: if($variant=='light', 4.5, 4.8);
+    $yaru-accent-color: optimize-contrast($window-bg-color,
+        $yaru_accent_bg_color, $target: $contrast_target);
+    @define-color yaru_accent_color #{$yaru-accent-color};
+    @define-color yaru_accent_bg_color #{$yaru_accent_bg_color};
+    @define-color accent_color #{$yaru-accent-color};
+
+    $contrast_target: if($variant=='light', 4.5, 6);
+    $link-color: optimize-contrast($window-bg-color,
+        $accent-color, $target: $contrast_target);
+    $link-visited-color: gtkmix($link-color, $window-fg-color, 80%) !default;
+    @define-color yaru_link_color #{$link-color};
+    @define-color yaru_link_visited_color #{$link-visited-color};
+}

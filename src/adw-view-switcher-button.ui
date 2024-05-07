@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface domain="libadwaita">
+  <requires lib="gtk" version="4.0"/>
+  <template class="AdwViewSwitcherButton" parent="GtkToggleButton">
+    <style>
+      <class name="flat"/>
+    </style>
+    <property name="child">
+      <object class="GtkStack" id="stack">
+        <property name="hhomogeneous">False</property>
+        <property name="vhomogeneous">False</property>
+        <child>
+          <object class="GtkBox" id="horizontal_box">
+            <property name="halign">center</property>
+            <property name="orientation">horizontal</property>
+            <property name="valign">center</property>
+            <style>
+              <class name="wide"/>
+            </style>
+            <child>
+              <object class="AdwIndicatorBin">
+                <property name="valign">center</property>
+                <binding name="badge">
+                  <closure type="gchararray" function="get_badge_text">
+                    <lookup name="badge-number">AdwViewSwitcherButton</lookup>
+                  </closure>
+                </binding>
+                <binding name="needs-attention">
+                  <lookup name="needs-attention">AdwViewSwitcherButton</lookup>
+                </binding>
+                <property name="child">
+                  <object class="GtkImage" id="horizontal_image">
+                    <property name="icon-name" bind-source="AdwViewSwitcherButton" bind-property="icon-name" bind-flags="sync-create" />
+                    <property name="accessible-role">presentation</property>
+                  </object>
+                </property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkLabel" id="horizontal_label">
+                <property name="label" bind-source="AdwViewSwitcherButton" bind-property="label" bind-flags="sync-create|bidirectional" />
+                <property name="use-underline" bind-source="AdwViewSwitcherButton" bind-property="use-underline" bind-flags="sync-create|bidirectional" />
+                <property name="ellipsize">end</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkBox" id="vertical_box">
+            <property name="halign">center</property>
+            <property name="orientation">vertical</property>
+            <property name="valign">center</property>
+            <style>
+              <class name="narrow"/>
+            </style>
+            <child>
+              <object class="AdwIndicatorBin">
+                <property name="halign">center</property>
+                <property name="valign">center</property>
+                <binding name="badge">
+                  <closure type="gchararray" function="get_badge_text">
+                    <lookup name="badge-number">AdwViewSwitcherButton</lookup>
+                  </closure>
+                </binding>
+                <binding name="needs-attention">
+                  <lookup name="needs-attention">AdwViewSwitcherButton</lookup>
+                </binding>
+                <property name="child">
+                  <object class="GtkImage" id="vertical_image">
+                    <property name="icon-name" bind-source="AdwViewSwitcherButton" bind-property="icon-name" bind-flags="sync-create" />
+                    <property name="accessible-role">presentation</property>
+                  </object>
+                </property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkLabel" id="vertical_label">
+                <property name="label" bind-source="AdwViewSwitcherButton" bind-property="label" bind-flags="sync-create|bidirectional" />
+                <property name="use-underline" bind-source="AdwViewSwitcherButton" bind-property="use-underline" bind-flags="sync-create|bidirectional" />
+                <property name="ellipsize">end</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </property>
+    <child>
+      <object class="GtkDropControllerMotion">
+        <signal name="enter" handler="drag_enter_cb" swapped="yes"/>
+        <signal name="leave" handler="drag_leave_cb" swapped="yes"/>
+      </object>
+    </child>
+  </template>
+</interface>

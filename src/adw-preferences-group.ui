@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface domain="libadwaita">
+  <requires lib="gtk" version="4.0"/>
+  <template class="AdwPreferencesGroup" parent="GtkWidget">
+    <child>
+      <object class="GtkBox" id="box">
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkBox" id="header_box">
+            <child>
+              <object class="GtkBox">
+                <property name="hexpand">True</property>
+                <property name="valign">center</property>
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkLabel" id="title">
+                    <property name="visible">False</property>
+                    <property name="ellipsize">end</property>
+                    <property name="use-markup">True</property>
+                    <property name="xalign">0</property>
+                    <style>
+                      <class name="heading"/>
+                      <!-- Matching elementary class. -->
+                      <class name="h4"/>
+                    </style>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="description">
+                    <property name="visible">False</property>
+                    <property name="use-markup">True</property>
+                    <property name="wrap">True</property>
+                    <property name="wrap-mode">word-char</property>
+                    <property name="xalign">0</property>
+                    <style>
+                      <class name="dim-label"/>
+                    </style>
+                  </object>
+                </child>
+                <style>
+                  <class name="labels"/>
+                </style>
+              </object>
+            </child>
+            <style>
+              <class name="header"/>
+            </style>
+          </object>
+        </child>
+        <child>
+          <object class="GtkBox" id="listbox_box">
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="GtkListBox" id="listbox">
+                <property name="visible">False</property>
+                <property name="selection_mode">none</property>
+                <accessibility>
+                  <relation name="labelled-by">title</relation>
+                  <relation name="described-by">description</relation>
+                </accessibility>
+                <signal name="keynav-failed" handler="listbox_keynav_failed_cb" swapped="yes"/>
+                <style>
+                  <class name="boxed-list"/>
+                </style>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>
