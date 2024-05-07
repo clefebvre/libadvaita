@@ -411,7 +411,7 @@ if introspection
    libadvaita_gir = gnome.generate_gir(libadvaita,
                  sources: libadvaita_generated_headers + libadvaita_public_headers + libadvaita_public_sources,
                nsversion: apiversion,
-               namespace: 'Adw',
+               namespace: 'Adv',
          export_packages: package_api_name,
            symbol_prefix: 'adw',
        identifier_prefix: 'Adw',
