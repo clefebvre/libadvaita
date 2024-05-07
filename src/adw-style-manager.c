@@ -290,22 +290,6 @@ adw_style_manager_constructed (GObject *object)
                              self,
                              G_CONNECT_SWAPPED);
 
-    if (!adw_is_granite_present () && !g_getenv ("GTK_THEME")) {
-      g_object_set (gtk_settings_get_for_display (self->display),
-                    "gtk-theme-name", "Advaita-empty",
-                    NULL);
-
-      self->provider = gtk_css_provider_new ();
-      gtk_style_context_add_provider_for_display (self->display,
-                                                  GTK_STYLE_PROVIDER (self->provider),
-                                                  GTK_STYLE_PROVIDER_PRIORITY_THEME);
-
-      self->colors_provider = gtk_css_provider_new ();
-      gtk_style_context_add_provider_for_display (self->display,
-                                                  GTK_STYLE_PROVIDER (self->colors_provider),
-                                                  GTK_STYLE_PROVIDER_PRIORITY_THEME);
-    }
-
     self->animations_provider = gtk_css_provider_new ();
     gtk_css_provider_load_from_string (self->animations_provider,
                                        "* { transition: none; }");
