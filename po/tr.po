@@ -1,6 +1,6 @@
-# Turkish translation for libadwaita.
-# Copyright (C) 2021-2022 libadwaita's COPYRIGHT HOLDER
-# This file is distributed under the same license as the libadwaita package.
+# Turkish translation for libadvaita.
+# Copyright (C) 2021-2022 libadvaita's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libadvaita package.
 #
 # Muhammet Kara <muhammetk@gmail.com>, 2021.
 # Emin Tufan Çetin <etcetin@gmail.com>, 2022, 2023.
@@ -8,8 +8,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: libadwaita main\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"Project-Id-Version: libadvaita main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadvaita/issues\n"
 "POT-Creation-Date: 2024-02-26 19:00+0000\n"
 "PO-Revision-Date: 2024-02-27 03:55+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
@@ -277,8 +277,8 @@ msgstr "Açık Yeğle"
 
 #. Translators: The name of the library, not the stylesheet
 #: src/adw-inspector-page.c:97
-msgid "Adwaita"
-msgstr "Adwaita"
+msgid "Advaita"
+msgstr "Advaita"
 
 #: src/adw-inspector-page.ui:10
 msgid "System Appearance"

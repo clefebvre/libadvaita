@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alicem@gnome.org>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -160,11 +160,11 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/Dialog/child", test_adw_dialog_child);
-  g_test_add_func ("/Adwaita/Dialog/title", test_adw_dialog_title);
-  g_test_add_func ("/Adwaita/Dialog/can-close", test_adw_dialog_can_close);
-  g_test_add_func ("/Adwaita/Dialog/follows-content-size", test_adw_dialog_follows_content_size);
-  g_test_add_func ("/Adwaita/Dialog/presentation-mode", test_adw_dialog_presentation_mode);
+  g_test_add_func ("/Advaita/Dialog/child", test_adw_dialog_child);
+  g_test_add_func ("/Advaita/Dialog/title", test_adw_dialog_title);
+  g_test_add_func ("/Advaita/Dialog/can-close", test_adw_dialog_can_close);
+  g_test_add_func ("/Advaita/Dialog/follows-content-size", test_adw_dialog_follows_content_size);
+  g_test_add_func ("/Advaita/Dialog/presentation-mode", test_adw_dialog_presentation_mode);
 
   return g_test_run ();
 }

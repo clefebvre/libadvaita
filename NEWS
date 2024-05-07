@@ -1197,7 +1197,7 @@ Version 1.0.0.alpha.4
   - Add a style classes demo.
   - Add about dialog.
   - Add an inspector item to the primary menu.
-  - Change appid to org.gnome.Adwaita1.Demo to version it.
+  - Change appid to org.gnome.Advaita1.Demo to version it.
   - Add an icon, metainfo and desktop file.
     - Make the desktop file visible for nightly flatpaks.
   - Make non-unique.
@@ -1279,7 +1279,7 @@ Version 1.0.0.alpha.4
     is already over a tab.
 - View Switcher
   - Fix screen readers reading page titles 4 times.
-- Add API to allow checking libadwaita version in runtime.
+- Add API to allow checking libadvaita version in runtime.
 - Various fixes and cleanups.
 - Translation updates:
   - Finnish
@@ -1454,6 +1454,6 @@ Version 1.0.0-alpha.2
 Version 1.0.0-alpha.1
 =====================
 
-- First libadwaita 1 alpha.
+- First libadvaita 1 alpha.
 - Check the migration guide in the documentation to port from libhandy
   to it.

@@ -3,7 +3,7 @@ Slug: migrating-to-breakpoints
 
 # Migrating to Breakpoints
 
-Libadwaita 1.4 introduces [class@Breakpoint] and new adaptive widgets that can
+Libadvaita 1.4 introduces [class@Breakpoint] and new adaptive widgets that can
 integrate with it, while deprecating the old widgets.
 
 # Start Using `AdwToolbarView`

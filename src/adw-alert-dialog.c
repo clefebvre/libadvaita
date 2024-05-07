@@ -898,7 +898,7 @@ adw_alert_dialog_class_init (AdwAlertDialogClass *klass)
                               adw_marshal_VOID__STRINGv);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-alert-dialog.ui");
+                                               "/org/gnome/Advaita/ui/adw-alert-dialog.ui");
 
   gtk_widget_class_bind_template_child_private (widget_class, AdwAlertDialog, contents);
   gtk_widget_class_bind_template_child_private (widget_class, AdwAlertDialog, window_handle);

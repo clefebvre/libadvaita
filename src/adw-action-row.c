@@ -380,7 +380,7 @@ adw_action_row_class_init (AdwActionRowClass *klass)
                               adw_marshal_VOID__VOIDv);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-action-row.ui");
+                                               "/org/gnome/Advaita/ui/adw-action-row.ui");
   gtk_widget_class_bind_template_child_private (widget_class, AdwActionRow, header);
   gtk_widget_class_bind_template_child_private (widget_class, AdwActionRow, image);
   gtk_widget_class_bind_template_child_private (widget_class, AdwActionRow, prefixes);

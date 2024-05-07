@@ -317,7 +317,7 @@ adw_view_switcher_button_class_init (AdwViewSwitcherButtonClass *klass)
    */
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-view-switcher-button.ui");
+                                               "/org/gnome/Advaita/ui/adw-view-switcher-button.ui");
   gtk_widget_class_bind_template_child (widget_class, AdwViewSwitcherButton, horizontal_box);
   gtk_widget_class_bind_template_child (widget_class, AdwViewSwitcherButton, horizontal_image);
   gtk_widget_class_bind_template_child (widget_class, AdwViewSwitcherButton, horizontal_label);

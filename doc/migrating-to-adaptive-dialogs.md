@@ -3,7 +3,7 @@ Slug: migrating-to-adaptive-dialogs
 
 # Migrating to Adaptive Dialogs
 
-Libadwaita 1.5 introduces [class@Dialog] and replacements for
+Libadvaita 1.5 introduces [class@Dialog] and replacements for
 [class@MessageDialog], [class@PreferencesWindow] and [class@AboutWindow] that
 derive from it.
 

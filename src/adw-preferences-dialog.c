@@ -582,7 +582,7 @@ adw_preferences_dialog_class_init (AdwPreferencesDialogClass *klass)
   gtk_widget_class_add_binding (widget_class, GDK_KEY_f, GDK_CONTROL_MASK, search_open_cb, NULL);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-preferences-dialog.ui");
+                                               "/org/gnome/Advaita/ui/adw-preferences-dialog.ui");
   gtk_widget_class_bind_template_child_private (widget_class, AdwPreferencesDialog, toast_overlay);
   gtk_widget_class_bind_template_child_private (widget_class, AdwPreferencesDialog, subpages_nav_view);
   gtk_widget_class_bind_template_child_private (widget_class, AdwPreferencesDialog, breakpoint_bin);

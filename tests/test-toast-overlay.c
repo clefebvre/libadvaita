@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.1-or-later
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -65,8 +65,8 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/ToastOverlay/child", test_adw_toast_overlay_child);
-  g_test_add_func ("/Adwaita/ToastOverlay/add_toast", test_adw_toast_overlay_add_toast);
+  g_test_add_func ("/Advaita/ToastOverlay/child", test_adw_toast_overlay_child);
+  g_test_add_func ("/Advaita/ToastOverlay/add_toast", test_adw_toast_overlay_add_toast);
 
   return g_test_run ();
 }

@@ -22,7 +22,7 @@
  * GTK+ at ftp://ftp.gtk.org/pub/gtk/..
  */
 
-/* Bits taken from GTK 4.0.2 and tweaked to be used by libadwaita. */
+/* Bits taken from GTK 4.0.2 and tweaked to be used by libadvaita. */
 
 #include "adw-bidi-private.h"
 

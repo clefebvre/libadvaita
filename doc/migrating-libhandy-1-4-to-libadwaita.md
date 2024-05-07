@@ -1,24 +1,24 @@
-Title: Migrating from Libhandy 1.4 to Libadwaita
-Slug: migrating-libhandy-1-4-to-libadwaita
+Title: Migrating from Libhandy 1.4 to Libadvaita
+Slug: migrating-libhandy-1-4-to-libadvaita
 
-# Migrating from Libhandy 1.4 to Libadwaita
+# Migrating from Libhandy 1.4 to Libadvaita
 
-Libadwaita is being developed as a successor to Libhandy 1.4. As such, it
+Libadvaita is being developed as a successor to Libhandy 1.4. As such, it
 offers to GTK 4 many features Libhandy was offering to GTK 3.
 
-Migrating from Libhandy 1.4 to Libadwaita implies migrating from GTK 3 to 4.
-This guide only focuses on on Libhandy and Libadwaita, and is designed to be
+Migrating from Libhandy 1.4 to Libadvaita implies migrating from GTK 3 to 4.
+This guide only focuses on on Libhandy and Libadvaita, and is designed to be
 used together with the [GTK 3 to 4 migration guide](https://docs.gtk.org/gtk4/migrating-3to4.html).
 
-If you notice that some differences between Libhandy and Libadwaita are missing
-in this guide, [please report them](https://gitlab.gnome.org/GNOME/libadwaita/-/issues/new).
+If you notice that some differences between Libhandy and Libadvaita are missing
+in this guide, [please report them](https://gitlab.gnome.org/GNOME/libadvaita/-/issues/new).
 
 # Preparation in Libhandy 1.4
 
 The steps outlined in the following sections assume that your software is
 working with Libhandy 1.4, which is the latest stable release of Libhandy 1.x.
 It includes all the necessary APIs and tools to help you port your software to
-Libadwaita. If you are using an older version of Libhandy, you should first get
+Libadvaita. If you are using an older version of Libhandy, you should first get
 your software to build and work with Libhandy 1.4.
 
 ## Do not Use Deprecated Symbols
@@ -38,13 +38,13 @@ bar as a child widget.
 
 ## Stop Using `HdyKeypad`
 
-`HdyKeypad` has been removed from Libadwaita. Applications that had used it can
+`HdyKeypad` has been removed from Libadvaita. Applications that had used it can
 copy it in tree instead.
 
 ## Stop Using Named WM Colors
 
 The following named colors have been removed from the stylesheet in
-Libadwaita:
+Libadvaita:
 
 * <code>&#64;content_view_bg</code>
 * <code>&#64;text_view_bg</code>
@@ -67,7 +67,7 @@ Applications should not use them.
 ## Use `HdyFlap` Properties for Adding Children Instead of `gtk_container_add()`
 
 `HdyFlap` provides the `content`, `flap` and `separator` properties that can be
-used for managing children instead of `GtkContainer` API. In Libadwaita
+used for managing children instead of `GtkContainer` API. In Libadvaita
 [property@Flap:content], [property@Flap:flap] and [property@Flap:separator] are
 the only way to manage [class@Flap] children.
 
@@ -89,12 +89,12 @@ light appearance as well. If that's not possible, set it to
 If your application is using light appearance, consider setting the color scheme
 to `HDY_COLOR_SCHEME_PREFER_LIGHT` and support dark appearance.
 
-In libadwaita color schemes will be the only way to request dark appearance.
+In libadvaita color schemes will be the only way to request dark appearance.
 
 # Changes that Need to Be Done at the Time of the Switch
 
 This section outlines porting tasks that you need to tackle when you get to the
-point that you actually build your application against Libadwaita 1. Making it
+point that you actually build your application against Libadvaita 1. Making it
 possible to prepare for these in GTK 3 would have been either impossible or
 impractical.
 

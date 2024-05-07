@@ -25,7 +25,7 @@ Slug: named-colors
 
 # Named Colors
 
-The Adwaita stylesheet provides a number of predefined colors that can be used
+The Advaita stylesheet provides a number of predefined colors that can be used
 from applications.
 
 # UI Colors
@@ -984,7 +984,7 @@ as the following set of named colors:
 
 # Compatibility Colors
 
-A number of colors has been available in Adwaita in GTK3. They are aliases of
+A number of colors has been available in Advaita in GTK3. They are aliases of
 UI colors or otherwise derived from them:
 
 Name                                            | Value

@@ -817,7 +817,7 @@ adw_tab_class_init (AdwTabClass *klass)
   g_object_class_install_properties (object_class, LAST_PROP, props);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-tab.ui");
+                                               "/org/gnome/Advaita/ui/adw-tab.ui");
   gtk_widget_class_bind_template_child (widget_class, AdwTab, title);
   gtk_widget_class_bind_template_child (widget_class, AdwTab, icon_stack);
   gtk_widget_class_bind_template_child (widget_class, AdwTab, icon);

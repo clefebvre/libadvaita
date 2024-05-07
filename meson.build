@@ -1,4 +1,4 @@
-project('libadwaita', 'c',
+project('libadvaita', 'c',
           version: '1.5.0',
           license: 'LGPL-2.1-or-later',
     meson_version: '>= 0.59.0',
@@ -6,17 +6,17 @@ project('libadwaita', 'c',
 )
 
 version_arr = meson.project_version().split('-')[0].split('.')
-adwaita_version_major = version_arr[0].to_int()
-adwaita_version_minor = version_arr[1].to_int()
+advaita_version_major = version_arr[0].to_int()
+advaita_version_minor = version_arr[1].to_int()
 
 if version_arr[2].startswith('alpha') or version_arr[2].startswith('beta') or version_arr[2].startswith('rc')
-  adwaita_version_micro = 0
+  advaita_version_micro = 0
 else
-  adwaita_version_micro = version_arr[2].to_int()
+  advaita_version_micro = version_arr[2].to_int()
 endif
 
 # The major api version as encoded in the libraries name
-apiversion = adwaita_version_major.to_string()
+apiversion = advaita_version_major.to_string()
 package_api_name = '@0@-@1@'.format(meson.project_name(), apiversion)
 
 # Before making a release, the libversion string should be modified.
@@ -35,7 +35,7 @@ soversion = 0
 
 add_project_arguments([
   '-DHAVE_CONFIG_H',
-  '-DADWAITA_COMPILATION',
+  '-DADVAITA_COMPILATION',
 ], language: 'c')
 
 root_inc = include_directories('.')

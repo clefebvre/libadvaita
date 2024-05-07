@@ -442,7 +442,7 @@ adw_spin_row_class_init (AdwSpinRowClass *klass)
                               adw_marshal_VOID__VOIDv);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-spin-row.ui");
+                                               "/org/gnome/Advaita/ui/adw-spin-row.ui");
   gtk_widget_class_bind_template_child (widget_class, AdwSpinRow, spin_button);
 
   gtk_widget_class_bind_template_callback (widget_class, spin_button_state_flags_changed_cb);

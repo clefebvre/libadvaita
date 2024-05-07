@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.1-or-later
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 test_adw_property_animation_target_construct (void)
@@ -62,9 +62,9 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func("/Adwaita/PropertyAnimationTarget/construct",
+  g_test_add_func("/Advaita/PropertyAnimationTarget/construct",
                   test_adw_property_animation_target_construct);
-  g_test_add_func("/Adwaita/PropertyAnimationTarget/basic",
+  g_test_add_func("/Advaita/PropertyAnimationTarget/basic",
                   test_adw_property_animation_target_basic);
 
   return g_test_run();

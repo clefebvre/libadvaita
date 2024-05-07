@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -390,19 +390,19 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/Flap/flap", test_adw_flap_flap);
-  g_test_add_func ("/Adwaita/Flap/separator", test_adw_flap_separator);
-  g_test_add_func ("/Adwaita/Flap/flap_position", test_adw_flap_flap_position);
-  g_test_add_func ("/Adwaita/Flap/reveal_flap", test_adw_flap_reveal_flap);
-  g_test_add_func ("/Adwaita/Flap/reveal_progress", test_adw_flap_reveal_progress);
-  g_test_add_func ("/Adwaita/Flap/fold_policy", test_adw_flap_fold_policy);
-  g_test_add_func ("/Adwaita/Flap/fold_duration", test_adw_flap_fold_duration);
-  g_test_add_func ("/Adwaita/Flap/folded", test_adw_flap_folded);
-  g_test_add_func ("/Adwaita/Flap/locked", test_adw_flap_locked);
-  g_test_add_func ("/Adwaita/Flap/transition_type", test_adw_flap_transition_type);
-  g_test_add_func ("/Adwaita/Flap/modal", test_adw_flap_modal);
-  g_test_add_func ("/Adwaita/Flap/swipe_to_open", test_adw_flap_swipe_to_open);
-  g_test_add_func ("/Adwaita/Flap/swipe_to_close", test_adw_flap_swipe_to_close);
+  g_test_add_func ("/Advaita/Flap/flap", test_adw_flap_flap);
+  g_test_add_func ("/Advaita/Flap/separator", test_adw_flap_separator);
+  g_test_add_func ("/Advaita/Flap/flap_position", test_adw_flap_flap_position);
+  g_test_add_func ("/Advaita/Flap/reveal_flap", test_adw_flap_reveal_flap);
+  g_test_add_func ("/Advaita/Flap/reveal_progress", test_adw_flap_reveal_progress);
+  g_test_add_func ("/Advaita/Flap/fold_policy", test_adw_flap_fold_policy);
+  g_test_add_func ("/Advaita/Flap/fold_duration", test_adw_flap_fold_duration);
+  g_test_add_func ("/Advaita/Flap/folded", test_adw_flap_folded);
+  g_test_add_func ("/Advaita/Flap/locked", test_adw_flap_locked);
+  g_test_add_func ("/Advaita/Flap/transition_type", test_adw_flap_transition_type);
+  g_test_add_func ("/Advaita/Flap/modal", test_adw_flap_modal);
+  g_test_add_func ("/Advaita/Flap/swipe_to_open", test_adw_flap_swipe_to_open);
+  g_test_add_func ("/Advaita/Flap/swipe_to_close", test_adw_flap_swipe_to_close);
 
   return g_test_run ();
 }

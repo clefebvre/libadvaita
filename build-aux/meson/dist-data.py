@@ -15,7 +15,7 @@ stylesheets = [
 ]
 
 references = [
-    'doc/libadwaita-1',
+    'doc/libadvaita-1',
 ]
 
 sourceroot = os.environ.get('MESON_SOURCE_ROOT')

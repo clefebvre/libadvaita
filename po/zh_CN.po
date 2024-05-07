@@ -1,6 +1,6 @@
-# Chinese (China) translation for libadwaita.
-# Copyright (C) 2021 libadwaita's COPYRIGHT HOLDER
-# This file is distributed under the same license as the libadwaita package.
+# Chinese (China) translation for libadvaita.
+# Copyright (C) 2021 libadvaita's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libadvaita package.
 #
 # Translators:
 # Silence Zhou <silence_zhou@126.com>, 2021
@@ -8,8 +8,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: libadwaita main\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"Project-Id-Version: libadvaita main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadvaita/issues\n"
 "POT-Creation-Date: 2024-02-26 19:00+0000\n"
 "PO-Revision-Date: 2024-02-27 19:10+0800\n"
 "Last-Translator: lumingzh <lumingzh@qq.com>\n"
@@ -272,8 +272,8 @@ msgstr "首选亮色"
 
 #. Translators: The name of the library, not the stylesheet
 #: src/adw-inspector-page.c:97
-msgid "Adwaita"
-msgstr "Adwaita"
+msgid "Advaita"
+msgstr "Advaita"
 
 #: src/adw-inspector-page.ui:10
 msgid "System Appearance"

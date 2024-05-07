@@ -3,7 +3,7 @@ Slug: boxed-lists
 
 # Boxed Lists
 
-Libadwaita provides API to implement the [boxed lists](https://developer.gnome.org/hig/patterns/containers/boxed-lists.html)
+Libadvaita provides API to implement the [boxed lists](https://developer.gnome.org/hig/patterns/containers/boxed-lists.html)
 pattern.
 
 Boxed lists are composed of a [class@Gtk.ListBox] with the

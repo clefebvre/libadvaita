@@ -6,7 +6,7 @@
 
 /*
  * Heavily based on GTK 3.99.3 GtkDropDown widget initially written by Matthias
- * Clasen, and heavily modified for libadwaita by Alice Mikhaylenko on
+ * Clasen, and heavily modified for libadvaita by Alice Mikhaylenko on
  * behalf of Purism SPC 2020.
  */
 
@@ -642,7 +642,7 @@ adw_combo_row_class_init (AdwComboRowClass *klass)
   g_object_class_install_properties (object_class, LAST_PROP, props);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-combo-row.ui");
+                                               "/org/gnome/Advaita/ui/adw-combo-row.ui");
   gtk_widget_class_bind_template_child_private (widget_class, AdwComboRow, current);
   gtk_widget_class_bind_template_child_private (widget_class, AdwComboRow, arrow_box);
   gtk_widget_class_bind_template_child_private (widget_class, AdwComboRow, list);

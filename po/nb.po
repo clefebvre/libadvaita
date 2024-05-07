@@ -1,12 +1,12 @@
-# Norwegian Bokmål translation for libadwaita.
-# Copyright (C) 2023 libadwaita's COPYRIGHT HOLDER
-# This file is distributed under the same license as the libadwaita package.
+# Norwegian Bokmål translation for libadvaita.
+# Copyright (C) 2023 libadvaita's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libadvaita package.
 # Brage Fuglseth <bragefuglseth@gnome.org>, 2023.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: libadwaita main\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"Project-Id-Version: libadvaita main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadvaita/issues\n"
 "POT-Creation-Date: 2024-03-02 23:48+0000\n"
 "PO-Revision-Date: 2024-03-03 15:57+0100\n"
 "Last-Translator: Brage <bragefuglseth@gnome.org>\n"
@@ -272,8 +272,8 @@ msgstr "Foretrekk lyst"
 
 #. Translators: The name of the library, not the stylesheet
 #: src/adw-inspector-page.c:97
-msgid "Adwaita"
-msgstr "Adwaita"
+msgid "Advaita"
+msgstr "Advaita"
 
 #: src/adw-inspector-page.ui:10
 msgid "System Appearance"

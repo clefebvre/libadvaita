@@ -1,12 +1,12 @@
-# Bulgarian translation of libadwaita po-file.
+# Bulgarian translation of libadvaita po-file.
 # Copyright (C) 2022, 2023 Alexander Shopov.
-# This file is distributed under the same license as the libadwaita package.
+# This file is distributed under the same license as the libadvaita package.
 # Alexander Shopov <ash@kambanaria.org> 2022, 2023.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: libadwaita main\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"Project-Id-Version: libadvaita main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadvaita/issues\n"
 "POT-Creation-Date: 2023-03-04 16:21+0000\n"
 "PO-Revision-Date: 2023-03-04 19:29+0200\n"
 "Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
@@ -262,7 +262,7 @@ msgstr "Предпочитане на светла"
 
 #. Translators: The name of the library, not the stylesheet
 #: src/adw-inspector-page.c:97
-msgid "Adwaita"
+msgid "Advaita"
 msgstr "Адвайта"
 
 #: src/adw-inspector-page.ui:10

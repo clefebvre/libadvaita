@@ -1844,7 +1844,7 @@ adw_about_dialog_class_init (AdwAboutDialogClass *klass)
                                    G_CALLBACK (activate_link_default_cb));
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-about-dialog.ui");
+                                               "/org/gnome/Advaita/ui/adw-about-dialog.ui");
   gtk_widget_class_bind_template_child (widget_class, AdwAboutDialog, navigation_view);
   gtk_widget_class_bind_template_child (widget_class, AdwAboutDialog, toast_overlay);
   gtk_widget_class_bind_template_child (widget_class, AdwAboutDialog, main_scrolled_window);

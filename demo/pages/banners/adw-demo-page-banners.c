@@ -51,7 +51,7 @@ adw_demo_page_banners_class_init (AdwDemoPageBannersClass *klass)
                   ADW_TYPE_TOAST);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita1/Demo/ui/pages/banners/adw-demo-page-banners.ui");
+                                               "/org/gnome/Advaita1/Demo/ui/pages/banners/adw-demo-page-banners.ui");
   gtk_widget_class_bind_template_child (widget_class, AdwDemoPageBanners, banner);
   gtk_widget_class_bind_template_child (widget_class, AdwDemoPageBanners, button_label_row);
 

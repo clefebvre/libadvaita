@@ -143,7 +143,7 @@ adw_window_title_class_init (AdwWindowTitleClass *klass)
   gtk_widget_class_set_layout_manager_type (widget_class, GTK_TYPE_BIN_LAYOUT);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-window-title.ui");
+                                               "/org/gnome/Advaita/ui/adw-window-title.ui");
   gtk_widget_class_bind_template_child (widget_class, AdwWindowTitle, box);
   gtk_widget_class_bind_template_child (widget_class, AdwWindowTitle, title_label);
   gtk_widget_class_bind_template_child (widget_class, AdwWindowTitle, subtitle_label);

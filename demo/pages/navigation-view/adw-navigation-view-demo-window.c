@@ -14,7 +14,7 @@ adw_navigation_view_demo_window_class_init (AdwNavigationViewDemoWindowClass *kl
 {
   GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Adwaita1/Demo/ui/pages/navigation-view/adw-navigation-view-demo-window.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Advaita1/Demo/ui/pages/navigation-view/adw-navigation-view-demo-window.ui");
 }
 
 static void

@@ -1,4 +1,4 @@
-#include <adwaita.h>
+#include <advaita.h>
 
 static inline void
 add_button (GtkGrid       *grid,

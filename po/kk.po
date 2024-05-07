@@ -1,12 +1,12 @@
-# Kazakh translation for libadwaita.
-# Copyright (C) 2022 libadwaita's COPYRIGHT HOLDER
-# This file is distributed under the same license as the libadwaita package.
+# Kazakh translation for libadvaita.
+# Copyright (C) 2022 libadvaita's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libadvaita package.
 # Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: libadwaita libadwaita-1-0\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"Project-Id-Version: libadvaita libadvaita-1-0\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadvaita/issues\n"
 "POT-Creation-Date: 2024-03-02 19:53+0000\n"
 "PO-Revision-Date: 2024-03-06 08:08+0500\n"
 "Last-Translator: \n"
@@ -272,7 +272,7 @@ msgstr "Ашық түсті таңдау"
 
 #. Translators: The name of the library, not the stylesheet
 #: src/adw-inspector-page.c:97
-msgid "Adwaita"
+msgid "Advaita"
 msgstr "Адвайта"
 
 #: src/adw-inspector-page.ui:10

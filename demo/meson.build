@@ -14,17 +14,17 @@ demo_config_h = vcs_tag(
   output: 'config.h'
 )
 
-adwaita_demo_resources = gnome.compile_resources(
-   'adwaita-demo-resources',
-   'adwaita-demo.gresources.xml',
+advaita_demo_resources = gnome.compile_resources(
+   'advaita-demo-resources',
+   'advaita-demo.gresources.xml',
 
    c_name: 'adw',
    dependencies: appstream_file,
    source_dir: meson.current_build_dir(),
 )
 
-adwaita_demo_sources = [
-  adwaita_demo_resources,
+advaita_demo_sources = [
+  advaita_demo_resources,
 
   'pages/about/adw-demo-page-about.c',
   'pages/animations/adw-demo-page-animations.c',
@@ -50,17 +50,17 @@ adwaita_demo_sources = [
   'pages/view-switcher/adw-view-switcher-demo-window.c',
   'pages/welcome/adw-demo-page-welcome.c',
 
-  'adwaita-demo.c',
+  'advaita-demo.c',
   'adw-demo-debug-info.c',
   'adw-demo-preferences-window.c',
   'adw-demo-window.c',
   demo_config_h,
-  libadwaita_generated_headers,
+  libadvaita_generated_headers,
 ]
 
-adwaita_demo = executable('adwaita-@0@-demo'.format(apiversion),
-  adwaita_demo_sources,
-  dependencies: libadwaita_dep,
+advaita_demo = executable('advaita-@0@-demo'.format(apiversion),
+  advaita_demo_sources,
+  dependencies: libadvaita_dep,
   install: true,
 )
 

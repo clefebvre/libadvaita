@@ -1,13 +1,13 @@
-# Polish translation for libadwaita.
-# Copyright © 2020-2024 the libadwaita authors.
-# This file is distributed under the same license as the libadwaita package.
+# Polish translation for libadvaita.
+# Copyright © 2020-2024 the libadvaita authors.
+# This file is distributed under the same license as the libadvaita package.
 # Piotr Drąg <piotrdrag@gmail.com>, 2020-2024.
 # Aviary.pl <community-poland@mozilla.org>, 2020-2024.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: libadwaita\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"Project-Id-Version: libadvaita\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadvaita/issues\n"
 "POT-Creation-Date: 2024-02-26 19:00+0000\n"
 "PO-Revision-Date: 2024-03-02 17:10+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
@@ -274,8 +274,8 @@ msgstr "Preferowanie jasnego"
 
 #. Translators: The name of the library, not the stylesheet
 #: src/adw-inspector-page.c:97
-msgid "Adwaita"
-msgstr "Adwaita"
+msgid "Advaita"
+msgstr "Advaita"
 
 #: src/adw-inspector-page.ui:10
 msgid "System Appearance"

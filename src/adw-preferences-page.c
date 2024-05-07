@@ -223,7 +223,7 @@ adw_preferences_page_class_init (AdwPreferencesPageClass *klass)
   g_object_class_install_properties (object_class, LAST_PROP, props);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-preferences-page.ui");
+                                               "/org/gnome/Advaita/ui/adw-preferences-page.ui");
   gtk_widget_class_bind_template_child_private (widget_class, AdwPreferencesPage, box);
   gtk_widget_class_bind_template_child_private (widget_class, AdwPreferencesPage, description);
   gtk_widget_class_bind_template_child_private (widget_class, AdwPreferencesPage, scrolled_window);

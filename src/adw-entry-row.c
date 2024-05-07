@@ -614,7 +614,7 @@ adw_entry_row_class_init (AdwEntryRowClass *klass)
                               adw_marshal_VOID__VOIDv);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-entry-row.ui");
+                                               "/org/gnome/Advaita/ui/adw-entry-row.ui");
   gtk_widget_class_bind_template_child_private (widget_class, AdwEntryRow, header);
   gtk_widget_class_bind_template_child_private (widget_class, AdwEntryRow, prefixes);
   gtk_widget_class_bind_template_child_private (widget_class, AdwEntryRow, suffixes);

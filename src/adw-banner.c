@@ -434,7 +434,7 @@ adw_banner_class_init (AdwBannerClass *klass)
   g_object_class_override_property (object_class, PROP_ACTION_TARGET, "action-target");
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-banner.ui");
+                                               "/org/gnome/Advaita/ui/adw-banner.ui");
   gtk_widget_class_bind_template_child (widget_class, AdwBanner, gizmo);
   gtk_widget_class_bind_template_child (widget_class, AdwBanner, title);
   gtk_widget_class_bind_template_child (widget_class, AdwBanner, revealer);

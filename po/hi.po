@@ -1,13 +1,13 @@
-# Hindi translation for libadwaita.
-# Copyright (C) 2022 libadwaita's COPYRIGHT HOLDER
-# This file is distributed under the same license as the libadwaita package.
+# Hindi translation for libadvaita.
+# Copyright (C) 2022 libadvaita's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libadvaita package.
 # Translators:
 # Hemish <hemish04082005@gmail.com>, 2022
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: libadwaita main\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"Project-Id-Version: libadvaita main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadvaita/issues\n"
 "PO-Revision-Date: 2022-11-16 11:45+0530\n"
 "Last-Translator: Hemish <hemish04082005@gmail.com>\n"
 "Language-Team: Hindi <indlinux-hindi@lists.sourceforge.net> https://indlinux.org/hindi\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-DL-Team: hi\n"
-"X-DL-Module: libadwaita\n"
+"X-DL-Module: libadvaita\n"
 "X-DL-Branch: main\n"
 "X-DL-Domain: po\n"
 "X-DL-State: None\n"
@@ -276,8 +276,8 @@ msgstr "लाईट (Light) को प्राथमिकता दें"
 
 #. Translators: The name of the library, not the stylesheet
 #: src/adw-inspector-page.c:98
-msgid "Adwaita"
-msgstr "Adwaita (अद्वैत)"
+msgid "Advaita"
+msgstr "Advaita (अद्वैत)"
 
 #: src/adw-inspector-page.ui:10
 msgid "System Appearance"

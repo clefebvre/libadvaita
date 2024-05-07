@@ -11,13 +11,13 @@
 /**
  * AdwApplication:
  *
- * A base class for Adwaita applications.
+ * A base class for Advaita applications.
  *
  * `AdwApplication` handles library initialization by calling [func@init] in the
  * default [signal@Gio.Application::startup] signal handler, in turn chaining up
  * as required by [class@Gtk.Application]. Therefore, any subclass of
  * `AdwApplication` should always chain up its `startup` handler before using
- * any Adwaita or GTK API.
+ * any Advaita or GTK API.
  *
  * ## Automatic Resources
  *

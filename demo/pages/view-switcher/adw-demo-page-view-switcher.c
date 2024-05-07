@@ -24,7 +24,7 @@ adw_demo_page_view_switcher_class_init (AdwDemoPageViewSwitcherClass *klass)
 {
   GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Adwaita1/Demo/ui/pages/view-switcher/adw-demo-page-view-switcher.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Advaita1/Demo/ui/pages/view-switcher/adw-demo-page-view-switcher.ui");
 
   gtk_widget_class_install_action (widget_class, "demo.run", NULL, (GtkWidgetActionActivateFunc) demo_run_cb);
 }

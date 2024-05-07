@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.1-or-later
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 test_adw_spin_row_new_with_range (void)
@@ -66,9 +66,9 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func("/Adwaita/SpinRow/new_with_range", test_adw_spin_row_new_with_range);
-  g_test_add_func("/Adwaita/SpinRow/configure", test_adw_spin_row_configure);
-  g_test_add_func("/Adwaita/SpinRow/set_range", test_adw_spin_row_set_range);
+  g_test_add_func("/Advaita/SpinRow/new_with_range", test_adw_spin_row_new_with_range);
+  g_test_add_func("/Advaita/SpinRow/configure", test_adw_spin_row_configure);
+  g_test_add_func("/Advaita/SpinRow/set_range", test_adw_spin_row_set_range);
 
   return g_test_run();
 }

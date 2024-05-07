@@ -6,31 +6,31 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
-#include "adwaita-test-resources.h"
+#include "advaita-test-resources.h"
 
 static void
 test_adw_about_window_from_appdata (void)
 {
-  AdwAboutWindow *window = ADW_ABOUT_WINDOW (adw_about_window_new_from_appdata ("/org/gnome/Adwaita1/Test/org.gnome.Adwaita1.Test.metainfo.xml", "1.0"));
+  AdwAboutWindow *window = ADW_ABOUT_WINDOW (adw_about_window_new_from_appdata ("/org/gnome/Advaita1/Test/org.gnome.Advaita1.Test.metainfo.xml", "1.0"));
 
   g_assert_nonnull (window);
 
   g_assert_cmpstr (adw_about_window_get_release_notes (window), ==, "<p>Testing Build</p>\n");
   g_assert_cmpstr (adw_about_window_get_release_notes_version (window), ==, "1.0");
   g_assert_cmpstr (adw_about_window_get_version (window), ==, "1.0");
-  g_assert_cmpstr (adw_about_window_get_application_icon (window), ==, "org.gnome.Adwaita1.Test");
-  g_assert_cmpstr (adw_about_window_get_application_name (window), ==, "Adwaita Test");
+  g_assert_cmpstr (adw_about_window_get_application_icon (window), ==, "org.gnome.Advaita1.Test");
+  g_assert_cmpstr (adw_about_window_get_application_name (window), ==, "Advaita Test");
   g_assert_cmpstr (adw_about_window_get_developer_name (window), ==, "The GNOME Project");
-  g_assert_cmpstr (adw_about_window_get_issue_url (window), ==, "https://gitlab.gnome.org/GNOME/libadwaita/issues");
+  g_assert_cmpstr (adw_about_window_get_issue_url (window), ==, "https://gitlab.gnome.org/GNOME/libadvaita/issues");
   g_assert_cmpstr (adw_about_window_get_support_url (window), ==, "http://www.gnome.org/friends/");
-  g_assert_cmpstr (adw_about_window_get_website (window), ==, "https://gitlab.gnome.org/GNOME/libadwaita");
+  g_assert_cmpstr (adw_about_window_get_website (window), ==, "https://gitlab.gnome.org/GNOME/libadvaita");
   g_assert_cmpuint (adw_about_window_get_license_type (window), ==, GTK_LICENSE_LGPL_2_1);
 
   g_assert_finalize_object (window);
 
-  window = ADW_ABOUT_WINDOW (adw_about_window_new_from_appdata ("/org/gnome/Adwaita1/Test/org.gnome.Adwaita1.Test.metainfo.xml", "0.1"));
+  window = ADW_ABOUT_WINDOW (adw_about_window_new_from_appdata ("/org/gnome/Advaita1/Test/org.gnome.Advaita1.Test.metainfo.xml", "0.1"));
 
   g_assert_nonnull (window);
 
@@ -40,7 +40,7 @@ test_adw_about_window_from_appdata (void)
 
   g_assert_finalize_object (window);
 
-  window = ADW_ABOUT_WINDOW (adw_about_window_new_from_appdata ("/org/gnome/Adwaita1/Test/org.gnome.Adwaita1.Test.metainfo.xml", NULL));
+  window = ADW_ABOUT_WINDOW (adw_about_window_new_from_appdata ("/org/gnome/Advaita1/Test/org.gnome.Advaita1.Test.metainfo.xml", NULL));
 
   g_assert_nonnull (window);
 
@@ -151,8 +151,8 @@ main (int   argc,
   test_resources = test_get_resource ();
   g_resources_register (test_resources);
 
-  g_test_add_func ("/Adwaita/AboutWindow/create", test_adw_about_window_create);
-  g_test_add_func ("/Adwaita/AboutWindow/from_appdata", test_adw_about_window_from_appdata);
+  g_test_add_func ("/Advaita/AboutWindow/create", test_adw_about_window_create);
+  g_test_add_func ("/Advaita/AboutWindow/from_appdata", test_adw_about_window_from_appdata);
 
   return g_test_run ();
 }

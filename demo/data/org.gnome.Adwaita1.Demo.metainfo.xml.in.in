@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>org.gnome.Adwaita1.Demo</id>
+  <id>org.gnome.Advaita1.Demo</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LGPL-2.1-or-later</project_license>
-  <launchable type="desktop-id">org.gnome.Adwaita1.Demo.desktop</launchable>
+  <launchable type="desktop-id">org.gnome.Advaita1.Demo.desktop</launchable>
   <developer id="org.gnome">
     <name>The GNOME Project</name>
   </developer>
 
-  <name>Adwaita Demo</name>
-  <summary>Tour of the features in Libadwaita</summary>
+  <name>Advaita Demo</name>
+  <summary>Tour of the features in Libadvaita</summary>
 
   <description>
     <p>
-      Adwaita Demo is a collection of examples that demonstrate Libadwaita
+      Advaita Demo is a collection of examples that demonstrate Libadvaita
       features.
     </p>
   </description>
 
   <screenshots>
     <screenshot type="default">
-      <image>https://gitlab.gnome.org/GNOME/libadwaita/-/raw/main/demo/data/screenshots/screenshot.png</image>
+      <image>https://gitlab.gnome.org/GNOME/libadvaita/-/raw/main/demo/data/screenshots/screenshot.png</image>
       <caption>The main window</caption>
     </screenshot>
   </screenshots>
@@ -28,19 +28,19 @@
   <releases>
     <release version="@BUILD_VERSION@" date="@BUILD_DATE@">
       <description>
-        <p>A new build of libadwaita.</p>
+        <p>A new build of libadvaita.</p>
       </description>
     </release>
   </releases>
 
   <project_group>GNOME</project_group>
 
-  <url type="homepage">https://gitlab.gnome.org/GNOME/libadwaita</url>
-  <url type="bugtracker">https://gitlab.gnome.org/GNOME/libadwaita/issues</url>
+  <url type="homepage">https://gitlab.gnome.org/GNOME/libadvaita</url>
+  <url type="bugtracker">https://gitlab.gnome.org/GNOME/libadvaita/issues</url>
   <url type="donation">https://www.gnome.org/friends/</url>
 
   <content_rating type="oars-1.1" />
-  <translation type="gettext">libadwaita</translation>
+  <translation type="gettext">libadvaita</translation>
 
   <recommends>
     <control>pointing</control>

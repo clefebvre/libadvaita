@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -247,14 +247,14 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/ToolbarView/content", test_adw_toolbar_view_content);
-  g_test_add_func ("/Adwaita/ToolbarView/add_remove", test_adw_toolbar_view_add_remove);
-  g_test_add_func ("/Adwaita/ToolbarView/top_bar_style", test_adw_toolbar_view_top_bar_style);
-  g_test_add_func ("/Adwaita/ToolbarView/bottom_bar_style", test_adw_toolbar_view_bottom_bar_style);
-  g_test_add_func ("/Adwaita/ToolbarView/reveal_top_bars", test_adw_toolbar_view_reveal_top_bars);
-  g_test_add_func ("/Adwaita/ToolbarView/reveal_bottom_bars", test_adw_toolbar_view_reveal_bottom_bars);
-  g_test_add_func ("/Adwaita/ToolbarView/extend_content_to_top_edge", test_adw_toolbar_view_extend_content_to_top_edge);
-  g_test_add_func ("/Adwaita/ToolbarView/extend_content_to_bottom_edge", test_adw_toolbar_view_extend_content_to_bottom_edge);
+  g_test_add_func ("/Advaita/ToolbarView/content", test_adw_toolbar_view_content);
+  g_test_add_func ("/Advaita/ToolbarView/add_remove", test_adw_toolbar_view_add_remove);
+  g_test_add_func ("/Advaita/ToolbarView/top_bar_style", test_adw_toolbar_view_top_bar_style);
+  g_test_add_func ("/Advaita/ToolbarView/bottom_bar_style", test_adw_toolbar_view_bottom_bar_style);
+  g_test_add_func ("/Advaita/ToolbarView/reveal_top_bars", test_adw_toolbar_view_reveal_top_bars);
+  g_test_add_func ("/Advaita/ToolbarView/reveal_bottom_bars", test_adw_toolbar_view_reveal_bottom_bars);
+  g_test_add_func ("/Advaita/ToolbarView/extend_content_to_top_edge", test_adw_toolbar_view_extend_content_to_top_edge);
+  g_test_add_func ("/Advaita/ToolbarView/extend_content_to_bottom_edge", test_adw_toolbar_view_extend_content_to_bottom_edge);
 
   return g_test_run ();
 }

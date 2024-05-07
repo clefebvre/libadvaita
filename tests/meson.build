@@ -3,7 +3,7 @@ if get_option('tests')
 subdir('manual')
 
 test_resources = gnome.compile_resources(
-   'adwaita-test-resources',
+   'advaita-test-resources',
    'tests.gresources.xml',
 
    c_name: 'test',
@@ -20,7 +20,7 @@ test_env = [
 ]
 
 test_cflags = [
-  '-DADW_LOG_DOMAIN="Adwaita"',
+  '-DADW_LOG_DOMAIN="Advaita"',
 ]
 
 test_link_args = []
@@ -90,13 +90,13 @@ foreach test_name : test_names
   test_sources = [
     test_name + '.c',
     test_resources,
-    libadwaita_generated_headers
+    libadvaita_generated_headers
   ]
 
   t = executable(test_name, test_sources,
                        c_args: test_cflags,
                     link_args: test_link_args,
-                 dependencies: libadwaita_deps + [libadwaita_dep],
+                 dependencies: libadvaita_deps + [libadvaita_dep],
                           pie: use_pie,
                 )
   test(test_name, t, env: test_env)

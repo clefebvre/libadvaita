@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 test_easing_ease (gconstpointer data)
@@ -31,7 +31,7 @@ main (int   argc,
 
   for (i = 0; i < enum_class->n_values; i++) {
     GEnumValue *value = &enum_class->values[i];
-    char *path = g_strdup_printf ("/Adwaita/Easing/%s", value->value_nick);
+    char *path = g_strdup_printf ("/Advaita/Easing/%s", value->value_nick);
 
     g_test_add_data_func (path, GINT_TO_POINTER (value->value), test_easing_ease);
 

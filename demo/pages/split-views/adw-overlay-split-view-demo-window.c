@@ -26,7 +26,7 @@ adw_overlay_split_view_demo_window_class_init (AdwOverlaySplitViewDemoWindowClas
 {
   GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Adwaita1/Demo/ui/pages/split-views/adw-overlay-split-view-demo-window.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Advaita1/Demo/ui/pages/split-views/adw-overlay-split-view-demo-window.ui");
   gtk_widget_class_bind_template_child (widget_class, AdwOverlaySplitViewDemoWindow, split_view);
   gtk_widget_class_bind_template_child (widget_class, AdwOverlaySplitViewDemoWindow, start_button);
   gtk_widget_class_bind_template_callback (widget_class, start_button_notify_active_cb);

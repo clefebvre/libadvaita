@@ -1,12 +1,12 @@
-# Belarusian translation for libadwaita.
-# Copyright (C) 2022 libadwaita's COPYRIGHT HOLDER
-# This file is distributed under the same license as the libadwaita package.
+# Belarusian translation for libadvaita.
+# Copyright (C) 2022 libadvaita's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libadvaita package.
 # 3abac <3abac@3a.by>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: libadwaita libadwaita-1-2\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"Project-Id-Version: libadvaita libadvaita-1-2\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadvaita/issues\n"
 "POT-Creation-Date: 2024-03-02 19:53+0000\n"
 "PO-Revision-Date: 2024-03-05 22:52+0300\n"
 "Last-Translator: Yuras Shumovich <shumovichy@gmail.com>\n"
@@ -277,8 +277,8 @@ msgstr "Аддаваць перавагу светлай"
 
 #. Translators: The name of the library, not the stylesheet
 #: src/adw-inspector-page.c:97
-msgid "Adwaita"
-msgstr "Adwaita"
+msgid "Advaita"
+msgstr "Advaita"
 
 #: src/adw-inspector-page.ui:10
 msgid "System Appearance"

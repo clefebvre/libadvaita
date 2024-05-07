@@ -16,7 +16,7 @@ cd "$AUTOPKGTEST_TMP"
 
 cat <<EOF > adwtest.c
 #include <gtk/gtk.h>
-#include <adwaita.h>
+#include <advaita.h>
 
 int
 main (int    argc,
@@ -29,7 +29,7 @@ main (int    argc,
 }
 EOF
 
-${CROSS_COMPILE}gcc -o adwtest adwtest.c $(${CROSS_COMPILE}pkg-config --cflags --libs libadwaita-1)
+${CROSS_COMPILE}gcc -o adwtest adwtest.c $(${CROSS_COMPILE}pkg-config --cflags --libs libadvaita-1)
 echo "build ok"
 [ -x adwtest ]
 xvfb-run -a -s "-screen 0 1024x768x24" ./adwtest

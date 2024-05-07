@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static double last_value;
 
@@ -89,7 +89,7 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func("/Adwaita/Animation/general", test_adw_animation_general);
+  g_test_add_func("/Advaita/Animation/general", test_adw_animation_general);
 
   return g_test_run();
 }

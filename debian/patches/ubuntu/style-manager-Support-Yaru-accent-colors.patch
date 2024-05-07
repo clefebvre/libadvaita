@@ -2,7 +2,7 @@ From: =?utf-8?b?Ik1hcmNvIFRyZXZpc2FuIChUcmV2acOxbyki?= <mail@3v1n0.net>
 Date: Tue, 5 Apr 2022 16:00:46 +0200
 Subject: style-manager: Support Yaru accent colors
 
-Generate the libadwaita color schemes using Yaru accent colors.
+Generate the libadvaita color schemes using Yaru accent colors.
 Then, when the Yaru theme is used in the system, use the generated
 variant instead of the default one.
 Also the yaru colors palette is used in such case.
@@ -22,7 +22,7 @@ Forwarded: not-needed
  src/stylesheet/_colors.scss                      |   6 +
  src/stylesheet/_defaults.scss                    |   7 +-
  src/stylesheet/_palette-yaru.scss                | 118 +++++++++++++
- src/stylesheet/adwaita-stylesheet.gresources.xml |   1 +
+ src/stylesheet/advaita-stylesheet.gresources.xml |   1 +
  src/stylesheet/meson.build                       |  88 +++++++++-
  src/stylesheet/sass-utils.scss                   | 212 +++++++++++++++++++++++
  src/stylesheet/yaru_accent_colors.scss           |  75 ++++++++
@@ -403,13 +403,13 @@ index d27ebda..f9f3250 100644
 @@ -155,18 +156,48 @@ update_stylesheet (AdwStyleManager *self)
      if (adw_settings_get_high_contrast (self->settings))
        gtk_css_provider_load_from_resource (self->provider,
-                                            "/org/gnome/Adwaita/styles/base-hc.css");
+                                            "/org/gnome/Advaita/styles/base-hc.css");
 +    else if (adw_settings_get_yaru_accent (self->settings))
 +      gtk_css_provider_load_from_resource (self->provider,
-+                                           "/org/gnome/Adwaita/styles/base-yaru.css");
++                                           "/org/gnome/Advaita/styles/base-yaru.css");
      else
        gtk_css_provider_load_from_resource (self->provider,
-                                            "/org/gnome/Adwaita/styles/base.css");
+                                            "/org/gnome/Advaita/styles/base.css");
    }
  
    if (self->colors_provider) {
@@ -418,11 +418,11 @@ index d27ebda..f9f3250 100644
 +
      if (self->dark)
 -      gtk_css_provider_load_from_resource (self->colors_provider,
--                                           "/org/gnome/Adwaita/styles/defaults-dark.css");
+-                                           "/org/gnome/Advaita/styles/defaults-dark.css");
 +      variant = g_strdup ("defaults-dark");
      else
 -      gtk_css_provider_load_from_resource (self->colors_provider,
--                                           "/org/gnome/Adwaita/styles/defaults-light.css");
+-                                           "/org/gnome/Advaita/styles/defaults-light.css");
 +      variant = g_strdup ("defaults-light");
 +
 +    if (!adw_settings_get_high_contrast (self->settings)) {
@@ -435,7 +435,7 @@ index d27ebda..f9f3250 100644
 +        g_autofree char *resource_uri = NULL;
 +
 +        yaru_variant = g_strdup_printf ("%s-yaru-%s", base_variant, yaru_accent);
-+        resource_uri = g_strdup_printf ("resource:///org/gnome/Adwaita/styles/%s.css", yaru_variant);
++        resource_uri = g_strdup_printf ("resource:///org/gnome/Advaita/styles/%s.css", yaru_variant);
 +        gresource = g_file_new_for_uri (resource_uri);
 +
 +        if (g_file_query_exists (gresource, NULL)) {
@@ -447,7 +447,7 @@ index d27ebda..f9f3250 100644
 +      }
 +    }
 +
-+    style = g_strdup_printf ("/org/gnome/Adwaita/styles/%s.css", variant);
++    style = g_strdup_printf ("/org/gnome/Advaita/styles/%s.css", variant);
 +    g_debug ("Using style %s", style);
 +    gtk_css_provider_load_from_resource (self->colors_provider, style);
    }
@@ -671,10 +671,10 @@ index 0000000..a943a2e
 +@define-color dark_3 #{$dark_3};
 +@define-color dark_4 #{$dark_4};
 +@define-color dark_5 #{$dark_5};
-diff --git a/src/stylesheet/adwaita-stylesheet.gresources.xml b/src/stylesheet/adwaita-stylesheet.gresources.xml
+diff --git a/src/stylesheet/advaita-stylesheet.gresources.xml b/src/stylesheet/advaita-stylesheet.gresources.xml
 index 98a07ac..0d86a06 100644
---- a/src/stylesheet/adwaita-stylesheet.gresources.xml
-+++ b/src/stylesheet/adwaita-stylesheet.gresources.xml
+--- a/src/stylesheet/advaita-stylesheet.gresources.xml
++++ b/src/stylesheet/advaita-stylesheet.gresources.xml
 @@ -5,6 +5,7 @@
      <file>base-hc.css</file>
      <file>defaults-light.css</file>
@@ -792,16 +792,16 @@ index 56466c1..8f56ccc 100644
 +endforeach
 +
 +gresource_file = configure_file(
-+  input: 'adwaita-stylesheet.gresources.xml',
++  input: 'advaita-stylesheet.gresources.xml',
 +  output: '@BASENAME@',
 +  configuration: {
 +    'ACCENTS_CSS': accents_css.length() > 0 ? '\n'.join(accents_css) : '',
 +  }
 +)
 +
- libadwaita_stylesheet_resources = gnome.compile_resources(
-   'adwaita-stylesheet-resources',
--  'adwaita-stylesheet.gresources.xml',
+ libadvaita_stylesheet_resources = gnome.compile_resources(
+   'advaita-stylesheet-resources',
+-  'advaita-stylesheet.gresources.xml',
 +  gresource_file,
  
    source_dir: [

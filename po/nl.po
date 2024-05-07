@@ -1,13 +1,13 @@
-# Dutch translation for libadwaita.
-# Copyright (C) 2021 libadwaita's COPYRIGHT HOLDER
-# This file is distributed under the same license as the libadwaita package.
+# Dutch translation for libadvaita.
+# Copyright (C) 2021 libadvaita's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libadvaita package.
 # Nathan Follens <nfollens@gnome.org>, 2022-2024.
 # Philip Goto <philip.goto@gmail.com>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: libadwaita main\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"Project-Id-Version: libadvaita main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadvaita/issues\n"
 "POT-Creation-Date: 2024-01-22 22:25+0000\n"
 "PO-Revision-Date: 2024-02-18 17:10+0100\n"
 "Last-Translator: Nathan Follens <nfollens@gnome.org>\n"
@@ -268,8 +268,8 @@ msgstr "Lichte versie verkiezen"
 
 #. Translators: The name of the library, not the stylesheet
 #: src/adw-inspector-page.c:97
-msgid "Adwaita"
-msgstr "Adwaita"
+msgid "Advaita"
+msgstr "Advaita"
 
 #: src/adw-inspector-page.ui:10
 msgid "System Appearance"

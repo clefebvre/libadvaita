@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -51,7 +51,7 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/TabButton/view", test_adw_tab_button_view);
+  g_test_add_func ("/Advaita/TabButton/view", test_adw_tab_button_view);
 
   return g_test_run ();
 }

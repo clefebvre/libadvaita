@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -149,11 +149,11 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/ButtonContent/icon_name", test_adw_button_content_icon_name);
-  g_test_add_func ("/Adwaita/ButtonContent/label", test_adw_button_content_label);
-  g_test_add_func ("/Adwaita/ButtonContent/use_underline", test_adw_button_content_use_underline);
-  g_test_add_func ("/Adwaita/ButtonContent/style_class_button", test_adw_button_content_style_class_button);
-  g_test_add_func ("/Adwaita/ButtonContent/style_class_split_button", test_adw_button_content_style_class_split_button);
+  g_test_add_func ("/Advaita/ButtonContent/icon_name", test_adw_button_content_icon_name);
+  g_test_add_func ("/Advaita/ButtonContent/label", test_adw_button_content_label);
+  g_test_add_func ("/Advaita/ButtonContent/use_underline", test_adw_button_content_use_underline);
+  g_test_add_func ("/Advaita/ButtonContent/style_class_button", test_adw_button_content_style_class_button);
+  g_test_add_func ("/Advaita/ButtonContent/style_class_split_button", test_adw_button_content_style_class_split_button);
 
   return g_test_run ();
 }

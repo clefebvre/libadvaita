@@ -3,7 +3,7 @@ Slug: adaptive-layouts
 
 # Adaptive Layouts
 
-Libadwaita provides a number of widgets that change their layout based on the
+Libadvaita provides a number of widgets that change their layout based on the
 available space. This can be used to make applications adapt their UI between
 desktop and mobile devices.
 
@@ -142,7 +142,7 @@ pages in your application, as well as their titles.
 
 # Split Views
 
-Libadwaita provides two containers for creating multi-pane layouts that can
+Libadvaita provides two containers for creating multi-pane layouts that can
 collapse on small widths: [class@NavigationSplitView] and
 [class@OverlaySplitView].
 

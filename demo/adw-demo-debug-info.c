@@ -67,7 +67,7 @@ adw_demo_generate_debug_info (void)
   gboolean flatpak = g_file_test ("/.flatpak-info", G_FILE_TEST_EXISTS);
 #endif
 
-  g_string_append_printf (string, "Libadwaita demo: %s (%s)\n", ADW_VERSION_S,
+  g_string_append_printf (string, "Libadvaita demo: %s (%s)\n", ADW_VERSION_S,
                                                                 ADW_DEMO_VCS_TAG);
   g_string_append (string, "\n");
 

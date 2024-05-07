@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.1-or-later
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -303,12 +303,12 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func("/Adwaita/Carousel/add_remove", test_adw_carousel_add_remove);
-  g_test_add_func("/Adwaita/Carousel/reorder", test_adw_carousel_reorder);
-  g_test_add_func("/Adwaita/Carousel/interactive", test_adw_carousel_interactive);
-  g_test_add_func("/Adwaita/Carousel/spacing", test_adw_carousel_spacing);
-  g_test_add_func("/Adwaita/Carousel/allow_mouse_drag", test_adw_carousel_allow_mouse_drag);
-  g_test_add_func("/Adwaita/Carousel/allow_long_swipes", test_adw_carousel_allow_long_swipes);
-  g_test_add_func("/Adwaita/Carousel/reveal_duration", test_adw_carousel_reveal_duration);
+  g_test_add_func("/Advaita/Carousel/add_remove", test_adw_carousel_add_remove);
+  g_test_add_func("/Advaita/Carousel/reorder", test_adw_carousel_reorder);
+  g_test_add_func("/Advaita/Carousel/interactive", test_adw_carousel_interactive);
+  g_test_add_func("/Advaita/Carousel/spacing", test_adw_carousel_spacing);
+  g_test_add_func("/Advaita/Carousel/allow_mouse_drag", test_adw_carousel_allow_mouse_drag);
+  g_test_add_func("/Advaita/Carousel/allow_long_swipes", test_adw_carousel_allow_long_swipes);
+  g_test_add_func("/Advaita/Carousel/reveal_duration", test_adw_carousel_reveal_duration);
   return g_test_run();
 }

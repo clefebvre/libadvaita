@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.1-or-later
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 test_adw_banner_revealed (void)
@@ -73,9 +73,9 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/Banner/revealed", test_adw_banner_revealed);
-  g_test_add_func ("/Adwaita/Banner/title", test_adw_banner_title);
-  g_test_add_func ("/Adwaita/Banner/button_label", test_adw_banner_button_label);
+  g_test_add_func ("/Advaita/Banner/revealed", test_adw_banner_revealed);
+  g_test_add_func ("/Advaita/Banner/title", test_adw_banner_title);
+  g_test_add_func ("/Advaita/Banner/button_label", test_adw_banner_button_label);
 
   return g_test_run ();
 }

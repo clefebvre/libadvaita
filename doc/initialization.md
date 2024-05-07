@@ -3,18 +3,18 @@ Slug: initialization
 
 # Initialization
 
-Before using Libadwaita, it must be initialized. There are two ways of doing
+Before using Libadvaita, it must be initialized. There are two ways of doing
 this.
 
 ## Using `AdwApplication` (Recommended)
 
-[class@Application] automatically initializes Libadwaita if used instead of
+[class@Application] automatically initializes Libadvaita if used instead of
 [class@Gtk.Application].
 
 Example:
 
 ```c
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 activate_cb (GtkApplication *app)
@@ -57,7 +57,7 @@ called instead of [func@Gtk.init].
 Example:
 
 ```c
-#include <adwaita.h>
+#include <advaita.h>
 
 int
 main (int   argc,

@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -304,14 +304,14 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/SplitButton/icon_name", test_adw_split_button_icon_name);
-  g_test_add_func ("/Adwaita/SplitButton/label", test_adw_split_button_label);
-  g_test_add_func ("/Adwaita/SplitButton/use_underline", test_adw_split_button_use_underline);
-  g_test_add_func ("/Adwaita/SplitButton/child", test_adw_split_button_child);
-  g_test_add_func ("/Adwaita/SplitButton/menu_model", test_adw_split_button_menu_model);
-  g_test_add_func ("/Adwaita/SplitButton/popover", test_adw_split_button_popover);
-  g_test_add_func ("/Adwaita/SplitButton/direction", test_adw_split_button_direction);
-  g_test_add_func ("/Adwaita/SplitButton/dropdown_tooltip", test_adw_split_button_dropdown_tooltip);
+  g_test_add_func ("/Advaita/SplitButton/icon_name", test_adw_split_button_icon_name);
+  g_test_add_func ("/Advaita/SplitButton/label", test_adw_split_button_label);
+  g_test_add_func ("/Advaita/SplitButton/use_underline", test_adw_split_button_use_underline);
+  g_test_add_func ("/Advaita/SplitButton/child", test_adw_split_button_child);
+  g_test_add_func ("/Advaita/SplitButton/menu_model", test_adw_split_button_menu_model);
+  g_test_add_func ("/Advaita/SplitButton/popover", test_adw_split_button_popover);
+  g_test_add_func ("/Advaita/SplitButton/direction", test_adw_split_button_direction);
+  g_test_add_func ("/Advaita/SplitButton/dropdown_tooltip", test_adw_split_button_dropdown_tooltip);
 
   return g_test_run ();
 }

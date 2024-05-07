@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -792,20 +792,20 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/NavigationView/add_remove", test_adw_navigation_view_add_remove);
-  g_test_add_func ("/Adwaita/NavigationView/push_pop", test_adw_navigation_view_push_pop);
-  g_test_add_func ("/Adwaita/NavigationView/push_pop_by_tag", test_adw_navigation_view_push_pop_by_tag);
-  g_test_add_func ("/Adwaita/NavigationView/pop_to_page", test_adw_navigation_view_pop_to_page);
-  g_test_add_func ("/Adwaita/NavigationView/replace", test_adw_navigation_view_replace);
-  g_test_add_func ("/Adwaita/NavigationView/previous_page", test_adw_navigation_view_previous_page);
-  g_test_add_func ("/Adwaita/NavigationView/find_page", test_adw_navigation_view_find_page);
-  g_test_add_func ("/Adwaita/NavigationView/animate_transitions", test_adw_navigation_view_animate_transitions);
-  g_test_add_func ("/Adwaita/NavigationView/pop_on_escape", test_adw_navigation_view_pop_on_escape);
-  g_test_add_func ("/Adwaita/NavigationPage/child", test_adw_navigation_page_child);
-  g_test_add_func ("/Adwaita/NavigationPage/title", test_adw_navigation_page_title);
-  g_test_add_func ("/Adwaita/NavigationPage/tag", test_adw_navigation_page_tag);
-  g_test_add_func ("/Adwaita/NavigationPage/can-pop", test_adw_navigation_page_can_pop);
-  g_test_add_func ("/Adwaita/NavigationPage/signals", test_adw_navigation_page_signals);
+  g_test_add_func ("/Advaita/NavigationView/add_remove", test_adw_navigation_view_add_remove);
+  g_test_add_func ("/Advaita/NavigationView/push_pop", test_adw_navigation_view_push_pop);
+  g_test_add_func ("/Advaita/NavigationView/push_pop_by_tag", test_adw_navigation_view_push_pop_by_tag);
+  g_test_add_func ("/Advaita/NavigationView/pop_to_page", test_adw_navigation_view_pop_to_page);
+  g_test_add_func ("/Advaita/NavigationView/replace", test_adw_navigation_view_replace);
+  g_test_add_func ("/Advaita/NavigationView/previous_page", test_adw_navigation_view_previous_page);
+  g_test_add_func ("/Advaita/NavigationView/find_page", test_adw_navigation_view_find_page);
+  g_test_add_func ("/Advaita/NavigationView/animate_transitions", test_adw_navigation_view_animate_transitions);
+  g_test_add_func ("/Advaita/NavigationView/pop_on_escape", test_adw_navigation_view_pop_on_escape);
+  g_test_add_func ("/Advaita/NavigationPage/child", test_adw_navigation_page_child);
+  g_test_add_func ("/Advaita/NavigationPage/title", test_adw_navigation_page_title);
+  g_test_add_func ("/Advaita/NavigationPage/tag", test_adw_navigation_page_tag);
+  g_test_add_func ("/Advaita/NavigationPage/can-pop", test_adw_navigation_page_can_pop);
+  g_test_add_func ("/Advaita/NavigationPage/signals", test_adw_navigation_page_signals);
 
   return g_test_run ();
 }

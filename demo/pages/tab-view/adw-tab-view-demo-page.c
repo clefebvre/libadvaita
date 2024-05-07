@@ -160,7 +160,7 @@ adw_tab_view_demo_page_class_init (AdwTabViewDemoPageClass *klass)
 
   g_object_class_install_properties (object_class, LAST_PROP, props);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Adwaita1/Demo/ui/pages/tab-view/adw-tab-view-demo-page.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Advaita1/Demo/ui/pages/tab-view/adw-tab-view-demo-page.ui");
   gtk_widget_class_bind_template_child (widget_class, AdwTabViewDemoPage, title_entry);
 }
 

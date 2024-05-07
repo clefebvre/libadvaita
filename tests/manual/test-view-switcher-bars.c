@@ -1,4 +1,4 @@
-#include <adwaita.h>
+#include <advaita.h>
 
 static GtkWidget *
 create_content (void)

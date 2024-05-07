@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.1-or-later
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 #define TEST_ICON_NAME "avatar-default-symbolic"
 #define TEST_STRING "Mario Rossi"
@@ -54,9 +54,9 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/Avatar/icon_name", test_adw_avatar_icon_name);
-  g_test_add_func ("/Adwaita/Avatar/text", test_adw_avatar_text);
-  g_test_add_func ("/Adwaita/Avatar/size", test_adw_avatar_size);
+  g_test_add_func ("/Advaita/Avatar/icon_name", test_adw_avatar_icon_name);
+  g_test_add_func ("/Advaita/Avatar/text", test_adw_avatar_text);
+  g_test_add_func ("/Advaita/Avatar/size", test_adw_avatar_size);
 
   return g_test_run ();
 }

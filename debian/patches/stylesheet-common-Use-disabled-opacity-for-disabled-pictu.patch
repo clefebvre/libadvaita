@@ -4,7 +4,7 @@ Subject: stylesheet/common: Use disabled opacity for disabled pictures
 
 To mimic https://gitlab.gnome.org/GNOME/gtk/-/merge_requests/5689
 
-Origin: https://gitlab.gnome.org/GNOME/libadwaita/-/merge_requests/814
+Origin: https://gitlab.gnome.org/GNOME/libadvaita/-/merge_requests/814
 ---
  src/stylesheet/_common.scss | 4 ++++
  1 file changed, 4 insertions(+)

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.1-or-later
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 
 static void
@@ -134,12 +134,12 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func("/Adwaita/HeaderBar/pack", test_adw_header_bar_pack);
-  g_test_add_func("/Adwaita/HeaderBar/title_widget", test_adw_header_bar_title_widget);
-  g_test_add_func("/Adwaita/HeaderBar/show_start_title_buttons", test_adw_header_bar_show_start_title_buttons);
-  g_test_add_func("/Adwaita/HeaderBar/show_end_title_buttons", test_adw_header_bar_show_end_title_buttons);
-  g_test_add_func("/Adwaita/HeaderBar/decoration_layout", test_adw_header_bar_decoration_layout);
-  g_test_add_func("/Adwaita/HeaderBar/centering_policy", test_adw_header_bar_centering_policy);
+  g_test_add_func("/Advaita/HeaderBar/pack", test_adw_header_bar_pack);
+  g_test_add_func("/Advaita/HeaderBar/title_widget", test_adw_header_bar_title_widget);
+  g_test_add_func("/Advaita/HeaderBar/show_start_title_buttons", test_adw_header_bar_show_start_title_buttons);
+  g_test_add_func("/Advaita/HeaderBar/show_end_title_buttons", test_adw_header_bar_show_end_title_buttons);
+  g_test_add_func("/Advaita/HeaderBar/decoration_layout", test_adw_header_bar_decoration_layout);
+  g_test_add_func("/Advaita/HeaderBar/centering_policy", test_adw_header_bar_centering_policy);
 
   return g_test_run();
 }

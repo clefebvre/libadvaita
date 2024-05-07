@@ -7,7 +7,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -340,20 +340,20 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/AlertDialog/heading", test_adw_alert_dialog_heading);
-  g_test_add_func ("/Adwaita/AlertDialog/heading_use_markup", test_adw_alert_dialog_heading_use_markup);
-  g_test_add_func ("/Adwaita/AlertDialog/body", test_adw_alert_dialog_body);
-  g_test_add_func ("/Adwaita/AlertDialog/body_use_markup", test_adw_alert_dialog_body_use_markup);
-  g_test_add_func ("/Adwaita/AlertDialog/format", test_adw_alert_dialog_format);
-  g_test_add_func ("/Adwaita/AlertDialog/extra_child", test_adw_alert_dialog_extra_child);
-  g_test_add_func ("/Adwaita/AlertDialog/add_response", test_adw_alert_dialog_add_response);
-  g_test_add_func ("/Adwaita/AlertDialog/add_responses", test_adw_alert_dialog_add_responses);
-  g_test_add_func ("/Adwaita/AlertDialog/remove_response", test_adw_alert_dialog_remove_response);
-  g_test_add_func ("/Adwaita/AlertDialog/response_label", test_adw_alert_dialog_response_label);
-  g_test_add_func ("/Adwaita/AlertDialog/response_enabled", test_adw_alert_dialog_response_enabled);
-  g_test_add_func ("/Adwaita/AlertDialog/response_appearance", test_adw_alert_dialog_response_appearance);
-  g_test_add_func ("/Adwaita/AlertDialog/default_response", test_adw_alert_dialog_default_response);
-  g_test_add_func ("/Adwaita/AlertDialog/close_response", test_adw_alert_dialog_close_response);
+  g_test_add_func ("/Advaita/AlertDialog/heading", test_adw_alert_dialog_heading);
+  g_test_add_func ("/Advaita/AlertDialog/heading_use_markup", test_adw_alert_dialog_heading_use_markup);
+  g_test_add_func ("/Advaita/AlertDialog/body", test_adw_alert_dialog_body);
+  g_test_add_func ("/Advaita/AlertDialog/body_use_markup", test_adw_alert_dialog_body_use_markup);
+  g_test_add_func ("/Advaita/AlertDialog/format", test_adw_alert_dialog_format);
+  g_test_add_func ("/Advaita/AlertDialog/extra_child", test_adw_alert_dialog_extra_child);
+  g_test_add_func ("/Advaita/AlertDialog/add_response", test_adw_alert_dialog_add_response);
+  g_test_add_func ("/Advaita/AlertDialog/add_responses", test_adw_alert_dialog_add_responses);
+  g_test_add_func ("/Advaita/AlertDialog/remove_response", test_adw_alert_dialog_remove_response);
+  g_test_add_func ("/Advaita/AlertDialog/response_label", test_adw_alert_dialog_response_label);
+  g_test_add_func ("/Advaita/AlertDialog/response_enabled", test_adw_alert_dialog_response_enabled);
+  g_test_add_func ("/Advaita/AlertDialog/response_appearance", test_adw_alert_dialog_response_appearance);
+  g_test_add_func ("/Advaita/AlertDialog/default_response", test_adw_alert_dialog_default_response);
+  g_test_add_func ("/Advaita/AlertDialog/close_response", test_adw_alert_dialog_close_response);
 
   return g_test_run ();
 }

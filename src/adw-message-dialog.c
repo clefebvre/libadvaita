@@ -1020,7 +1020,7 @@ adw_message_dialog_class_init (AdwMessageDialogClass *klass)
                               adw_marshal_VOID__STRINGv);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-message-dialog.ui");
+                                               "/org/gnome/Advaita/ui/adw-message-dialog.ui");
 
   gtk_widget_class_bind_template_child_private (widget_class, AdwMessageDialog, heading_label);
   gtk_widget_class_bind_template_child_private (widget_class, AdwMessageDialog, body_label);

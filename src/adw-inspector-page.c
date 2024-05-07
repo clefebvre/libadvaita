@@ -11,7 +11,7 @@
 
 #include "adw-inspector-page-private.h"
 
-#include <adwaita.h>
+#include <advaita.h>
 #include "adw-settings-private.h"
 
 struct _AdwInspectorPage
@@ -94,7 +94,7 @@ adw_inspector_page_get_property (GObject    *object,
   switch (prop_id) {
   case PROP_TITLE:
     /* Translators: The name of the library, not the stylesheet */
-    g_value_set_string (value, _("Adwaita"));
+    g_value_set_string (value, _("Advaita"));
     break;
   case PROP_OBJECT:
     g_value_set_object (value, self->object);
@@ -148,7 +148,7 @@ adw_inspector_page_class_init (AdwInspectorPageClass *klass)
 
   props[PROP_TITLE] =
     g_param_spec_string ("title", NULL, NULL,
-                         "Libadwaita",
+                         "Libadvaita",
                          G_PARAM_READABLE | G_PARAM_STATIC_STRINGS);
 
   props[PROP_OBJECT] =
@@ -159,7 +159,7 @@ adw_inspector_page_class_init (AdwInspectorPageClass *klass)
   g_object_class_install_properties (object_class, LAST_PROP, props);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-inspector-page.ui");
+                                               "/org/gnome/Advaita/ui/adw-inspector-page.ui");
 
   gtk_widget_class_bind_template_child (widget_class, AdwInspectorPage, support_color_schemes_row);
   gtk_widget_class_bind_template_child (widget_class, AdwInspectorPage, color_scheme_row);

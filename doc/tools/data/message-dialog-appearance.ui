@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <interface>
   <requires lib="gtk" version="4.0"/>
-  <requires lib="libadwaita" version="1.0"/>
+  <requires lib="libadvaita" version="1.0"/>
   <object class="AdwMessageDialog" id="widget">
     <property name="heading" translatable="yes">Save Changes?</property>
     <property name="body" translatable="yes">Open document contains unsaved changes. Changes which are not saved will be permanently lost.</property>

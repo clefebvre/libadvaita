@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.1-or-later
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 
 static void
@@ -172,14 +172,14 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func("/Adwaita/ViewSwitcher/homogeneous", test_adw_squeezer_homogeneous);
-  g_test_add_func("/Adwaita/ViewSwitcher/allow_none", test_adw_squeezer_allow_none);
-  g_test_add_func("/Adwaita/ViewSwitcher/transition_duration", test_adw_squeezer_transition_duration);
-  g_test_add_func("/Adwaita/ViewSwitcher/transition_type", test_adw_squeezer_transition_type);
-  g_test_add_func("/Adwaita/ViewSwitcher/transition_running", test_adw_squeezer_transition_running);
-  g_test_add_func("/Adwaita/ViewSwitcher/show_hide_child", test_adw_squeezer_show_hide_child);
-  g_test_add_func("/Adwaita/ViewSwitcher/interpolate_size", test_adw_squeezer_interpolate_size);
-  g_test_add_func("/Adwaita/ViewSwitcher/page_enabled", test_adw_squeezer_page_enabled);
+  g_test_add_func("/Advaita/ViewSwitcher/homogeneous", test_adw_squeezer_homogeneous);
+  g_test_add_func("/Advaita/ViewSwitcher/allow_none", test_adw_squeezer_allow_none);
+  g_test_add_func("/Advaita/ViewSwitcher/transition_duration", test_adw_squeezer_transition_duration);
+  g_test_add_func("/Advaita/ViewSwitcher/transition_type", test_adw_squeezer_transition_type);
+  g_test_add_func("/Advaita/ViewSwitcher/transition_running", test_adw_squeezer_transition_running);
+  g_test_add_func("/Advaita/ViewSwitcher/show_hide_child", test_adw_squeezer_show_hide_child);
+  g_test_add_func("/Advaita/ViewSwitcher/interpolate_size", test_adw_squeezer_interpolate_size);
+  g_test_add_func("/Advaita/ViewSwitcher/page_enabled", test_adw_squeezer_page_enabled);
 
   return g_test_run();
 }

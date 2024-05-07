@@ -1,6 +1,6 @@
 Tests: build-test
 Depends: build-essential,
-         libadwaita-1-dev,
+         libadvaita-1-dev,
          pkg-config,
          xauth,
          xvfb

@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -72,8 +72,8 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func("/Adwaita/EntryRow/add_remove", test_adw_entry_row_add_remove);
-  g_test_add_func("/Adwaita/EntryRow/show_apply_button", test_adw_entry_row_show_apply_button);
+  g_test_add_func("/Advaita/EntryRow/add_remove", test_adw_entry_row_add_remove);
+  g_test_add_func("/Advaita/EntryRow/show_apply_button", test_adw_entry_row_show_apply_button);
 
   return g_test_run();
 }

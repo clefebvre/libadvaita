@@ -1,6 +1,6 @@
-#include <adwaita.h>
+#include <advaita.h>
 
-#define RESOURCE_PATH "/org/gnome/Adwaita/Screenshot/"
+#define RESOURCE_PATH "/org/gnome/Advaita/Screenshot/"
 
 static GMainLoop *loop;
 static char *option_image = NULL;
@@ -455,7 +455,7 @@ get_shortname (const char *basename)
 }
 
 static void
-init_libadwaita (void)
+init_libadvaita (void)
 {
   adw_init ();
 
@@ -465,7 +465,7 @@ init_libadwaita (void)
   g_object_set (gtk_settings_get_default (),
                 "gtk-enable-animations", FALSE,
                 "gtk-font-name", "Cantarell 11",
-                "gtk-icon-theme-name", "Adwaita",
+                "gtk-icon-theme-name", "Advaita",
                 "gtk-decoration-layout", ":close",
                 "gtk-hint-font-metrics", TRUE,
                 NULL);
@@ -646,7 +646,7 @@ main (int    argc,
   }
 
   if (result) {
-    init_libadwaita ();
+    init_libadvaita ();
     run_screenshot (input_dir, output_dir);
   }
 

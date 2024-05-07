@@ -329,7 +329,7 @@ adw_demo_page_animations_class_init (AdwDemoPageAnimationsClass *klass)
 
   g_object_class_install_properties (object_class, LAST_PROP, props);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Adwaita1/Demo/ui/pages/animations/adw-demo-page-animations.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Advaita1/Demo/ui/pages/animations/adw-demo-page-animations.ui");
   gtk_widget_class_bind_template_child (widget_class, AdwDemoPageAnimations, animation_preferences_stack);
   gtk_widget_class_bind_template_child (widget_class, AdwDemoPageAnimations, timed_animation_sample);
   gtk_widget_class_bind_template_child (widget_class, AdwDemoPageAnimations, timed_animation_button_box);

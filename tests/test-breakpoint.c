@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static inline void
 check_to_string (AdwBreakpointCondition *condition,
@@ -205,8 +205,8 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/BreakpointCondition/to_string", test_adw_breakpoint_condition_to_string);
-  g_test_add_func ("/Adwaita/BreakpointCondition/parse", test_adw_breakpoint_condition_parse);
+  g_test_add_func ("/Advaita/BreakpointCondition/to_string", test_adw_breakpoint_condition_to_string);
+  g_test_add_func ("/Advaita/BreakpointCondition/parse", test_adw_breakpoint_condition_parse);
 
   return g_test_run ();
 }

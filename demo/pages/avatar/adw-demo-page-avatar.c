@@ -183,7 +183,7 @@ adw_demo_page_avatar_class_init (AdwDemoPageAvatarClass *klass)
 {
   GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Adwaita1/Demo/ui/pages/avatar/adw-demo-page-avatar.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Advaita1/Demo/ui/pages/avatar/adw-demo-page-avatar.ui");
   gtk_widget_class_bind_template_child (widget_class, AdwDemoPageAvatar, avatar);
   gtk_widget_class_bind_template_child (widget_class, AdwDemoPageAvatar, text);
   gtk_widget_class_bind_template_child (widget_class, AdwDemoPageAvatar, file_chooser_label);

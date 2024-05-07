@@ -289,7 +289,7 @@ adw_preferences_group_class_init (AdwPreferencesGroupClass *klass)
   g_object_class_install_properties (object_class, LAST_PROP, props);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-preferences-group.ui");
+                                               "/org/gnome/Advaita/ui/adw-preferences-group.ui");
   gtk_widget_class_bind_template_child_private (widget_class, AdwPreferencesGroup, box);
   gtk_widget_class_bind_template_child_private (widget_class, AdwPreferencesGroup, description);
   gtk_widget_class_bind_template_child_private (widget_class, AdwPreferencesGroup, listbox);

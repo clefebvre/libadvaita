@@ -3,7 +3,7 @@ Slug: style-classes
 
 # Style Classes
 
-The Adwaita stylesheet provides a number of style classes. They can be applied
+The Advaita stylesheet provides a number of style classes. They can be applied
 to widgets to change their appearance.
 
 # Buttons

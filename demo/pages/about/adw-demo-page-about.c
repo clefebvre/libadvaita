@@ -63,7 +63,7 @@ demo_run_cb (AdwDemoPageAbout *self)
 
   adw_about_dialog_add_link (ADW_ABOUT_DIALOG (about),
                              _("_Documentation"),
-                             "https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.AboutDialog.html");
+                             "https://gnome.pages.gitlab.gnome.org/libadvaita/doc/main/class.AboutDialog.html");
 
   adw_about_dialog_add_legal_section (ADW_ABOUT_DIALOG (about),
                                       _("Fonts"),
@@ -83,7 +83,7 @@ adw_demo_page_about_class_init (AdwDemoPageAboutClass *klass)
 {
   GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Adwaita1/Demo/ui/pages/about/adw-demo-page-about.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Advaita1/Demo/ui/pages/about/adw-demo-page-about.ui");
 
   gtk_widget_class_install_action (widget_class, "demo.run", NULL, (GtkWidgetActionActivateFunc) demo_run_cb);
 }

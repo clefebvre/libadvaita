@@ -11,14 +11,14 @@
 G_BEGIN_DECLS
 
 #if !GTK_CHECK_VERSION(4, 13, 4)
-# error "libadwaita requires gtk4 >= 4.13.4"
+# error "libadvaita requires gtk4 >= 4.13.4"
 #endif
 
 #if !GLIB_CHECK_VERSION(2, 76, 0)
-# error "libadwaita requires glib-2.0 >= 2.76.0"
+# error "libadvaita requires glib-2.0 >= 2.76.0"
 #endif
 
-#define _ADWAITA_INSIDE
+#define _ADVAITA_INSIDE
 
 #include "adw-version.h"
 #include "adw-about-dialog.h"
@@ -90,6 +90,6 @@ G_BEGIN_DECLS
 #include "adw-window.h"
 #include "adw-window-title.h"
 
-#undef _ADWAITA_INSIDE
+#undef _ADVAITA_INSIDE
 
 G_END_DECLS

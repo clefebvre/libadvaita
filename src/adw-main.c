@@ -17,16 +17,16 @@ static int adw_initialized = FALSE;
 /**
  * adw_init:
  *
- * Initializes Libadwaita.
+ * Initializes Libadvaita.
  *
  * This function can be used instead of [func@Gtk.init] as it initializes GTK
  * implicitly.
  *
  * There's no need to call this function if you're using [class@Application].
  *
- * If Libadwaita has already been initialized, the function will simply return.
+ * If Libadvaita has already been initialized, the function will simply return.
  *
- * This makes sure translations, types, themes, and icons for the Adwaita
+ * This makes sure translations, types, themes, and icons for the Advaita
  * library are set up properly.
  */
 void
@@ -43,14 +43,14 @@ adw_init (void)
 
   if (!adw_is_granite_present ()) {
     gtk_icon_theme_add_resource_path (gtk_icon_theme_get_for_display (gdk_display_get_default ()),
-                                      "/org/gnome/Adwaita/icons");
+                                      "/org/gnome/Advaita/icons");
 
     adw_style_manager_ensure ();
 
     if (g_io_extension_point_lookup ("gtk-inspector-page"))
       g_io_extension_point_implement ("gtk-inspector-page",
                                       ADW_TYPE_INSPECTOR_PAGE,
-                                      "libadwaita",
+                                      "libadvaita",
                                       10);
   }
 
@@ -60,7 +60,7 @@ adw_init (void)
 /**
  * adw_is_initialized:
  *
- * Use this function to check if libadwaita has been initialized with
+ * Use this function to check if libadvaita has been initialized with
  * [func@init].
  *
  * Returns: the initialization status
@@ -73,7 +73,7 @@ adw_is_initialized (void)
 
 /*
  * Some applications, like Epiphany, are used on both GNOME and elementary.
- * Make it possible to integrate those apps with it while still using libadwaita.
+ * Make it possible to integrate those apps with it while still using libadvaita.
  */
 gboolean
 adw_is_granite_present (void)

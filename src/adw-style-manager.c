@@ -86,7 +86,7 @@ warn_prefer_dark_theme (AdwStyleManager *self)
     return;
 
   g_warning ("Using GtkSettings:gtk-application-prefer-dark-theme with "
-             "libadwaita is unsupported. Please use "
+             "libadvaita is unsupported. Please use "
              "AdwStyleManager:color-scheme instead.");
 }
 
@@ -155,13 +155,13 @@ update_stylesheet (AdwStyleManager *self)
   if (self->provider) {
     if (adw_settings_get_high_contrast (self->settings))
       gtk_css_provider_load_from_resource (self->provider,
-                                           "/org/gnome/Adwaita/styles/base-hc.css");
+                                           "/org/gnome/Advaita/styles/base-hc.css");
     else if (adw_settings_get_yaru_accent (self->settings))
       gtk_css_provider_load_from_resource (self->provider,
-                                           "/org/gnome/Adwaita/styles/base-yaru.css");
+                                           "/org/gnome/Advaita/styles/base-yaru.css");
     else
       gtk_css_provider_load_from_resource (self->provider,
-                                           "/org/gnome/Adwaita/styles/base.css");
+                                           "/org/gnome/Advaita/styles/base.css");
   }
 
   if (self->colors_provider) {
@@ -183,7 +183,7 @@ update_stylesheet (AdwStyleManager *self)
         g_autofree char *resource_uri = NULL;
 
         yaru_variant = g_strdup_printf ("%s-yaru-%s", base_variant, yaru_accent);
-        resource_uri = g_strdup_printf ("resource:///org/gnome/Adwaita/styles/%s.css", yaru_variant);
+        resource_uri = g_strdup_printf ("resource:///org/gnome/Advaita/styles/%s.css", yaru_variant);
         gresource = g_file_new_for_uri (resource_uri);
 
         if (g_file_query_exists (gresource, NULL)) {
@@ -195,7 +195,7 @@ update_stylesheet (AdwStyleManager *self)
       }
     }
 
-    style = g_strdup_printf ("/org/gnome/Adwaita/styles/%s.css", variant);
+    style = g_strdup_printf ("/org/gnome/Advaita/styles/%s.css", variant);
     g_debug ("Using style %s", style);
     gtk_css_provider_load_from_resource (self->colors_provider, style);
   }
@@ -292,7 +292,7 @@ adw_style_manager_constructed (GObject *object)
 
     if (!adw_is_granite_present () && !g_getenv ("GTK_THEME")) {
       g_object_set (gtk_settings_get_for_display (self->display),
-                    "gtk-theme-name", "Adwaita-empty",
+                    "gtk-theme-name", "Advaita-empty",
                     NULL);
 
       self->provider = gtk_css_provider_new ();

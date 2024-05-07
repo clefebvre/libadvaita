@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 test_adw_password_entry_row_new (void)
@@ -24,7 +24,7 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func("/Adwaita/PasswordEntryRow/new", test_adw_password_entry_row_new);
+  g_test_add_func("/Advaita/PasswordEntryRow/new", test_adw_password_entry_row_new);
 
   return g_test_run();
 }

@@ -352,7 +352,7 @@ adw_tab_button_class_init (AdwTabButtonClass *klass)
                                    G_CALLBACK (activate_cb));
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-tab-button.ui");
+                                               "/org/gnome/Advaita/ui/adw-tab-button.ui");
 
   gtk_widget_class_bind_template_child (widget_class, AdwTabButton, button);
   gtk_widget_class_bind_template_child (widget_class, AdwTabButton, label);

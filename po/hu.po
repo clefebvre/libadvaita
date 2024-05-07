@@ -1,14 +1,14 @@
-# Hungarian translation for libadwaita.
+# Hungarian translation for libadvaita.
 # Copyright (C) 2021, 2022, 2023, 2024 Free Software Foundation, Inc.
-# This file is distributed under the same license as the libadwaita package.
+# This file is distributed under the same license as the libadvaita package.
 #
 # Balázs Meskó <mesko.balazs at fsf dot hu>, 2021.
 # Balázs Úr <ur.balazs at fsf dot hu>, 2022, 2023, 2024.
 # Benedek Dévényi <rdbende at proton dot me>, 2024.
 msgid ""
 msgstr ""
-"Project-Id-Version: libadwaita main\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"Project-Id-Version: libadvaita main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadvaita/issues\n"
 "POT-Creation-Date: 2024-03-08 16:57+0000\n"
 "PO-Revision-Date: 2024-03-09 17:48+0100\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
@@ -274,8 +274,8 @@ msgstr "Világos előnyben részesítése"
 
 #. Translators: The name of the library, not the stylesheet
 #: src/adw-inspector-page.c:97
-msgid "Adwaita"
-msgstr "Adwaita"
+msgid "Advaita"
+msgstr "Advaita"
 
 #: src/adw-inspector-page.ui:10
 msgid "System Appearance"

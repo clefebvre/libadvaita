@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.1-or-late
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -42,7 +42,7 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/SwitchRow/active", test_adw_switch_row_active);
+  g_test_add_func ("/Advaita/SwitchRow/active", test_adw_switch_row_active);
 
   return g_test_run ();
 }

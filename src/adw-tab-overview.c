@@ -1811,7 +1811,7 @@ adw_tab_overview_class_init (AdwTabOverviewClass *klass)
                                 (GtkShortcutFunc) escape_cb, NULL);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-tab-overview.ui");
+                                               "/org/gnome/Advaita/ui/adw-tab-overview.ui");
 
   gtk_widget_class_bind_template_child (widget_class, AdwTabOverview, overview);
   gtk_widget_class_bind_template_child (widget_class, AdwTabOverview, empty_state);

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.1-or-later
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -105,9 +105,9 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/StatusPage/icon_name", test_adw_status_page_icon_name);
-  g_test_add_func ("/Adwaita/StatusPage/title", test_adw_status_page_title);
-  g_test_add_func ("/Adwaita/StatusPage/description", test_adw_status_page_description);
+  g_test_add_func ("/Advaita/StatusPage/icon_name", test_adw_status_page_icon_name);
+  g_test_add_func ("/Advaita/StatusPage/title", test_adw_status_page_title);
+  g_test_add_func ("/Advaita/StatusPage/description", test_adw_status_page_description);
 
   return g_test_run ();
 }

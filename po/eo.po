@@ -1,12 +1,12 @@
-# Esperanto translation for libadwaita.
-# Copyright (C) 2023 libadwaita's COPYRIGHT HOLDER
-# This file is distributed under the same license as the libadwaita package.
+# Esperanto translation for libadvaita.
+# Copyright (C) 2023 libadvaita's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libadvaita package.
 # Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2023.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: libadwaita main\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"Project-Id-Version: libadvaita main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadvaita/issues\n"
 "POT-Creation-Date: 2023-09-14 08:30+0000\n"
 "PO-Revision-Date: 2023-09-14 12:25+0200\n"
 "Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
@@ -265,7 +265,7 @@ msgstr "Preferi lumon"
 
 #. Translators: The name of the library, not the stylesheet
 #: src/adw-inspector-page.c:97
-msgid "Adwaita"
+msgid "Advaita"
 msgstr "Advajto"
 
 #: src/adw-inspector-page.ui:10

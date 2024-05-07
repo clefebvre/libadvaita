@@ -11,7 +11,7 @@ option('package_subdir', type: 'string',
 
 option('gtk_doc',
        type: 'boolean', value: false,
-       description: 'Whether to generate the API reference for libadwaita')
+       description: 'Whether to generate the API reference for libadvaita')
 
 option('tests',
        type: 'boolean', value: true,

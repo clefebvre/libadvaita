@@ -1,12 +1,12 @@
-# Occitan translation for libadwaita.
-# Copyright (C) 2021 libadwaita's COPYRIGHT HOLDER
-# This file is distributed under the same license as the libadwaita package.
+# Occitan translation for libadvaita.
+# Copyright (C) 2021 libadvaita's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libadvaita package.
 # Quentin PAGÈS <pages_quentin@hotmail.com>, 2021.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: libadwaita main\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"Project-Id-Version: libadvaita main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadvaita/issues\n"
 "POT-Creation-Date: 2024-03-02 19:53+0000\n"
 "PO-Revision-Date: 2024-03-08 17:56+0100\n"
 "Last-Translator: Quentin PAGÈS\n"
@@ -273,8 +273,8 @@ msgstr "Preferir lo tèma clar"
 
 #. Translators: The name of the library, not the stylesheet
 #: src/adw-inspector-page.c:97
-msgid "Adwaita"
-msgstr "Adwaita"
+msgid "Advaita"
+msgstr "Advaita"
 
 #: src/adw-inspector-page.ui:10
 msgid "System Appearance"

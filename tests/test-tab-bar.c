@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -248,13 +248,13 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/TabBar/view", test_adw_tab_bar_view);
-  g_test_add_func ("/Adwaita/TabBar/start_action_widget", test_adw_tab_bar_start_action_widget);
-  g_test_add_func ("/Adwaita/TabBar/end_action_widget", test_adw_tab_bar_end_action_widget);
-  g_test_add_func ("/Adwaita/TabBar/autohide", test_adw_tab_bar_autohide);
-  g_test_add_func ("/Adwaita/TabBar/tabs_revealed", test_adw_tab_bar_tabs_revealed);
-  g_test_add_func ("/Adwaita/TabBar/expand_tabs", test_adw_tab_bar_expand_tabs);
-  g_test_add_func ("/Adwaita/TabBar/inverted", test_adw_tab_bar_inverted);
+  g_test_add_func ("/Advaita/TabBar/view", test_adw_tab_bar_view);
+  g_test_add_func ("/Advaita/TabBar/start_action_widget", test_adw_tab_bar_start_action_widget);
+  g_test_add_func ("/Advaita/TabBar/end_action_widget", test_adw_tab_bar_end_action_widget);
+  g_test_add_func ("/Advaita/TabBar/autohide", test_adw_tab_bar_autohide);
+  g_test_add_func ("/Advaita/TabBar/tabs_revealed", test_adw_tab_bar_tabs_revealed);
+  g_test_add_func ("/Advaita/TabBar/expand_tabs", test_adw_tab_bar_expand_tabs);
+  g_test_add_func ("/Advaita/TabBar/inverted", test_adw_tab_bar_inverted);
 
   return g_test_run ();
 }

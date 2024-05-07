@@ -1,11 +1,11 @@
-# Vietnamese translation for libadwaita.
-# This file is distributed under the same license as the libadwaita package.
+# Vietnamese translation for libadvaita.
+# This file is distributed under the same license as the libadvaita package.
 # th1nhhdk <th1nhhdk@tutanota.com>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: main\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadvaita/issues\n"
 "POT-Creation-Date: 2022-02-01 18:47+0000\n"
 "PO-Revision-Date: 2022-02-02 09:49+0700\n"
 "Last-Translator: th1nhhdk <th1nhhdk@tutanota.com>\n"
@@ -31,8 +31,8 @@ msgstr "Ưu tiên sáng"
 
 #. Translators: The name of the library, not the stylesheet
 #: src/adw-inspector-page.c:98
-msgid "Adwaita"
-msgstr "Adwaita"
+msgid "Advaita"
+msgstr "Advaita"
 
 #: src/adw-inspector-page.ui:10
 msgid "System Appearance"

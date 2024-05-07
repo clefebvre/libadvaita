@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/org/gnome/Adwaita">
+  <gresource prefix="/org/gnome/Advaita">
     <file preprocess="xml-stripblanks">icons/scalable/actions/adw-entry-apply-symbolic.svg</file>
     <file preprocess="xml-stripblanks">icons/scalable/actions/adw-external-link-symbolic.svg</file>
     <file preprocess="xml-stripblanks">icons/scalable/actions/adw-expander-arrow-symbolic.svg</file>
@@ -11,7 +11,7 @@
     <file preprocess="xml-stripblanks">icons/scalable/status/adw-tab-overflow-symbolic.svg</file>
     <file preprocess="xml-stripblanks">icons/scalable/status/adw-tab-unpin-symbolic.svg</file>
   </gresource>
-  <gresource prefix="/org/gnome/Adwaita/ui">
+  <gresource prefix="/org/gnome/Advaita/ui">
     <file preprocess="xml-stripblanks">adw-about-dialog.ui</file>
     <file preprocess="xml-stripblanks">adw-about-window.ui</file>
     <file preprocess="xml-stripblanks">adw-action-row.ui</file>

@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -312,16 +312,16 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/TabOverview/view", test_adw_tab_overview_view);
-  g_test_add_func ("/Adwaita/TabOverview/child", test_adw_tab_overview_child);
-  g_test_add_func ("/Adwaita/TabOverview/open", test_adw_tab_overview_open);
-  g_test_add_func ("/Adwaita/TabOverview/inverted", test_adw_tab_overview_inverted);
-  g_test_add_func ("/Adwaita/TabOverview/enable_search", test_adw_tab_overview_enable_search);
-  g_test_add_func ("/Adwaita/TabOverview/enable_new_tab", test_adw_tab_overview_enable_new_tab);
-  g_test_add_func ("/Adwaita/TabOverview/secondary_menu", test_adw_tab_overview_secondary_menu);
-  g_test_add_func ("/Adwaita/TabOverview/show_start_title_buttons", test_adw_tab_overview_show_start_title_buttons);
-  g_test_add_func ("/Adwaita/TabOverview/show_end_title_buttons", test_adw_tab_overview_show_end_title_buttons);
-  g_test_add_func ("/Adwaita/TabOverview/actions", test_adw_tab_overview_actions);
+  g_test_add_func ("/Advaita/TabOverview/view", test_adw_tab_overview_view);
+  g_test_add_func ("/Advaita/TabOverview/child", test_adw_tab_overview_child);
+  g_test_add_func ("/Advaita/TabOverview/open", test_adw_tab_overview_open);
+  g_test_add_func ("/Advaita/TabOverview/inverted", test_adw_tab_overview_inverted);
+  g_test_add_func ("/Advaita/TabOverview/enable_search", test_adw_tab_overview_enable_search);
+  g_test_add_func ("/Advaita/TabOverview/enable_new_tab", test_adw_tab_overview_enable_new_tab);
+  g_test_add_func ("/Advaita/TabOverview/secondary_menu", test_adw_tab_overview_secondary_menu);
+  g_test_add_func ("/Advaita/TabOverview/show_start_title_buttons", test_adw_tab_overview_show_start_title_buttons);
+  g_test_add_func ("/Advaita/TabOverview/show_end_title_buttons", test_adw_tab_overview_show_end_title_buttons);
+  g_test_add_func ("/Advaita/TabOverview/actions", test_adw_tab_overview_actions);
 
   return g_test_run ();
 }

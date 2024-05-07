@@ -6,8 +6,8 @@
 
 #pragma once
 
-#if !defined(_ADWAITA_INSIDE) && !defined(ADWAITA_COMPILATION)
-#error "Only <adwaita.h> can be included directly."
+#if !defined(_ADVAITA_INSIDE) && !defined(ADVAITA_COMPILATION)
+#error "Only <advaita.h> can be included directly."
 #endif
 
 #include <glib.h>
@@ -17,35 +17,35 @@ G_BEGIN_DECLS
 /**
  * ADW_MAJOR_VERSION:
  *
- * Adwaita major version component (e.g. 1 if the version is 1.2.3).
+ * Advaita major version component (e.g. 1 if the version is 1.2.3).
  */
 #define ADW_MAJOR_VERSION              (@ADW_MAJOR_VERSION@)
 
 /**
  * ADW_MINOR_VERSION:
  *
- * Adwaita minor version component (e.g. 2 if the version is 1.2.3).
+ * Advaita minor version component (e.g. 2 if the version is 1.2.3).
  */
 #define ADW_MINOR_VERSION              (@ADW_MINOR_VERSION@)
 
 /**
  * ADW_MICRO_VERSION:
  *
- * Adwaita micro version component (e.g. 3 if the version is 1.2.3).
+ * Advaita micro version component (e.g. 3 if the version is 1.2.3).
  */
 #define ADW_MICRO_VERSION              (@ADW_MICRO_VERSION@)
 
 /**
  * ADW_VERSION:
  *
- * Adwaita version (e.g. 1.2.3).
+ * Advaita version (e.g. 1.2.3).
  */
 #define ADW_VERSION                    (@ADW_VERSION@)
 
 /**
  * ADW_VERSION_S:
  *
- * Adwaita version, encoded as a string, useful for printing and
+ * Advaita version, encoded as a string, useful for printing and
  * concatenation.
  */
 #define ADW_VERSION_S                  "@ADW_VERSION@"
@@ -56,7 +56,7 @@ G_BEGIN_DECLS
 /**
  * ADW_VERSION_HEX:
  *
- * Adwaita version, encoded as an hexadecimal number, useful for
+ * Advaita version, encoded as an hexadecimal number, useful for
  * integer comparisons.
  */
 #define ADW_VERSION_HEX \
@@ -69,7 +69,7 @@ G_BEGIN_DECLS
  * @micro: required micro version
  *
  * Compile-time version checking. Evaluates to `TRUE` if the version
- * of Adwaita is greater than the required one.
+ * of Advaita is greater than the required one.
  */
 #define ADW_CHECK_VERSION(major,minor,micro)   \
         (ADW_MAJOR_VERSION > (major) || \
@@ -80,7 +80,7 @@ G_BEGIN_DECLS
 /**
  * ADW_VERSION_1_1:
  *
- * A macro that evaluates to the 1.2 version of Adwaita, in a format
+ * A macro that evaluates to the 1.2 version of Advaita, in a format
  * that can be used by the C pre-processor.
  *
  * Since: 1.1
@@ -90,7 +90,7 @@ G_BEGIN_DECLS
 /**
  * ADW_VERSION_1_2:
  *
- * A macro that evaluates to the 1.2 version of Adwaita, in a format
+ * A macro that evaluates to the 1.2 version of Advaita, in a format
  * that can be used by the C pre-processor.
  *
  * Since: 1.2
@@ -100,7 +100,7 @@ G_BEGIN_DECLS
 /**
  * ADW_VERSION_1_3:
  *
- * A macro that evaluates to the 1.3 version of Adwaita, in a format
+ * A macro that evaluates to the 1.3 version of Advaita, in a format
  * that can be used by the C pre-processor.
  *
  * Since: 1.3
@@ -110,7 +110,7 @@ G_BEGIN_DECLS
 /**
  * ADW_VERSION_1_4:
  *
- * A macro that evaluates to the 1.4 version of Adwaita, in a format
+ * A macro that evaluates to the 1.4 version of Advaita, in a format
  * that can be used by the C pre-processor.
  *
  * Since: 1.4
@@ -120,7 +120,7 @@ G_BEGIN_DECLS
 /**
  * ADW_VERSION_1_5:
  *
- * A macro that evaluates to the 1.5 version of Adwaita, in a format
+ * A macro that evaluates to the 1.5 version of Advaita, in a format
  * that can be used by the C pre-processor.
  *
  * Since: 1.5
@@ -131,7 +131,7 @@ G_BEGIN_DECLS
 #define _ADW_EXTERN extern
 #endif
 
-#if defined(ADW_DISABLE_DEPRECATION_WARNINGS) || defined(ADWAITA_COMPILATION)
+#if defined(ADW_DISABLE_DEPRECATION_WARNINGS) || defined(ADVAITA_COMPILATION)
 #  define _ADW_DEPRECATED             _ADW_EXTERN
 #  define _ADW_DEPRECATED_FOR(f)      _ADW_EXTERN
 #  define _ADW_DEPRECATED_TYPE

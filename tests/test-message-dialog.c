@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -365,21 +365,21 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/MessageDialog/heading", test_adw_message_dialog_heading);
-  g_test_add_func ("/Adwaita/MessageDialog/heading_use_markup", test_adw_message_dialog_heading_use_markup);
-  g_test_add_func ("/Adwaita/MessageDialog/body", test_adw_message_dialog_body);
-  g_test_add_func ("/Adwaita/MessageDialog/body_use_markup", test_adw_message_dialog_body_use_markup);
-  g_test_add_func ("/Adwaita/MessageDialog/format", test_adw_message_dialog_format);
-  g_test_add_func ("/Adwaita/MessageDialog/extra_child", test_adw_message_dialog_extra_child);
-  g_test_add_func ("/Adwaita/MessageDialog/add_response", test_adw_message_dialog_add_response);
-  g_test_add_func ("/Adwaita/MessageDialog/add_responses", test_adw_message_dialog_add_responses);
-  g_test_add_func ("/Adwaita/MessageDialog/remove_response", test_adw_message_dialog_remove_response);
-  g_test_add_func ("/Adwaita/MessageDialog/response_label", test_adw_message_dialog_response_label);
-  g_test_add_func ("/Adwaita/MessageDialog/response_enabled", test_adw_message_dialog_response_enabled);
-  g_test_add_func ("/Adwaita/MessageDialog/response_appearance", test_adw_message_dialog_response_appearance);
-  g_test_add_func ("/Adwaita/MessageDialog/response_signal", test_adw_message_dialog_response_signal);
-  g_test_add_func ("/Adwaita/MessageDialog/default_response", test_adw_message_dialog_default_response);
-  g_test_add_func ("/Adwaita/MessageDialog/close_response", test_adw_message_dialog_close_response);
+  g_test_add_func ("/Advaita/MessageDialog/heading", test_adw_message_dialog_heading);
+  g_test_add_func ("/Advaita/MessageDialog/heading_use_markup", test_adw_message_dialog_heading_use_markup);
+  g_test_add_func ("/Advaita/MessageDialog/body", test_adw_message_dialog_body);
+  g_test_add_func ("/Advaita/MessageDialog/body_use_markup", test_adw_message_dialog_body_use_markup);
+  g_test_add_func ("/Advaita/MessageDialog/format", test_adw_message_dialog_format);
+  g_test_add_func ("/Advaita/MessageDialog/extra_child", test_adw_message_dialog_extra_child);
+  g_test_add_func ("/Advaita/MessageDialog/add_response", test_adw_message_dialog_add_response);
+  g_test_add_func ("/Advaita/MessageDialog/add_responses", test_adw_message_dialog_add_responses);
+  g_test_add_func ("/Advaita/MessageDialog/remove_response", test_adw_message_dialog_remove_response);
+  g_test_add_func ("/Advaita/MessageDialog/response_label", test_adw_message_dialog_response_label);
+  g_test_add_func ("/Advaita/MessageDialog/response_enabled", test_adw_message_dialog_response_enabled);
+  g_test_add_func ("/Advaita/MessageDialog/response_appearance", test_adw_message_dialog_response_appearance);
+  g_test_add_func ("/Advaita/MessageDialog/response_signal", test_adw_message_dialog_response_signal);
+  g_test_add_func ("/Advaita/MessageDialog/default_response", test_adw_message_dialog_default_response);
+  g_test_add_func ("/Advaita/MessageDialog/close_response", test_adw_message_dialog_close_response);
 
   return g_test_run ();
 }

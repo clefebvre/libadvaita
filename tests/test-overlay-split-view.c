@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -390,18 +390,18 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/OverlaySplitView/sidebar", test_adw_overlay_split_view_sidebar);
-  g_test_add_func ("/Adwaita/OverlaySplitView/content", test_adw_overlay_split_view_content);
-  g_test_add_func ("/Adwaita/OverlaySplitView/collapsed", test_adw_overlay_split_view_collapsed);
-  g_test_add_func ("/Adwaita/OverlaySplitView/sidebar_position", test_adw_overlay_split_view_sidebar_position);
-  g_test_add_func ("/Adwaita/OverlaySplitView/show_sidebar", test_adw_overlay_split_view_show_sidebar);
-  g_test_add_func ("/Adwaita/OverlaySplitView/pin_sidebar", test_adw_overlay_split_view_pin_sidebar);
-  g_test_add_func ("/Adwaita/OverlaySplitView/enable_show_gesture", test_adw_overlay_split_view_enable_show_gesture);
-  g_test_add_func ("/Adwaita/OverlaySplitView/enable_hide_gesture", test_adw_overlay_split_view_enable_hide_gesture);
-  g_test_add_func ("/Adwaita/OverlaySplitView/min_sidebar_width", test_adw_overlay_split_view_min_sidebar_width);
-  g_test_add_func ("/Adwaita/OverlaySplitView/max_sidebar_width", test_adw_overlay_split_view_max_sidebar_width);
-  g_test_add_func ("/Adwaita/OverlaySplitView/sidebar_width_fraction", test_adw_overlay_split_view_sidebar_width_fraction);
-  g_test_add_func ("/Adwaita/OverlaySplitView/sidebar_width_unit", test_adw_overlay_split_view_sidebar_width_unit);
+  g_test_add_func ("/Advaita/OverlaySplitView/sidebar", test_adw_overlay_split_view_sidebar);
+  g_test_add_func ("/Advaita/OverlaySplitView/content", test_adw_overlay_split_view_content);
+  g_test_add_func ("/Advaita/OverlaySplitView/collapsed", test_adw_overlay_split_view_collapsed);
+  g_test_add_func ("/Advaita/OverlaySplitView/sidebar_position", test_adw_overlay_split_view_sidebar_position);
+  g_test_add_func ("/Advaita/OverlaySplitView/show_sidebar", test_adw_overlay_split_view_show_sidebar);
+  g_test_add_func ("/Advaita/OverlaySplitView/pin_sidebar", test_adw_overlay_split_view_pin_sidebar);
+  g_test_add_func ("/Advaita/OverlaySplitView/enable_show_gesture", test_adw_overlay_split_view_enable_show_gesture);
+  g_test_add_func ("/Advaita/OverlaySplitView/enable_hide_gesture", test_adw_overlay_split_view_enable_hide_gesture);
+  g_test_add_func ("/Advaita/OverlaySplitView/min_sidebar_width", test_adw_overlay_split_view_min_sidebar_width);
+  g_test_add_func ("/Advaita/OverlaySplitView/max_sidebar_width", test_adw_overlay_split_view_max_sidebar_width);
+  g_test_add_func ("/Advaita/OverlaySplitView/sidebar_width_fraction", test_adw_overlay_split_view_sidebar_width_fraction);
+  g_test_add_func ("/Advaita/OverlaySplitView/sidebar_width_unit", test_adw_overlay_split_view_sidebar_width_unit);
 
   return g_test_run ();
 }

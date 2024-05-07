@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.1-or-later
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 
 static void
@@ -24,7 +24,7 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func("/Adwaita/Window/new", test_adw_window_new);
+  g_test_add_func("/Advaita/Window/new", test_adw_window_new);
 
   return g_test_run();
 }

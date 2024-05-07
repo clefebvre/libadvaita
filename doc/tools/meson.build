@@ -8,10 +8,10 @@ screenshot_resources = gnome.compile_resources(
 screenshot_sources = [
   screenshot_resources,
   'screenshot.c',
-  libadwaita_generated_headers,
+  libadvaita_generated_headers,
 ]
 
 screenshot = executable('screenshot'.format(apiversion),
   screenshot_sources,
-  dependencies: libadwaita_deps + [libadwaita_dep],
+  dependencies: libadvaita_deps + [libadvaita_dep],
 )

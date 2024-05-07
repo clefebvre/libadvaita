@@ -276,7 +276,7 @@ adw_expander_row_class_init (AdwExpanderRowClass *klass)
   g_object_class_install_properties (object_class, LAST_PROP, props);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-expander-row.ui");
+                                               "/org/gnome/Advaita/ui/adw-expander-row.ui");
   gtk_widget_class_bind_template_child_private (widget_class, AdwExpanderRow, action_row);
   gtk_widget_class_bind_template_child_private (widget_class, AdwExpanderRow, box);
   gtk_widget_class_bind_template_child_private (widget_class, AdwExpanderRow, suffixes);

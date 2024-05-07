@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.1-or-later
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -138,12 +138,12 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func("/Adwaita/ActionRow/add_remove", test_adw_action_row_add_remove);
-  g_test_add_func("/Adwaita/ActionRow/subtitle", test_adw_action_row_subtitle);
-  g_test_add_func("/Adwaita/ActionRow/title_lines", test_adw_action_row_title_lines);
-  g_test_add_func("/Adwaita/ActionRow/subtitle_lines", test_adw_action_row_subtitle_lines);
-  g_test_add_func("/Adwaita/ActionRow/subtitle_selectable", test_adw_action_row_subtitle_selectable);
-  g_test_add_func("/Adwaita/ActionRow/activate", test_adw_action_row_activate);
+  g_test_add_func("/Advaita/ActionRow/add_remove", test_adw_action_row_add_remove);
+  g_test_add_func("/Advaita/ActionRow/subtitle", test_adw_action_row_subtitle);
+  g_test_add_func("/Advaita/ActionRow/title_lines", test_adw_action_row_title_lines);
+  g_test_add_func("/Advaita/ActionRow/subtitle_lines", test_adw_action_row_subtitle_lines);
+  g_test_add_func("/Advaita/ActionRow/subtitle_selectable", test_adw_action_row_subtitle_selectable);
+  g_test_add_func("/Advaita/ActionRow/activate", test_adw_action_row_activate);
 
   return g_test_run();
 }

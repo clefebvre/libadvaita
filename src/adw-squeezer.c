@@ -10,7 +10,7 @@
 
 /*
  * Forked from the GTK+ 3.24.2 GtkStack widget initially written by Alexander
- * Larsson, and heavily modified for libadwaita by Adrien Plazas on behalf of
+ * Larsson, and heavily modified for libadvaita by Adrien Plazas on behalf of
  * Purism SPC 2019.
  */
 

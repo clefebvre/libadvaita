@@ -1,12 +1,12 @@
-# Slovak translation for libadwaita.
-# Copyright (C) 2022 libadwaita's COPYRIGHT HOLDER
-# This file is distributed under the same license as the libadwaita package.
+# Slovak translation for libadvaita.
+# Copyright (C) 2022 libadvaita's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libadvaita package.
 # Dušan Kazik <prescott66@gmail.com>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: libadwaita libadwaita-1-0\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"Project-Id-Version: libadvaita libadvaita-1-0\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadvaita/issues\n"
 "POT-Creation-Date: 2023-05-08 08:35+0000\n"
 "PO-Revision-Date: 2023-06-09 09:37-0400\n"
 "Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
@@ -288,8 +288,8 @@ msgstr "Uprednostnenie svetlej"
 
 #. Translators: The name of the library, not the stylesheet
 #: src/adw-inspector-page.c:97
-msgid "Adwaita"
-msgstr "Adwaita"
+msgid "Advaita"
+msgstr "Advaita"
 
 #: src/adw-inspector-page.ui:10
 msgid "System Appearance"

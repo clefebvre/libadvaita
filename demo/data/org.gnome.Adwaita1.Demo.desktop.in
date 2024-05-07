@@ -1,8 +1,8 @@
 [Desktop Entry]
-Name=Adwaita Demo
-Exec=adwaita-1-demo
-Icon=org.gnome.Adwaita1.Demo
-Keywords=libadwaita;
+Name=Advaita Demo
+Exec=advaita-1-demo
+Icon=org.gnome.Advaita1.Demo
+Keywords=libadvaita;
 Terminal=false
 Type=Application
 Categories=GTK;

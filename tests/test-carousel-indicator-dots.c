@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.1-or-later
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -48,6 +48,6 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func("/Adwaita/CarouselIndicatorDots/carousel", test_adw_carousel_indicator_dots_carousel);
+  g_test_add_func("/Advaita/CarouselIndicatorDots/carousel", test_adw_carousel_indicator_dots_carousel);
   return g_test_run();
 }

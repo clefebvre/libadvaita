@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/org/gnome/Adwaita1/Demo">
-    <file preprocess="xml-stripblanks" alias="icons/scalable/apps/org.gnome.Adwaita1.Demo.svg">data/org.gnome.Adwaita1.Demo.svg</file>
-    <file preprocess="xml-stripblanks" alias="icons/symbolic/apps/org.gnome.Adwaita1.Demo-symbolic.svg">data/org.gnome.Adwaita1.Demo-symbolic.svg</file>
-    <file preprocess="xml-stripblanks" alias="org.gnome.Adwaita1.Demo.metainfo.xml">data/org.gnome.Adwaita1.Demo.metainfo.xml</file>
+  <gresource prefix="/org/gnome/Advaita1/Demo">
+    <file preprocess="xml-stripblanks" alias="icons/scalable/apps/org.gnome.Advaita1.Demo.svg">data/org.gnome.Advaita1.Demo.svg</file>
+    <file preprocess="xml-stripblanks" alias="icons/symbolic/apps/org.gnome.Advaita1.Demo-symbolic.svg">data/org.gnome.Advaita1.Demo-symbolic.svg</file>
+    <file preprocess="xml-stripblanks" alias="org.gnome.Advaita1.Demo.metainfo.xml">data/org.gnome.Advaita1.Demo.metainfo.xml</file>
     <file preprocess="xml-stripblanks">icons/scalable/actions/avatar-delete-symbolic.svg</file>
     <file preprocess="xml-stripblanks">icons/scalable/actions/avatar-save-symbolic.svg</file>
     <file preprocess="xml-stripblanks">icons/scalable/actions/clock-alarm-symbolic.svg</file>
@@ -42,7 +42,7 @@
     <file compressed="true">style.css</file>
     <file compressed="true">style-dark.css</file>
   </gresource>
-  <gresource prefix="/org/gnome/Adwaita1/Demo/ui">
+  <gresource prefix="/org/gnome/Advaita1/Demo/ui">
     <file preprocess="xml-stripblanks">pages/about/adw-demo-page-about.ui</file>
     <file preprocess="xml-stripblanks">pages/animations/adw-demo-page-animations.ui</file>
     <file preprocess="xml-stripblanks">pages/avatar/adw-demo-page-avatar.ui</file>

@@ -1,4 +1,4 @@
-#include <adwaita.h>
+#include <advaita.h>
 
 static const char *names[] = {
   "Aaron",

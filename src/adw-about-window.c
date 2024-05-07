@@ -1842,7 +1842,7 @@ adw_about_window_class_init (AdwAboutWindowClass *klass)
                                    G_CALLBACK (activate_link_default_cb));
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-about-window.ui");
+                                               "/org/gnome/Advaita/ui/adw-about-window.ui");
   gtk_widget_class_bind_template_child (widget_class, AdwAboutWindow, navigation_view);
   gtk_widget_class_bind_template_child (widget_class, AdwAboutWindow, toast_overlay);
   gtk_widget_class_bind_template_child (widget_class, AdwAboutWindow, main_scrolled_window);

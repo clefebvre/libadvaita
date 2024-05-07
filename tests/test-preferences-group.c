@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.1-or-later
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 
 static void
@@ -79,9 +79,9 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func("/Adwaita/PreferencesGroup/add_remove", test_adw_preferences_group_add_remove);
-  g_test_add_func("/Adwaita/PreferencesGroup/title", test_adw_preferences_group_title);
-  g_test_add_func("/Adwaita/PreferencesGroup/description", test_adw_preferences_group_description);
+  g_test_add_func("/Advaita/PreferencesGroup/add_remove", test_adw_preferences_group_add_remove);
+  g_test_add_func("/Advaita/PreferencesGroup/title", test_adw_preferences_group_title);
+  g_test_add_func("/Advaita/PreferencesGroup/description", test_adw_preferences_group_description);
 
   return g_test_run();
 }

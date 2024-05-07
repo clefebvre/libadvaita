@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -324,18 +324,18 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/Toast/title", test_adw_toast_title);
-  g_test_add_func ("/Adwaita/Toast/title_format", test_adw_toast_title_format);
-  g_test_add_func ("/Adwaita/Toast/button_label", test_adw_toast_button_label);
-  g_test_add_func ("/Adwaita/Toast/action_name", test_adw_toast_action_name);
-  g_test_add_func ("/Adwaita/Toast/action_target", test_adw_toast_action_target);
-  g_test_add_func ("/Adwaita/Toast/detailed_action_name", test_adw_toast_detailed_action_name);
-  g_test_add_func ("/Adwaita/Toast/priority", test_adw_toast_priority);
-  g_test_add_func ("/Adwaita/Toast/timeout", test_adw_toast_timeout);
-  g_test_add_func ("/Adwaita/Toast/dismiss", test_adw_toast_dismiss);
-  g_test_add_func ("/Adwaita/Toast/custom_title", test_adw_toast_custom_title);
-  g_test_add_func ("/Adwaita/Toast/custom_title_overlay", test_adw_toast_custom_title_overlay);
-  g_test_add_func ("/Adwaita/Toast/use_markup", test_adw_toast_use_markup);
+  g_test_add_func ("/Advaita/Toast/title", test_adw_toast_title);
+  g_test_add_func ("/Advaita/Toast/title_format", test_adw_toast_title_format);
+  g_test_add_func ("/Advaita/Toast/button_label", test_adw_toast_button_label);
+  g_test_add_func ("/Advaita/Toast/action_name", test_adw_toast_action_name);
+  g_test_add_func ("/Advaita/Toast/action_target", test_adw_toast_action_target);
+  g_test_add_func ("/Advaita/Toast/detailed_action_name", test_adw_toast_detailed_action_name);
+  g_test_add_func ("/Advaita/Toast/priority", test_adw_toast_priority);
+  g_test_add_func ("/Advaita/Toast/timeout", test_adw_toast_timeout);
+  g_test_add_func ("/Advaita/Toast/dismiss", test_adw_toast_dismiss);
+  g_test_add_func ("/Advaita/Toast/custom_title", test_adw_toast_custom_title);
+  g_test_add_func ("/Advaita/Toast/custom_title_overlay", test_adw_toast_custom_title_overlay);
+  g_test_add_func ("/Advaita/Toast/use_markup", test_adw_toast_use_markup);
 
   return g_test_run ();
 }

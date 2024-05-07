@@ -246,7 +246,7 @@ adw_status_page_class_init (AdwStatusPageClass *klass)
   g_object_class_install_properties (object_class, LAST_PROP, props);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-status-page.ui");
+                                               "/org/gnome/Advaita/ui/adw-status-page.ui");
   gtk_widget_class_bind_template_child (widget_class, AdwStatusPage, scrolled_window);
   gtk_widget_class_bind_template_child (widget_class, AdwStatusPage, toplevel_box);
   gtk_widget_class_bind_template_child (widget_class, AdwStatusPage, image);

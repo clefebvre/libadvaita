@@ -2,7 +2,7 @@
 
 #include <glib/gi18n.h>
 #include <gtk/gtk.h>
-#include <adwaita.h>
+#include <advaita.h>
 
 #include "adw-demo-debug-info.h"
 #include "adw-demo-preferences-window.h"
@@ -57,10 +57,10 @@ show_about (GSimpleAction *action,
 
   debug_info = adw_demo_generate_debug_info ();
 
-  about = adw_about_dialog_new_from_appdata ("/org/gnome/Adwaita1/Demo/org.gnome.Adwaita1.Demo.metainfo.xml", NULL);
+  about = adw_about_dialog_new_from_appdata ("/org/gnome/Advaita1/Demo/org.gnome.Advaita1.Demo.metainfo.xml", NULL);
   adw_about_dialog_set_version (ADW_ABOUT_DIALOG (about), ADW_VERSION_S);
   adw_about_dialog_set_debug_info (ADW_ABOUT_DIALOG (about), debug_info);
-  adw_about_dialog_set_debug_info_filename (ADW_ABOUT_DIALOG (about), "adwaita-1-demo-debug-info.txt");
+  adw_about_dialog_set_debug_info_filename (ADW_ABOUT_DIALOG (about), "advaita-1-demo-debug-info.txt");
   adw_about_dialog_set_copyright (ADW_ABOUT_DIALOG (about), "© 2017–2022 Purism SPC");
   adw_about_dialog_set_developers (ADW_ABOUT_DIALOG (about), developers);
   adw_about_dialog_set_designers (ADW_ABOUT_DIALOG (about), designers);
@@ -69,10 +69,10 @@ show_about (GSimpleAction *action,
 
   adw_about_dialog_add_link (ADW_ABOUT_DIALOG (about),
                              _("_Documentation"),
-                             "https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/");
+                             "https://gnome.pages.gitlab.gnome.org/libadvaita/doc/main/");
   adw_about_dialog_add_link (ADW_ABOUT_DIALOG (about),
                              _("_Chat"),
-                             "https://matrix.to/#/#libadwaita:gnome.org");
+                             "https://matrix.to/#/#libadvaita:gnome.org");
 
   adw_dialog_present (about, GTK_WIDGET (window));
 
@@ -101,7 +101,7 @@ main (int    argc,
     { "about", show_about, NULL, NULL, NULL },
   };
 
-  app = adw_application_new ("org.gnome.Adwaita1.Demo", G_APPLICATION_NON_UNIQUE);
+  app = adw_application_new ("org.gnome.Advaita1.Demo", G_APPLICATION_NON_UNIQUE);
   g_action_map_add_action_entries (G_ACTION_MAP (app),
                                    app_entries, G_N_ELEMENTS (app_entries),
                                    app);

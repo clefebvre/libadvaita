@@ -1,5 +1,5 @@
 test_cflags = [
-  '-DADW_LOG_DOMAIN="Adwaita"',
+  '-DADW_LOG_DOMAIN="Advaita"',
   '-DTEST_DATA_DIR="@0@/data"'.format(meson.current_source_dir()),
 ]
 
@@ -16,7 +16,7 @@ test_names = [
 
 foreach test_name : test_names
   executable(test_name,
-             [test_name + '.c'] + libadwaita_generated_headers,
+             [test_name + '.c'] + libadvaita_generated_headers,
              c_args: test_cflags,
-             dependencies: libadwaita_deps + [libadwaita_dep])
+             dependencies: libadvaita_deps + [libadvaita_dep])
 endforeach

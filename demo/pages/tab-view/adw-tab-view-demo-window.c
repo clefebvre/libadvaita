@@ -496,7 +496,7 @@ adw_tab_view_demo_window_class_init (AdwTabViewDemoWindowClass *klass)
 
   object_class->dispose = adw_tab_view_demo_window_dispose;
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Adwaita1/Demo/ui/pages/tab-view/adw-tab-view-demo-window.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Advaita1/Demo/ui/pages/tab-view/adw-tab-view-demo-window.ui");
   gtk_widget_class_bind_template_child (widget_class, AdwTabViewDemoWindow, view);
   gtk_widget_class_bind_template_child (widget_class, AdwTabViewDemoWindow, tab_bar);
   gtk_widget_class_bind_template_child (widget_class, AdwTabViewDemoWindow, tab_overview);

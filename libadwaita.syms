@@ -1,4 +1,4 @@
-LIBADWAITA_1_0 {
+LIBADVAITA_1_0 {
 	global:
 		adw_*;
 	local:

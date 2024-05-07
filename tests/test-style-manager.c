@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 #include "adw-settings-private.h"
 
 static void
@@ -207,11 +207,11 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func("/Adwaita/StyleManager/color_scheme", test_adw_style_manager_color_scheme);
-  g_test_add_func("/Adwaita/StyleManager/dark", test_adw_style_manager_dark);
-  g_test_add_func("/Adwaita/StyleManager/high_contrast", test_adw_style_manager_high_contrast);
-  g_test_add_func("/Adwaita/StyleManager/system_supports_color_schemes", test_adw_style_manager_system_supports_color_schemes);
-  g_test_add_func("/Adwaita/StyleManager/inheritance", test_adw_style_manager_inheritance);
+  g_test_add_func("/Advaita/StyleManager/color_scheme", test_adw_style_manager_color_scheme);
+  g_test_add_func("/Advaita/StyleManager/dark", test_adw_style_manager_dark);
+  g_test_add_func("/Advaita/StyleManager/high_contrast", test_adw_style_manager_high_contrast);
+  g_test_add_func("/Advaita/StyleManager/system_supports_color_schemes", test_adw_style_manager_system_supports_color_schemes);
+  g_test_add_func("/Advaita/StyleManager/inheritance", test_adw_style_manager_inheritance);
 
   return g_test_run();
 }

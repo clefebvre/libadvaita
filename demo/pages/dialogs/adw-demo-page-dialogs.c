@@ -84,7 +84,7 @@ adw_demo_page_dialogs_class_init (AdwDemoPageDialogsClass *klass)
                   G_TYPE_NONE, 1,
                   ADW_TYPE_TOAST);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Adwaita1/Demo/ui/pages/dialogs/adw-demo-page-dialogs.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Advaita1/Demo/ui/pages/dialogs/adw-demo-page-dialogs.ui");
 
   gtk_widget_class_install_action (widget_class, "demo.alert-dialog", NULL, (GtkWidgetActionActivateFunc) demo_alert_dialog_cb);
 }

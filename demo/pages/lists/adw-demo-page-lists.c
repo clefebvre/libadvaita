@@ -38,7 +38,7 @@ adw_demo_page_lists_class_init (AdwDemoPageListsClass *klass)
                   G_TYPE_NONE, 1,
                   ADW_TYPE_TOAST);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Adwaita1/Demo/ui/pages/lists/adw-demo-page-lists.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Advaita1/Demo/ui/pages/lists/adw-demo-page-lists.ui");
 
   gtk_widget_class_bind_template_callback (widget_class, entry_apply_cb);
 }

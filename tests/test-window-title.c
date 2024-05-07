@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -79,8 +79,8 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/WindowTitle/title", test_adw_window_title_title);
-  g_test_add_func ("/Adwaita/WindowTitle/subtitle", test_adw_window_title_subtitle);
+  g_test_add_func ("/Advaita/WindowTitle/title", test_adw_window_title_title);
+  g_test_add_func ("/Advaita/WindowTitle/subtitle", test_adw_window_title_subtitle);
 
   return g_test_run ();
 }

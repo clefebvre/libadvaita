@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -489,16 +489,16 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/NavigationSplitView/sidebar", test_adw_navigation_split_view_sidebar);
-  g_test_add_func ("/Adwaita/NavigationSplitView/content", test_adw_navigation_split_view_content);
-  g_test_add_func ("/Adwaita/NavigationSplitView/collapsed", test_adw_navigation_split_view_collapsed);
-  g_test_add_func ("/Adwaita/NavigationSplitView/show_content", test_adw_navigation_split_view_show_content);
-  g_test_add_func ("/Adwaita/NavigationSplitView/min_sidebar_width", test_adw_navigation_split_view_min_sidebar_width);
-  g_test_add_func ("/Adwaita/NavigationSplitView/max_sidebar_width", test_adw_navigation_split_view_max_sidebar_width);
-  g_test_add_func ("/Adwaita/NavigationSplitView/sidebar_width_fraction", test_adw_navigation_split_view_sidebar_width_fraction);
-  g_test_add_func ("/Adwaita/NavigationSplitView/sidebar_width_unit", test_adw_navigation_split_view_sidebar_width_unit);
-  g_test_add_func ("/Adwaita/NavigationSplitView/page_tags", test_adw_navigation_split_view_page_tags);
-  g_test_add_func ("/Adwaita/NavigationSplitView/actions", test_adw_navigation_split_view_actions);
+  g_test_add_func ("/Advaita/NavigationSplitView/sidebar", test_adw_navigation_split_view_sidebar);
+  g_test_add_func ("/Advaita/NavigationSplitView/content", test_adw_navigation_split_view_content);
+  g_test_add_func ("/Advaita/NavigationSplitView/collapsed", test_adw_navigation_split_view_collapsed);
+  g_test_add_func ("/Advaita/NavigationSplitView/show_content", test_adw_navigation_split_view_show_content);
+  g_test_add_func ("/Advaita/NavigationSplitView/min_sidebar_width", test_adw_navigation_split_view_min_sidebar_width);
+  g_test_add_func ("/Advaita/NavigationSplitView/max_sidebar_width", test_adw_navigation_split_view_max_sidebar_width);
+  g_test_add_func ("/Advaita/NavigationSplitView/sidebar_width_fraction", test_adw_navigation_split_view_sidebar_width_fraction);
+  g_test_add_func ("/Advaita/NavigationSplitView/sidebar_width_unit", test_adw_navigation_split_view_sidebar_width_unit);
+  g_test_add_func ("/Advaita/NavigationSplitView/page_tags", test_adw_navigation_split_view_page_tags);
+  g_test_add_func ("/Advaita/NavigationSplitView/actions", test_adw_navigation_split_view_actions);
 
   return g_test_run ();
 }

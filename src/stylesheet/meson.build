@@ -157,15 +157,15 @@ foreach accent_definition: yaru_accent_colors_sassc
 endforeach
 
 gresource_file = configure_file(
-  input: 'adwaita-stylesheet.gresources.xml',
+  input: 'advaita-stylesheet.gresources.xml',
   output: '@BASENAME@',
   configuration: {
     'ACCENTS_CSS': accents_css.length() > 0 ? '\n'.join(accents_css) : '',
   }
 )
 
-libadwaita_stylesheet_resources = gnome.compile_resources(
-  'adwaita-stylesheet-resources',
+libadvaita_stylesheet_resources = gnome.compile_resources(
+  'advaita-stylesheet-resources',
   gresource_file,
 
   source_dir: [

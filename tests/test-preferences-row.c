@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.1-or-later
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 
 static void
@@ -56,8 +56,8 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func("/Adwaita/PreferencesRow/title", test_adw_preferences_row_title);
-  g_test_add_func("/Adwaita/PreferencesRow/use_underline", test_adw_preferences_row_use_undeline);
+  g_test_add_func("/Advaita/PreferencesRow/title", test_adw_preferences_row_title);
+  g_test_add_func("/Advaita/PreferencesRow/use_underline", test_adw_preferences_row_use_undeline);
 
   return g_test_run();
 }

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.1-or-later
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -119,9 +119,9 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func("/Adwaita/ComboRow/set_for_enum", test_adw_combo_row_set_for_enum);
-  g_test_add_func("/Adwaita/ComboRow/selected", test_adw_combo_row_selected);
-  g_test_add_func("/Adwaita/ComboRow/use_subtitle", test_adw_combo_row_use_subtitle);
+  g_test_add_func("/Advaita/ComboRow/set_for_enum", test_adw_combo_row_set_for_enum);
+  g_test_add_func("/Advaita/ComboRow/selected", test_adw_combo_row_selected);
+  g_test_add_func("/Advaita/ComboRow/use_subtitle", test_adw_combo_row_use_subtitle);
 
   return g_test_run();
 }

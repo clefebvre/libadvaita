@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.1-or-later
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 
 static void
@@ -159,13 +159,13 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func("/Adwaita/ExpanderRow/add_remove", test_adw_expander_row_add_remove);
-  g_test_add_func("/Adwaita/ExpanderRow/subtitle", test_adw_expander_row_subtitle);
-  g_test_add_func("/Adwaita/ExpanderRow/expanded", test_adw_expander_row_expanded);
-  g_test_add_func("/Adwaita/ExpanderRow/enable_expansion", test_adw_expander_row_enable_expansion);
-  g_test_add_func("/Adwaita/ExpanderRow/show_enable_switch", test_adw_expander_row_show_enable_switch);
-  g_test_add_func("/Adwaita/ExpanderRow/title_lines", test_adw_expander_row_title_lines);
-  g_test_add_func("/Adwaita/ExpanderRow/subtitle_lines", test_adw_expander_row_subtitle_lines);
+  g_test_add_func("/Advaita/ExpanderRow/add_remove", test_adw_expander_row_add_remove);
+  g_test_add_func("/Advaita/ExpanderRow/subtitle", test_adw_expander_row_subtitle);
+  g_test_add_func("/Advaita/ExpanderRow/expanded", test_adw_expander_row_expanded);
+  g_test_add_func("/Advaita/ExpanderRow/enable_expansion", test_adw_expander_row_enable_expansion);
+  g_test_add_func("/Advaita/ExpanderRow/show_enable_switch", test_adw_expander_row_show_enable_switch);
+  g_test_add_func("/Advaita/ExpanderRow/title_lines", test_adw_expander_row_title_lines);
+  g_test_add_func("/Advaita/ExpanderRow/subtitle_lines", test_adw_expander_row_subtitle_lines);
 
   return g_test_run();
 }

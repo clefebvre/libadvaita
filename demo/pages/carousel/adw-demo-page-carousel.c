@@ -80,7 +80,7 @@ adw_demo_page_carousel_class_init (AdwDemoPageCarouselClass *klass)
 {
   GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Adwaita1/Demo/ui/pages/carousel/adw-demo-page-carousel.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Advaita1/Demo/ui/pages/carousel/adw-demo-page-carousel.ui");
   gtk_widget_class_bind_template_child (widget_class, AdwDemoPageCarousel, box);
   gtk_widget_class_bind_template_child (widget_class, AdwDemoPageCarousel, carousel);
   gtk_widget_class_bind_template_child (widget_class, AdwDemoPageCarousel, indicators_stack);

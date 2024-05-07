@@ -8,8 +8,8 @@
 
 #pragma once
 
-#if !defined(_ADWAITA_INSIDE) && !defined(ADWAITA_COMPILATION)
-#error "Only <adwaita.h> can be included directly."
+#if !defined(_ADVAITA_INSIDE) && !defined(ADVAITA_COMPILATION)
+#error "Only <advaita.h> can be included directly."
 #endif
 
 #include "adw-toast.h"

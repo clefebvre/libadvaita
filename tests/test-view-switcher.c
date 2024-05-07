@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.1-or-later
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 
 static void
@@ -55,8 +55,8 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func("/Adwaita/ViewSwitcher/policy", test_adw_view_switcher_policy);
-  g_test_add_func("/Adwaita/ViewSwitcher/stack", test_adw_view_switcher_stack);
+  g_test_add_func("/Advaita/ViewSwitcher/policy", test_adw_view_switcher_policy);
+  g_test_add_func("/Advaita/ViewSwitcher/stack", test_adw_view_switcher_stack);
 
   return g_test_run();
 }

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.1-or-later
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 
 static void
@@ -227,11 +227,11 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/Leaflet/adjacent_child", test_adw_leaflet_adjacent_child);
-  g_test_add_func ("/Adwaita/Leaflet/navigate", test_adw_leaflet_navigate);
-  g_test_add_func ("/Adwaita/Leaflet/prepend", test_adw_leaflet_prepend);
-  g_test_add_func ("/Adwaita/Leaflet/insert_child_after", test_adw_leaflet_insert_child_after);
-  g_test_add_func ("/Adwaita/Leaflet/reorder_child_after", test_adw_leaflet_reorder_child_after);
+  g_test_add_func ("/Advaita/Leaflet/adjacent_child", test_adw_leaflet_adjacent_child);
+  g_test_add_func ("/Advaita/Leaflet/navigate", test_adw_leaflet_navigate);
+  g_test_add_func ("/Advaita/Leaflet/prepend", test_adw_leaflet_prepend);
+  g_test_add_func ("/Advaita/Leaflet/insert_child_after", test_adw_leaflet_insert_child_after);
+  g_test_add_func ("/Advaita/Leaflet/reorder_child_after", test_adw_leaflet_reorder_child_after);
 
   return g_test_run ();
 }

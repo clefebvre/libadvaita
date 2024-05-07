@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 increment (int *data)
@@ -1413,39 +1413,39 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func ("/Adwaita/TabView/n_pages", test_adw_tab_view_n_pages);
-  g_test_add_func ("/Adwaita/TabView/n_pinned_pages", test_adw_tab_view_n_pinned_pages);
-  g_test_add_func ("/Adwaita/TabView/default_icon", test_adw_tab_view_default_icon);
-  g_test_add_func ("/Adwaita/TabView/menu_model", test_adw_tab_view_menu_model);
-  g_test_add_func ("/Adwaita/TabView/shortcuts", test_adw_tab_view_shortcuts);
-  g_test_add_func ("/Adwaita/TabView/get_page", test_adw_tab_view_get_page);
-  g_test_add_func ("/Adwaita/TabView/select", test_adw_tab_view_select);
-  g_test_add_func ("/Adwaita/TabView/add_basic", test_adw_tab_view_add_basic);
-  g_test_add_func ("/Adwaita/TabView/add_auto", test_adw_tab_view_add_auto);
-  g_test_add_func ("/Adwaita/TabView/reorder", test_adw_tab_view_reorder);
-  g_test_add_func ("/Adwaita/TabView/reorder_first_last", test_adw_tab_view_reorder_first_last);
-  g_test_add_func ("/Adwaita/TabView/reorder_forward_backward", test_adw_tab_view_reorder_forward_backward);
-  g_test_add_func ("/Adwaita/TabView/pin", test_adw_tab_view_pin);
-  g_test_add_func ("/Adwaita/TabView/close", test_adw_tab_view_close);
-  g_test_add_func ("/Adwaita/TabView/close_other", test_adw_tab_view_close_other);
-  g_test_add_func ("/Adwaita/TabView/close_before_after", test_adw_tab_view_close_before_after);
-  g_test_add_func ("/Adwaita/TabView/close_signal", test_adw_tab_view_close_signal);
-  g_test_add_func ("/Adwaita/TabView/close_select", test_adw_tab_view_close_select);
-  g_test_add_func ("/Adwaita/TabView/transfer", test_adw_tab_view_transfer);
-  g_test_add_func ("/Adwaita/TabView/pages", test_adw_tab_view_pages);
-  g_test_add_func ("/Adwaita/TabView/pages_to_list_view", test_adw_tab_view_pages_to_list_view);
-  g_test_add_func ("/Adwaita/TabPage/title", test_adw_tab_page_title);
-  g_test_add_func ("/Adwaita/TabPage/tooltip", test_adw_tab_page_tooltip);
-  g_test_add_func ("/Adwaita/TabPage/keyword", test_adw_tab_page_keyword);
-  g_test_add_func ("/Adwaita/TabPage/icon", test_adw_tab_page_icon);
-  g_test_add_func ("/Adwaita/TabPage/loading", test_adw_tab_page_loading);
-  g_test_add_func ("/Adwaita/TabPage/indicator_icon", test_adw_tab_page_indicator_icon);
-  g_test_add_func ("/Adwaita/TabPage/indicator_tooltip", test_adw_tab_page_indicator_tooltip);
-  g_test_add_func ("/Adwaita/TabPage/indicator_activatable", test_adw_tab_page_indicator_activatable);
-  g_test_add_func ("/Adwaita/TabPage/needs_attention", test_adw_tab_page_needs_attention);
-  g_test_add_func ("/Adwaita/TabPage/thumbnail_xalign", test_adw_tab_page_thumbnail_xalign);
-  g_test_add_func ("/Adwaita/TabPage/thumbnail_yalign", test_adw_tab_page_thumbnail_yalign);
-  g_test_add_func ("/Adwaita/TabPage/live_thumbnail", test_adw_tab_page_live_thumbnail);
+  g_test_add_func ("/Advaita/TabView/n_pages", test_adw_tab_view_n_pages);
+  g_test_add_func ("/Advaita/TabView/n_pinned_pages", test_adw_tab_view_n_pinned_pages);
+  g_test_add_func ("/Advaita/TabView/default_icon", test_adw_tab_view_default_icon);
+  g_test_add_func ("/Advaita/TabView/menu_model", test_adw_tab_view_menu_model);
+  g_test_add_func ("/Advaita/TabView/shortcuts", test_adw_tab_view_shortcuts);
+  g_test_add_func ("/Advaita/TabView/get_page", test_adw_tab_view_get_page);
+  g_test_add_func ("/Advaita/TabView/select", test_adw_tab_view_select);
+  g_test_add_func ("/Advaita/TabView/add_basic", test_adw_tab_view_add_basic);
+  g_test_add_func ("/Advaita/TabView/add_auto", test_adw_tab_view_add_auto);
+  g_test_add_func ("/Advaita/TabView/reorder", test_adw_tab_view_reorder);
+  g_test_add_func ("/Advaita/TabView/reorder_first_last", test_adw_tab_view_reorder_first_last);
+  g_test_add_func ("/Advaita/TabView/reorder_forward_backward", test_adw_tab_view_reorder_forward_backward);
+  g_test_add_func ("/Advaita/TabView/pin", test_adw_tab_view_pin);
+  g_test_add_func ("/Advaita/TabView/close", test_adw_tab_view_close);
+  g_test_add_func ("/Advaita/TabView/close_other", test_adw_tab_view_close_other);
+  g_test_add_func ("/Advaita/TabView/close_before_after", test_adw_tab_view_close_before_after);
+  g_test_add_func ("/Advaita/TabView/close_signal", test_adw_tab_view_close_signal);
+  g_test_add_func ("/Advaita/TabView/close_select", test_adw_tab_view_close_select);
+  g_test_add_func ("/Advaita/TabView/transfer", test_adw_tab_view_transfer);
+  g_test_add_func ("/Advaita/TabView/pages", test_adw_tab_view_pages);
+  g_test_add_func ("/Advaita/TabView/pages_to_list_view", test_adw_tab_view_pages_to_list_view);
+  g_test_add_func ("/Advaita/TabPage/title", test_adw_tab_page_title);
+  g_test_add_func ("/Advaita/TabPage/tooltip", test_adw_tab_page_tooltip);
+  g_test_add_func ("/Advaita/TabPage/keyword", test_adw_tab_page_keyword);
+  g_test_add_func ("/Advaita/TabPage/icon", test_adw_tab_page_icon);
+  g_test_add_func ("/Advaita/TabPage/loading", test_adw_tab_page_loading);
+  g_test_add_func ("/Advaita/TabPage/indicator_icon", test_adw_tab_page_indicator_icon);
+  g_test_add_func ("/Advaita/TabPage/indicator_tooltip", test_adw_tab_page_indicator_tooltip);
+  g_test_add_func ("/Advaita/TabPage/indicator_activatable", test_adw_tab_page_indicator_activatable);
+  g_test_add_func ("/Advaita/TabPage/needs_attention", test_adw_tab_page_needs_attention);
+  g_test_add_func ("/Advaita/TabPage/thumbnail_xalign", test_adw_tab_page_thumbnail_xalign);
+  g_test_add_func ("/Advaita/TabPage/thumbnail_yalign", test_adw_tab_page_thumbnail_yalign);
+  g_test_add_func ("/Advaita/TabPage/live_thumbnail", test_adw_tab_page_live_thumbnail);
 
   return g_test_run ();
 }

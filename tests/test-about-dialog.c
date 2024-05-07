@@ -7,31 +7,31 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
-#include "adwaita-test-resources.h"
+#include "advaita-test-resources.h"
 
 static void
 test_adw_about_dialog_from_appdata (void)
 {
-  AdwAboutDialog *dialog = g_object_ref_sink (ADW_ABOUT_DIALOG (adw_about_dialog_new_from_appdata ("/org/gnome/Adwaita1/Test/org.gnome.Adwaita1.Test.metainfo.xml", "1.0")));
+  AdwAboutDialog *dialog = g_object_ref_sink (ADW_ABOUT_DIALOG (adw_about_dialog_new_from_appdata ("/org/gnome/Advaita1/Test/org.gnome.Advaita1.Test.metainfo.xml", "1.0")));
 
   g_assert_nonnull (dialog);
 
   g_assert_cmpstr (adw_about_dialog_get_release_notes (dialog), ==, "<p>Testing Build</p>\n");
   g_assert_cmpstr (adw_about_dialog_get_release_notes_version (dialog), ==, "1.0");
   g_assert_cmpstr (adw_about_dialog_get_version (dialog), ==, "1.0");
-  g_assert_cmpstr (adw_about_dialog_get_application_icon (dialog), ==, "org.gnome.Adwaita1.Test");
-  g_assert_cmpstr (adw_about_dialog_get_application_name (dialog), ==, "Adwaita Test");
+  g_assert_cmpstr (adw_about_dialog_get_application_icon (dialog), ==, "org.gnome.Advaita1.Test");
+  g_assert_cmpstr (adw_about_dialog_get_application_name (dialog), ==, "Advaita Test");
   g_assert_cmpstr (adw_about_dialog_get_developer_name (dialog), ==, "The GNOME Project");
-  g_assert_cmpstr (adw_about_dialog_get_issue_url (dialog), ==, "https://gitlab.gnome.org/GNOME/libadwaita/issues");
+  g_assert_cmpstr (adw_about_dialog_get_issue_url (dialog), ==, "https://gitlab.gnome.org/GNOME/libadvaita/issues");
   g_assert_cmpstr (adw_about_dialog_get_support_url (dialog), ==, "http://www.gnome.org/friends/");
-  g_assert_cmpstr (adw_about_dialog_get_website (dialog), ==, "https://gitlab.gnome.org/GNOME/libadwaita");
+  g_assert_cmpstr (adw_about_dialog_get_website (dialog), ==, "https://gitlab.gnome.org/GNOME/libadvaita");
   g_assert_cmpuint (adw_about_dialog_get_license_type (dialog), ==, GTK_LICENSE_LGPL_2_1);
 
   g_assert_finalize_object (dialog);
 
-  dialog = g_object_ref_sink (ADW_ABOUT_DIALOG (adw_about_dialog_new_from_appdata ("/org/gnome/Adwaita1/Test/org.gnome.Adwaita1.Test.metainfo.xml", "0.1")));
+  dialog = g_object_ref_sink (ADW_ABOUT_DIALOG (adw_about_dialog_new_from_appdata ("/org/gnome/Advaita1/Test/org.gnome.Advaita1.Test.metainfo.xml", "0.1")));
 
   g_assert_nonnull (dialog);
 
@@ -41,7 +41,7 @@ test_adw_about_dialog_from_appdata (void)
 
   g_assert_finalize_object (dialog);
 
-  dialog = g_object_ref_sink (ADW_ABOUT_DIALOG (adw_about_dialog_new_from_appdata ("/org/gnome/Adwaita1/Test/org.gnome.Adwaita1.Test.metainfo.xml", NULL)));
+  dialog = g_object_ref_sink (ADW_ABOUT_DIALOG (adw_about_dialog_new_from_appdata ("/org/gnome/Advaita1/Test/org.gnome.Advaita1.Test.metainfo.xml", NULL)));
 
   g_assert_nonnull (dialog);
 
@@ -152,8 +152,8 @@ main (int   argc,
   test_resources = test_get_resource ();
   g_resources_register (test_resources);
 
-  g_test_add_func ("/Adwaita/AboutDialog/create", test_adw_about_dialog_create);
-  g_test_add_func ("/Adwaita/AboutDialog/from_appdata", test_adw_about_dialog_from_appdata);
+  g_test_add_func ("/Advaita/AboutDialog/create", test_adw_about_dialog_create);
+  g_test_add_func ("/Advaita/AboutDialog/from_appdata", test_adw_about_dialog_from_appdata);
 
   return g_test_run ();
 }

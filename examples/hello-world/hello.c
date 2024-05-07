@@ -1,4 +1,4 @@
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 activate_cb (GtkApplication *app)

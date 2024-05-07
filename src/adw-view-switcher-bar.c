@@ -263,7 +263,7 @@ adw_view_switcher_bar_class_init (AdwViewSwitcherBarClass *klass)
   gtk_widget_class_set_layout_manager_type (widget_class, GTK_TYPE_BIN_LAYOUT);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-view-switcher-bar.ui");
+                                               "/org/gnome/Advaita/ui/adw-view-switcher-bar.ui");
   gtk_widget_class_bind_template_child (widget_class, AdwViewSwitcherBar, action_bar);
   gtk_widget_class_bind_template_child (widget_class, AdwViewSwitcherBar, view_switcher);
 }

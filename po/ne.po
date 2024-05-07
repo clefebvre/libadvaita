@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Gnome Nepali Translation Project\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadvaita/issues\n"
 "POT-Creation-Date: 2022-05-02 11:16+0000\n"
 "PO-Revision-Date: 2022-05-09 10:37+0545\n"
 "Last-Translator: \n"
@@ -32,7 +32,7 @@ msgstr "प्रकाश प्राथमिकता"
 
 #. Translators: The name of the library, not the stylesheet
 #: src/adw-inspector-page.c:98
-msgid "Adwaita"
+msgid "Advaita"
 msgstr "अडवैत"
 
 #: src/adw-inspector-page.ui:10

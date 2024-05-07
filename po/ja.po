@@ -1,12 +1,12 @@
-# Japanese translation for libadwaita.
-# Copyright (C) 2022 libadwaita's COPYRIGHT HOLDER
-# This file is distributed under the same license as the libadwaita package.
+# Japanese translation for libadvaita.
+# Copyright (C) 2022 libadvaita's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libadvaita package.
 # sicklylife <translation@sicklylife.jp>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: libadwaita libadwaita-1-0\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+"Project-Id-Version: libadvaita libadvaita-1-0\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadvaita/issues\n"
 "POT-Creation-Date: 2022-02-17 21:54+0000\n"
 "PO-Revision-Date: 2022-02-21 20:30+0000\n"
 "Last-Translator: sicklylife <translation@sicklylife.jp>\n"
@@ -31,8 +31,8 @@ msgstr "明るくする"
 
 #. Translators: The name of the library, not the stylesheet
 #: src/adw-inspector-page.c:98
-msgid "Adwaita"
-msgstr "Adwaita"
+msgid "Advaita"
+msgstr "Advaita"
 
 #: src/adw-inspector-page.ui:10
 msgid "System Appearance"

@@ -5,7 +5,7 @@ Slug: styles-and-appearance
 
 ## Dark Style
 
-Libadwaita applications can use a light or a dark appearance. This can be used
+Libadvaita applications can use a light or a dark appearance. This can be used
 to request a darker UI, or to support a system-wide dark style preference if one
 exists.
 
@@ -69,7 +69,7 @@ If the system does not provide a style preference, the
 provide a fallback. For example, applications with a system/light/dark switcher
 may want to hide or disable the system value.
 
-All standard GTK and Libadwaita widgets automatically support both styles.
+All standard GTK and Libadvaita widgets automatically support both styles.
 Applications that use custom drawing or styles may need to ensure the UI
 remains legible in both appearances:
 
@@ -86,13 +86,13 @@ remains legible in both appearances:
 
 ## High Contrast
 
-The system can provide a high contrast preference. Libadwaita applications
+The system can provide a high contrast preference. Libadvaita applications
 automatically support it; applications cannot disable it.
 
 High contrast appearance can be combined with the [dark style](#dark-style) and
 is independent from it.
 
-All standard GTK and Libadwaita widgets automatically support the high contrast
+All standard GTK and Libadvaita widgets automatically support the high contrast
 appearance. Applications that use custom drawing or styles may need to support
 it manually.
 

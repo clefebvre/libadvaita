@@ -233,8 +233,8 @@ Internal headers (for consistency, whether they need to be installed or not)
 should contain the following guard to prevent users from directly including
 them:
 ```c
-#if !defined(_ADWAITA_INSIDE) && !defined(ADWAITA_COMPILATION)
-#error "Only <adwaita.h> can be included directly."
+#if !defined(_ADVAITA_INSIDE) && !defined(ADVAITA_COMPILATION)
+#error "Only <advaita.h> can be included directly."
 #endif
 ```
 

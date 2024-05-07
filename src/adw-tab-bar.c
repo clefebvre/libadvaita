@@ -636,7 +636,7 @@ adw_tab_bar_class_init (AdwTabBarClass *klass)
                   G_TYPE_VALUE);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-tab-bar.ui");
+                                               "/org/gnome/Advaita/ui/adw-tab-bar.ui");
   gtk_widget_class_bind_template_child (widget_class, AdwTabBar, revealer);
   gtk_widget_class_bind_template_child (widget_class, AdwTabBar, pinned_box);
   gtk_widget_class_bind_template_child (widget_class, AdwTabBar, box);

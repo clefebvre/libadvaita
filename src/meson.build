@@ -1,11 +1,11 @@
-libadwaita_header_subdir = package_subdir / package_api_name
-libadwaita_header_dir = get_option('includedir') / libadwaita_header_subdir
+libadvaita_header_subdir = package_subdir / package_api_name
+libadvaita_header_dir = get_option('includedir') / libadvaita_header_subdir
 
 subdir('stylesheet')
 
-libadwaita_resources = gnome.compile_resources(
+libadvaita_resources = gnome.compile_resources(
   'adw-resources',
-  'adwaita.gresources.xml',
+  'advaita.gresources.xml',
   source_dir: meson.current_source_dir(),
   c_name: 'adw',
 )
@@ -36,56 +36,56 @@ adw_private_enum_headers = [
 ]
 
 version_data = configuration_data()
-version_data.set('ADW_MAJOR_VERSION', adwaita_version_major)
-version_data.set('ADW_MINOR_VERSION', adwaita_version_minor)
-version_data.set('ADW_MICRO_VERSION', adwaita_version_micro)
+version_data.set('ADW_MAJOR_VERSION', advaita_version_major)
+version_data.set('ADW_MINOR_VERSION', advaita_version_minor)
+version_data.set('ADW_MICRO_VERSION', advaita_version_micro)
 version_data.set('ADW_VERSION', meson.project_version())
 
 adw_version_h = configure_file(
            input: 'adw-version.h.in',
           output: 'adw-version.h',
-     install_dir: libadwaita_header_dir,
+     install_dir: libadvaita_header_dir,
    configuration: version_data)
 
-libadwaita_generated_headers = [
+libadvaita_generated_headers = [
   adw_version_h,
 ]
 
-install_headers(['adwaita.h'],
-  subdir: libadwaita_header_subdir)
+install_headers(['advaita.h'],
+  subdir: libadvaita_header_subdir)
 
 # Filled out in the subdirs
-libadwaita_public_headers = []
-libadwaita_public_sources = []
-libadwaita_private_sources = []
+libadvaita_public_headers = []
+libadvaita_public_sources = []
+libadvaita_private_sources = []
 
 adw_public_enums = gnome.mkenums_simple('adw-enums',
          sources: adw_public_enum_headers,
      body_prefix: '#include "config.h"',
-   header_prefix: '#if !defined(_ADWAITA_INSIDE) && !defined(ADWAITA_COMPILATION)\n' +
-                  '#error "Only <adwaita.h> can be included directly."\n' +
+   header_prefix: '#if !defined(_ADVAITA_INSIDE) && !defined(ADVAITA_COMPILATION)\n' +
+                  '#error "Only <advaita.h> can be included directly."\n' +
                   '#endif\n' +
                   '\n' +
                   '#include "adw-version.h"\n',
        decorator: 'ADW_AVAILABLE_IN_ALL',
   install_header: true,
-     install_dir: libadwaita_header_dir,
+     install_dir: libadvaita_header_dir,
 )
 
 adw_private_enums = gnome.mkenums_simple('adw-enums-private',
          sources: adw_private_enum_headers,
      body_prefix: '#include "config.h"',
-   header_prefix: '#if !defined(_ADWAITA_INSIDE) && !defined(ADWAITA_COMPILATION)\n' +
-                  '#error "Only <adwaita.h> can be included directly."\n' +
+   header_prefix: '#if !defined(_ADVAITA_INSIDE) && !defined(ADVAITA_COMPILATION)\n' +
+                  '#error "Only <advaita.h> can be included directly."\n' +
                   '#endif\n' +
                   '\n' +
                   '#include "adw-enums.h"\n',
   install_header: false,
 )
 
-libadwaita_public_sources += [adw_public_enums[0]]
-libadwaita_private_sources += adw_private_enums
-libadwaita_generated_headers += [adw_public_enums[1]]
+libadvaita_public_sources += [adw_public_enums[0]]
+libadvaita_private_sources += adw_private_enums
+libadvaita_generated_headers += [adw_public_enums[1]]
 
 adw_marshalers = gnome.genmarshal('adw-marshalers',
   sources: 'adw-marshalers.list',
@@ -93,7 +93,7 @@ adw_marshalers = gnome.genmarshal('adw-marshalers',
   valist_marshallers: true,
 )
 
-libadwaita_private_sources += adw_marshalers
+libadvaita_private_sources += adw_marshalers
 
 src_headers = [
   'adw-about-dialog.h',
@@ -168,9 +168,9 @@ src_headers = [
 
 gen_public_types = find_program('gen-public-types.py', required: true)
 
-libadwaita_init_public_types = custom_target('adw-public-types.c',
+libadvaita_init_public_types = custom_target('adw-public-types.c',
    output: 'adw-public-types.c',
-    input: [src_headers, libadwaita_generated_headers],
+    input: [src_headers, libadvaita_generated_headers],
   command: [gen_public_types, '@INPUT@'],
   capture: true,
 )
@@ -248,7 +248,7 @@ src_sources = [
 ]
 
 # Files that should not be introspected
-libadwaita_private_sources += files([
+libadvaita_private_sources += files([
   'adw-back-button.c',
   'adw-bidi.c',
   'adw-bottom-sheet.c',
@@ -273,10 +273,10 @@ libadwaita_private_sources += files([
   'adw-widget-utils.c',
 ])
 
-libadwaita_public_headers += files(src_headers)
-libadwaita_public_sources += files(src_sources)
+libadvaita_public_headers += files(src_headers)
+libadvaita_public_sources += files(src_sources)
 
-install_headers(src_headers, subdir: libadwaita_header_subdir)
+install_headers(src_headers, subdir: libadvaita_header_subdir)
 
 glib_min_version = '>= 2.76.0'
 gtk_min_version = '>= 4.13.4'
@@ -291,7 +291,7 @@ appstream_dep = dependency('appstream',
   ],
 )
 
-libadwaita_deps = [
+libadvaita_deps = [
   dependency('glib-2.0', version: glib_min_version),
   dependency('fribidi'),
   gio_dep,
@@ -300,17 +300,17 @@ libadwaita_deps = [
   cc.find_library('m', required: false),
 ]
 
-libadwaita_public_deps = [
+libadvaita_public_deps = [
   gio_dep,
   gtk_dep,
 ]
 
-libadwaita_c_args = [
-  '-DG_LOG_DOMAIN="Adwaita"',
+libadvaita_c_args = [
+  '-DG_LOG_DOMAIN="Advaita"',
 ]
 
 config_h = configuration_data()
-config_h.set_quoted('GETTEXT_PACKAGE', 'libadwaita')
+config_h.set_quoted('GETTEXT_PACKAGE', 'libadvaita')
 config_h.set_quoted('LOCALEDIR', get_option('prefix') / get_option('localedir'))
 
 # Symbol visibility
@@ -326,33 +326,33 @@ if target_system == 'darwin'
     'AppKit',
     'Foundation',
   ]
-  libadwaita_deps += [
+  libadvaita_deps += [
     dependency('appleframeworks', modules: appleframework_modules),
   ]
-  libadwaita_private_sources += [
+  libadvaita_private_sources += [
     'adw-settings-impl-macos.c',
   ]
-  libadwaita_c_args += ['-xobjective-c']
+  libadvaita_c_args += ['-xobjective-c']
 elif target_system == 'windows'
-  libadwaita_deps += [
+  libadvaita_deps += [
     dependency('gtk4-win32', version: gtk_min_version),
   ]
-  libadwaita_private_sources += [
+  libadvaita_private_sources += [
     'adw-settings-impl-win32.c',
   ]
 else
-  libadwaita_private_sources += [
+  libadvaita_private_sources += [
     'adw-settings-impl-portal.c',
   ]
 endif
 
-libadwaita_sources = [
-  libadwaita_generated_headers,
-  libadwaita_public_sources,
-  libadwaita_private_sources,
-  libadwaita_resources,
-  libadwaita_stylesheet_resources,
-  libadwaita_init_public_types,
+libadvaita_sources = [
+  libadvaita_generated_headers,
+  libadvaita_public_sources,
+  libadvaita_private_sources,
+  libadvaita_resources,
+  libadvaita_stylesheet_resources,
+  libadvaita_init_public_types,
 ]
 
 configure_file(
@@ -360,73 +360,73 @@ configure_file(
   configuration: config_h,
 )
 
-libadwaita_link_args = []
-libadwaita_symbols_file = 'libadwaita.syms'
+libadvaita_link_args = []
+libadvaita_symbols_file = 'libadvaita.syms'
 
 # Check linker flags
 ld_version_script_arg = '-Wl,--version-script,@0@/@1@'.format(meson.project_source_root(),
-                                                              libadwaita_symbols_file)
+                                                              libadvaita_symbols_file)
 if cc.links('int main() { return 0; }', args : ld_version_script_arg, name : 'ld_supports_version_script')
-  libadwaita_link_args += [ld_version_script_arg]
+  libadvaita_link_args += [ld_version_script_arg]
 endif
 
-# set default libdir on win32 for libadwaita target to keep MinGW compatibility
+# set default libdir on win32 for libadvaita target to keep MinGW compatibility
 if target_system == 'windows'
-  adwaita_libdir = [true]
+  advaita_libdir = [true]
 else
-  adwaita_libdir = libdir
+  advaita_libdir = libdir
 endif
 
-libadwaita = library(
-  'adwaita-' + apiversion,
-  libadwaita_sources,
+libadvaita = library(
+  'advaita-' + apiversion,
+  libadvaita_sources,
 
               soversion: soversion,
-                 c_args: libadwaita_c_args,
-           dependencies: libadwaita_deps,
+                 c_args: libadvaita_c_args,
+           dependencies: libadvaita_deps,
     include_directories: [ root_inc, src_inc ],
                 install: true,
-              link_args: libadwaita_link_args,
-            install_dir: adwaita_libdir,
+              link_args: libadvaita_link_args,
+            install_dir: advaita_libdir,
   gnu_symbol_visibility: 'hidden',
 )
 
-libadwaita_dep = declare_dependency(
-              sources: libadwaita_generated_headers,
-         dependencies: libadwaita_public_deps,
-            link_with: libadwaita,
+libadvaita_dep = declare_dependency(
+              sources: libadvaita_generated_headers,
+         dependencies: libadvaita_public_deps,
+            link_with: libadvaita,
   include_directories: include_directories('.'),
 )
 
-meson.override_dependency(package_api_name, libadwaita_dep)
+meson.override_dependency(package_api_name, libadvaita_dep)
 
 if introspection
 
-   libadwaita_gir_extra_args = [
-     '--c-include=adwaita.h',
+   libadvaita_gir_extra_args = [
+     '--c-include=advaita.h',
      '--quiet',
-     '-DADWAITA_COMPILATION',
+     '-DADVAITA_COMPILATION',
    ]
 
-   libadwaita_gir = gnome.generate_gir(libadwaita,
-                 sources: libadwaita_generated_headers + libadwaita_public_headers + libadwaita_public_sources,
+   libadvaita_gir = gnome.generate_gir(libadvaita,
+                 sources: libadvaita_generated_headers + libadvaita_public_headers + libadvaita_public_sources,
                nsversion: apiversion,
                namespace: 'Adw',
          export_packages: package_api_name,
            symbol_prefix: 'adw',
        identifier_prefix: 'Adw',
-               link_with: libadwaita,
+               link_with: libadvaita,
                 includes: ['Gio-2.0', 'Gtk-4.0'],
                  install: true,
          install_dir_gir: girdir,
      install_dir_typelib: typelibdir,
-              extra_args: libadwaita_gir_extra_args,
+              extra_args: libadvaita_gir_extra_args,
    )
 
    if get_option('vapi')
 
-     libadwaita_vapi = gnome.generate_vapi(package_api_name,
-             sources: libadwaita_gir[0],
+     libadvaita_vapi = gnome.generate_vapi(package_api_name,
+             sources: libadvaita_gir[0],
             packages: [ 'gio-2.0', 'gtk4' ],
              install: true,
          install_dir: vapidir,
@@ -439,10 +439,10 @@ endif
 pkgg = import('pkgconfig')
 
 pkgg.generate(
-    libraries: [libadwaita],
-      subdirs: libadwaita_header_subdir,
+    libraries: [libadvaita],
+      subdirs: libadvaita_header_subdir,
       version: meson.project_version(),
-         name: 'Adwaita',
+         name: 'Advaita',
      filebase: package_api_name,
   description: 'Building blocks for modern GNOME applications',
      requires: 'gtk4',

@@ -104,7 +104,7 @@ adw_demo_page_toasts_class_init (AdwDemoPageToastsClass *klass)
                   G_TYPE_NONE, 1,
                   ADW_TYPE_TOAST);
 
-  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Adwaita1/Demo/ui/pages/toasts/adw-demo-page-toasts.ui");
+  gtk_widget_class_set_template_from_resource (widget_class, "/org/gnome/Advaita1/Demo/ui/pages/toasts/adw-demo-page-toasts.ui");
 
   gtk_widget_class_install_action (widget_class, "toast.add", NULL, (GtkWidgetActionActivateFunc) toast_add_cb);
   gtk_widget_class_install_action (widget_class, "toast.add-with-button", NULL, (GtkWidgetActionActivateFunc) toast_add_with_button_cb);

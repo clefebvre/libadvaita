@@ -6,7 +6,7 @@
  * Author: Alice Mikhaylenko <alice.mikhaylenko@puri.sm>
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 value_cb (double   value,
@@ -267,13 +267,13 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func("/Adwaita/TimedAnimation/value_from", test_adw_animation_value_from);
-  g_test_add_func("/Adwaita/TimedAnimation/value_to", test_adw_animation_value_to);
-  g_test_add_func("/Adwaita/TimedAnimation/duration", test_adw_animation_duration);
-  g_test_add_func("/Adwaita/TimedAnimation/easing", test_adw_animation_easing);
-  g_test_add_func("/Adwaita/TimedAnimation/repeat_count", test_adw_animation_repeat_count);
-  g_test_add_func("/Adwaita/TimedAnimation/reverse", test_adw_animation_reverse);
-  g_test_add_func("/Adwaita/TimedAnimation/alternate", test_adw_animation_alternate);
+  g_test_add_func("/Advaita/TimedAnimation/value_from", test_adw_animation_value_from);
+  g_test_add_func("/Advaita/TimedAnimation/value_to", test_adw_animation_value_to);
+  g_test_add_func("/Advaita/TimedAnimation/duration", test_adw_animation_duration);
+  g_test_add_func("/Advaita/TimedAnimation/easing", test_adw_animation_easing);
+  g_test_add_func("/Advaita/TimedAnimation/repeat_count", test_adw_animation_repeat_count);
+  g_test_add_func("/Advaita/TimedAnimation/reverse", test_adw_animation_reverse);
+  g_test_add_func("/Advaita/TimedAnimation/alternate", test_adw_animation_alternate);
 
   return g_test_run();
 }

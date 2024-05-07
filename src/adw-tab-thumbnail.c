@@ -537,7 +537,7 @@ adw_tab_thumbnail_class_init (AdwTabThumbnailClass *klass)
                   G_TYPE_VALUE);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/org/gnome/Adwaita/ui/adw-tab-thumbnail.ui");
+                                               "/org/gnome/Advaita/ui/adw-tab-thumbnail.ui");
   gtk_widget_class_bind_template_child (widget_class, AdwTabThumbnail, contents);
   gtk_widget_class_bind_template_child (widget_class, AdwTabThumbnail, overlay);
   gtk_widget_class_bind_template_child (widget_class, AdwTabThumbnail, icon_title_box);

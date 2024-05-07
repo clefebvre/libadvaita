@@ -1,4 +1,4 @@
-#include <adwaita.h>
+#include <advaita.h>
 #include <glib/gi18n.h>
 
 static AdwNavigationPage *

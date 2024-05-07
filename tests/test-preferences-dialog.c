@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: LGPL-2.1-or-later
  */
 
-#include <adwaita.h>
+#include <advaita.h>
 
 static void
 test_adw_preferences_dialog_add_remove (void)
@@ -46,8 +46,8 @@ main (int   argc,
   gtk_test_init (&argc, &argv, NULL);
   adw_init ();
 
-  g_test_add_func("/Adwaita/PreferencesDialog/add_remove", test_adw_preferences_dialog_add_remove);
-  g_test_add_func("/Adwaita/PreferencesDialog/add_toast", test_adw_preferences_dialog_add_toast);
+  g_test_add_func("/Advaita/PreferencesDialog/add_remove", test_adw_preferences_dialog_add_remove);
+  g_test_add_func("/Advaita/PreferencesDialog/add_toast", test_adw_preferences_dialog_add_toast);
 
   return g_test_run();
 }
